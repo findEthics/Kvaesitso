@@ -94,12 +94,11 @@ fun ClockWidget(
     val darkColors =
         color == ClockWidgetColors.Auto && LocalPreferDarkContentOverWallpaper.current || color == ClockWidgetColors.Dark
 
-    val contentColor =
-        if (darkColors) {
-            Color(0, 0, 0, 180)
-        } else {
-            Color.White
-        }
+    val contentColor = when (color) {
+        ClockWidgetColors.Dark -> Color(0, 0, 0, 180)
+        ClockWidgetColors.Light -> Color.White
+        ClockWidgetColors.Auto, null -> Color(0xFFEC5B2B)
+    }
 
     LaunchedEffect(time) {
         viewModel.updateTime(time)
