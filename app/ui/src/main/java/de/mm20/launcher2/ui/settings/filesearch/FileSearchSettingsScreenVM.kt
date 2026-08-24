@@ -1,12 +1,8 @@
 package de.mm20.launcher2.ui.settings.filesearch
 
 import androidx.appcompat.app.AppCompatActivity
-import androidx.compose.runtime.mutableStateOf
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import de.mm20.launcher2.accounts.Account
-import de.mm20.launcher2.accounts.AccountType
-import de.mm20.launcher2.accounts.AccountsRepository
 import de.mm20.launcher2.permissions.PermissionGroup
 import de.mm20.launcher2.permissions.PermissionsManager
 import de.mm20.launcher2.preferences.search.FileSearchSettings
@@ -18,37 +14,15 @@ import org.koin.core.component.inject
 
 class FileSearchSettingsScreenVM : ViewModel(), KoinComponent {
     private val fileSearchSettings: FileSearchSettings by inject()
-    private val accountsRepository: AccountsRepository by inject()
     private val permissionsManager: PermissionsManager by inject()
 
     val hasFilePermission = permissionsManager.hasPermission(PermissionGroup.ExternalStorage)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
 
-    val loading = mutableStateOf(true)
-    val nextcloudAccount = mutableStateOf<Account?>(null)
-    val owncloudAccount = mutableStateOf<Account?>(null)
-
-
-    fun onResume() {
-        viewModelScope.launch {
-            nextcloudAccount.value =
-                accountsRepository.getCurrentlySignedInAccount(AccountType.Nextcloud)
-            owncloudAccount.value =
-                accountsRepository.getCurrentlySignedInAccount(AccountType.Owncloud)
-            loading.value = false
-        }
-    }
-
     val localFiles = fileSearchSettings.localFiles
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
     fun setLocalFiles(localFiles: Boolean) {
         fileSearchSettings.setLocalFiles(localFiles)
-    }
-
-    val nextcloud = fileSearchSettings.nextcloudFiles
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
-    fun setNextcloud(nextcloud: Boolean) {
-        fileSearchSettings.setNextcloudFiles(nextcloud)
     }
 
     val gdrive = fileSearchSettings.gdriveFiles
@@ -57,18 +31,8 @@ class FileSearchSettingsScreenVM : ViewModel(), KoinComponent {
         fileSearchSettings.setGdriveFiles(gdrive)
     }
 
-    val owncloud = fileSearchSettings.owncloudFiles
-        .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
-    fun setOwncloud(owncloud: Boolean) {
-        fileSearchSettings.setOwncloudFiles(owncloud)
-    }
-
     fun requestFilePermission(context: AppCompatActivity) {
         permissionsManager.requestPermission(context, PermissionGroup.ExternalStorage)
-    }
-
-    fun login(context: AppCompatActivity, accountType: AccountType) {
-        accountsRepository.signin(context, accountType)
     }
 
 }

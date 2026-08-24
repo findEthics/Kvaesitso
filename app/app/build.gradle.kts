@@ -31,6 +31,7 @@ android {
     }
     defaultConfig {
         applicationId = "de.mm20.launcher2"
+        resourceConfigurations += "en"
         minSdk = libs.versions.minSdk.get().toInt()
         targetSdk = libs.versions.targetSdk.get().toInt()
         versionCode = System.getenv("VERSION_CODE_OVERRIDE")?.toIntOrNull() ?: 2026053100
@@ -120,7 +121,6 @@ dependencies {
 
     implementation(libs.koin.android)
 
-    implementation(project(":services:accounts"))
     implementation(project(":data:applications"))
     implementation(project(":data:appshortcuts"))
     implementation(project(":services:backup"))
@@ -141,9 +141,7 @@ dependencies {
     implementation(project(":services:icons"))
     implementation(project(":core:ktx"))
     implementation(project(":services:music"))
-    implementation(project(":libs:nextcloud"))
     implementation(project(":data:notifications"))
-    implementation(project(":libs:owncloud"))
     implementation(project(":core:permissions"))
     implementation(project(":core:profiles"))
     implementation(project(":core:preferences"))
@@ -152,17 +150,14 @@ dependencies {
     implementation(project(":data:unitconverter"))
     implementation(project(":app:ui"))
     implementation(project(":data:weather"))
-    implementation(project(":data:websites"))
     implementation(project(":data:widgets"))
     implementation(project(":data:database"))
     implementation(project(":data:search-actions"))
     implementation(project(":services:global-actions"))
     implementation(project(":services:widgets"))
     implementation(project(":services:favorites"))
-    implementation(project(":data:locations"))
     implementation(project(":services:plugins"))
     implementation(project(":core:devicepose"))
-    implementation(project(":services:feed"))
 
     // Uncomment this if you want annoying notifications in your debug builds
     //debugImplementation(libs.leakcanary)

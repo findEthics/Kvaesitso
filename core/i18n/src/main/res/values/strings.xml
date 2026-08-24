@@ -116,7 +116,6 @@
     <string name="file_meta_app_pkgname">Package name: %1$s</string>
     <!-- File metadata, minimum SDK version of APK files -->
     <string name="file_meta_app_min_sdk">Min SDK version: %1$s</string>
-    <!-- File metadata, owner (for cloud files) -->
     <string name="file_meta_owner">Owner: %1$s</string>
     <!-- File metadata, location -->
     <string name="file_meta_location">Location: %1$s</string>
@@ -258,28 +257,7 @@
     <string name="edit_favorites_dialog_tags">Tags</string>
     <string name="edit_favorites_dialog_tag_section_empty">Pinned tags will appear here</string>
     <string name="edit_favorites_dialog_new_tag">Create tag</string>
-    <!-- Nextcloud login flow, URL-->
-    <string name="nextcloud_server_url">Nextcloud server URL</string>
-    <!-- Nextcloud/Owncloud login flow, empty URL-->
-    <!-- Nextcloud login flow, error invalid URL-->
-    <string name="nextcloud_server_invalid_url">This URL does not point to a valid Nextcloud installation</string>
-    <!-- Owncloud login flow, UR-->
-    <string name="owncloud_server_url">Owncloud server URL</string>
-    <!-- Owncloud login flow, error invalid URL-->
-    <string name="owncloud_server_invalid_url">This URL does not point to a valid Owncloud installation</string>
-    <!-- Owncloud login flow, password-->
-    <string name="owncloud_password">Password</string>
-    <!-- Owncloud login flow, user name-->
-    <string name="owncloud_username">User name</string>
-    <!-- Owncloud login flow -->
-    <string name="owncloud_login_2fa_hint">If you have two factor authentication enabled, you must use an app password here.</string>
-    <!-- Owncloud login flow, login failed -->
-    <string name="owncloud_login_failed">Login failed: incorrect username or password.</string>
-    <!-- Owncloud login flow, error: username empty -->
-    <!-- Owncloud login flow, error: password empty -->
-    <!-- Nextcloud/Owncloud login flow, continue button -->
     <string name="login_flow_continue">Continue</string>
-    <!-- Nextcloud/Owncloud login flow, login button -->
     <string name="login_flow_login">Log in</string>
     <string name="disclaimer">Disclaimer</string>
     <!-- Info and disclaimer for currency conversions. %1$s: formatted date of last currency data update  -->
@@ -404,7 +382,6 @@
     <!-- Missing calendar permission, used in calendar search results -->
     <string name="missing_permission_calendar_search">Calendar permission is required to search your calendar</string>
     <!-- Missing location permission, used in location search results -->
-    <string name="missing_permission_location_search">Location permission is required to search nearby locations</string>
     <!-- Missing files permission, used in files search results -->
     <string name="missing_permission_files_search">Storage permission is required to search files on this device</string>
     <!-- Missing files permission, used in contact search results -->
@@ -542,18 +519,10 @@
     <string name="preference_notification_badges_summary">Show a badge for applications with unread notifications</string>
     <string name="preference_suspended_badges_summary">Show a badge for suspended applications</string>
     <string name="preference_suspended_badges">Suspended apps</string>
-    <string name="preference_cloud_badges">Cloud badges</string>
-    <string name="preference_cloud_badges_summary">Show a badge for files that are stored in a cloud</string>
     <string name="preference_shortcut_badges">Shortcut badges</string>
     <string name="preference_shortcut_badges_summary">Show a badge which indicates to which app a shortcut belongs</string>
     <string name="preference_plugin_badges">Plugin badges</string>
     <string name="preference_plugin_badges_summary">Indicate by which plugin a search result was created</string>
-    <string name="preference_nextcloud_signin">Sign in to Nextcloud</string>
-    <string name="preference_nextcloud_signin_summary">Sign in to search your Nextcloud server</string>
-    <string name="preference_nextcloud">Nextcloud</string>
-    <string name="preference_owncloud">Owncloud</string>
-    <string name="preference_owncloud_signin">Sign in to Owncloud</string>
-    <string name="preference_owncloud_signin_summary">Sign in to search your Owncloud server</string>
     <string name="preference_about_telegram">Telegram group</string>
     <string name="preference_about_fdroid">F-Droid repository</string>
     <string name="preference_enforce_icon_shape">Enforce shape</string>
@@ -591,7 +560,6 @@
     <string name="preference_clock_widget_alignment_center">Center</string>
     <string name="preference_clock_widget_alignment_bottom">Bottom</string>
     <string name="preference_clockwidget_dynamic_zone">Dynamic zone</string>
-    <string name="preference_clockwidget_smartspacer">Managed by Smartspacer</string>
     <string name="preference_clockwidget_date_part">Date</string>
     <string name="preference_clockwidget_date_part_summary">Show the current date</string>
     <string name="preference_clockwidget_favorites_part">Dock</string>
@@ -624,7 +592,6 @@
     <string name="preference_search_apps_show_details">Show app information</string>
     <string name="preference_search_apps_show_details_summary">Display version and package name of an app in its context menu</string>
     <string name="preference_search_files">Files</string>
-    <string name="preference_search_files_summary">Search local files and cloud files</string>
     <string name="preference_search_contacts">Contacts</string>
     <string name="preference_search_contacts_summary">Search contacts on this device</string>
     <string name="preference_search_calendar">Calendar</string>
@@ -642,16 +609,8 @@
     <string name="preference_search_currencyconverter_summary">Periodically download exchange rates to convert currencies</string>
     <string name="preference_search_supportedunits">Supported units</string>
     <string name="preference_currency_settings">Currency settings</string>
-    <string name="preference_search_websites">Websites</string>
-    <string name="preference_search_locations">Places</string>
-    <string name="preference_search_locations_radius">Search radius</string>
-    <string name="preference_search_websites_summary">Show a preview of a website if the search query is a URL</string>
-    <string name="preference_search_locations_summary">Search the local area for shops and other places</string>
     <string name="preference_search_localfiles">Local files</string>
     <string name="preference_search_localfiles_summary">Search documents, photos and other files stored on this device</string>
-    <string name="preference_search_nextcloud">Nextcloud</string>
-    <string name="preference_search_cloud_summary">Search %1$s\'s files</string>
-    <string name="preference_search_owncloud">Owncloud</string>
     <string name="preference_calendar_calendars">Calendars</string>
     <string name="preference_calendar_hide_completed">Hide completed tasks</string>
     <string name="preference_screen_buildinfo">Build information</string>
@@ -697,23 +656,10 @@
     <string name="preference_breezyweather_integration_description">Breezy Weather is a free and open source weather app. If installed, %1$s can use Breezy Weather as a data source for weather data.</string>
     <string name="preference_breezyweather_integration_instructions">To use Breezy Weather as weather provider:\n\n1. Go to Breezy Weather &gt; Settings &gt; Widgets &amp; Live wallpaper &gt; Send Gadgetbridge data &gt; Enable %1$s\n\n2. In %1$s, select Breezy Weather as weather provider</string>
     <string name="preference_launch_breezyweather_app">Open Breezy Weather</string>
-    <string name="preference_smartspacer_integration">Smartspacer</string>
-    <string name="preference_smartspacer_integration_description">Smartspacer is a free and open source At a Glance widget. If installed, it can be integrated into the dynamic zone of the clock widget</string>
-    <string name="preference_smartspacer_enable">Enable Smartspacer integration</string>
-    <string name="preference_launch_smartspacer_app">Open Smartspacer</string>
-    <string name="preference_feed_integration">Feed</string>
-    <string name="preference_category_feed_provider">Feed provider</string>
-    <string name="preference_feed_enable_summary">Swipe right on the home screen to open the feed</string>
-    <string name="no_feed_providers">No feed providers installed</string>
     <string name="preference_contacts_call_on_tap">Tap to call</string>
     <string name="preference_contacts_call_on_tap_summary">Start a call without confirmation when tapping a phone number</string>
-    <!-- Used in an info banner if a specific feature requires a Nextcloud account -->
-    <string name="no_account_nextcloud">You haven\'t connected a Nextcloud account yet</string>
-    <!-- Used in an info banner if a specific feature requires an Owncloud account -->
-    <string name="no_account_owncloud">You haven\'t connected an Owncloud account yet</string>
     <!-- Used in an info banner if a specific feature requires a Google account -->
     <!-- Used in info banners that indicate that an account is required to enable a certain feature -->
-    <string name="connect_account">Connect account</string>
     <string name="battery_part_charging">Charging</string>
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="one">Full in %1$s minute</item>
@@ -821,7 +767,6 @@
     <string name="gesture_action_quick_settings">Quick settings</string>
     <string name="gesture_action_power_menu">Power menu</string>
     <string name="gesture_action_recents">Recent apps</string>
-    <string name="gesture_action_feed">Feed</string>
     <string name="gesture_failed_message">You have performed a \"%1$s\" gesture. This gesture is currently set to trigger a \"%2$s\" action. However, the action could not be performed for the following reason:</string>
     <string name="missing_permission_accessibility_gesture_failed">The launcher\'s accessibility service needs to be enabled to perform this action.</string>
     <string name="missing_permission_accessibility_gesture_settings">This action requires the launcher\'s accessibility service to be enabled.</string>
@@ -875,14 +820,6 @@
     <string name="length_unit">Unit of length</string>
     <string name="imperial">Imperial</string>
     <string name="metric">Metric</string>
-    <string name="preference_search_location_custom_overpass_url">Overpass URL</string>
-    <string name="preference_search_locations_hide_uncategorized">Hide uncategorized places</string>
-    <string name="preference_search_locations_hide_uncategorized_summary">Only show results with well defined categories, like cafés or restaurants</string>
-    <string name="preference_search_locations_show_map">Map</string>
-    <string name="preference_search_locations_show_map_summary">Show a map preview for places</string>
-    <string name="preference_search_locations_theme_map">Map theming</string>
-    <string name="preference_search_locations_theme_map_summary">Apply the color scheme of the launcher to the map</string>
-    <string name="preference_search_location_custom_tile_server_url">Tileserver URL</string>
     <string name="menu_dial">Call</string>
     <string name="menu_navigation">Navigation</string>
     <string name="menu_bugreport">Bug Report</string>
@@ -920,101 +857,6 @@
     <string name="preference_customize_filter_bar">Customize filter bar</string>
     <string name="preference_customize_filter_bar_summary">Customize which items are included in the filter bar</string>
     <string name="filter_settings_network_warning">The current filter enables online results by default. Your search queries might unintentionally be sent to external web services. For privacy reasons, this is not recommended.</string>
-    <string name="preference_search_osm_locations">OpenStreetMap</string>
-    <string name="preference_search_osm_locations_summary">Search OpenStreetMap for shops and other places in the local area</string>
-    <string name="poi_category_restaurant">Restaurant</string>
-    <string name="poi_category_fast_food">Fast food</string>
-    <string name="poi_category_bar">Bar</string>
-    <string name="poi_category_cafe">Cafe</string>
-    <string name="poi_category_hotel">Hotel</string>
-    <string name="poi_category_supermarket">Supermarket</string>
-    <string name="poi_category_school">School</string>
-    <string name="poi_category_parking">Parking</string>
-    <string name="poi_category_fuel">Gas station</string>
-    <string name="poi_category_toilets">Restroom</string>
-    <string name="poi_category_pharmacy">Pharmacy</string>
-    <string name="poi_category_hospital">Hospital</string>
-    <string name="poi_category_post_office">Post office</string>
-    <string name="poi_category_pub">Pub</string>
-    <string name="poi_category_doctors">Doctors</string>
-    <string name="poi_category_police">Police</string>
-    <string name="poi_category_dentist">Dentist</string>
-    <string name="poi_category_library">Library</string>
-    <string name="poi_category_ice_cream">Ice cream parlor</string>
-    <string name="poi_category_theater">Theater</string>
-    <string name="poi_category_cinema">Movie theater</string>
-    <string name="poi_category_nightclub">Nightclub</string>
-    <string name="poi_category_clinic">Clinic</string>
-    <string name="poi_category_university">University</string>
-    <string name="poi_category_clothes">Apparel store</string>
-    <string name="poi_category_convenience">Convenience store</string>
-    <string name="poi_category_hairdresser">Hairdresser</string>
-    <string name="poi_category_books">Bookstore</string>
-    <string name="poi_category_bakery">Bakery</string>
-    <string name="poi_category_car_rental">Car rental</string>
-    <string name="poi_category_car_sharing">Car sharing</string>
-    <string name="poi_category_mobile_phone">Cell phone store</string>
-    <string name="poi_category_furniture">Furniture store</string>
-    <string name="poi_category_alcohol">Liquor store</string>
-    <string name="poi_category_florist">Flower shop</string>
-    <string name="poi_category_mall">Mall</string>
-    <string name="poi_category_optician">Optician</string>
-    <string name="poi_category_jewelry">Jewelry store</string>
-    <string name="poi_category_laundry">Laundry</string>
-    <string name="poi_category_bank">Bank</string>
-    <string name="poi_category_soccer">Soccer field</string>
-    <string name="poi_category_basketball">Basketball court</string>
-    <string name="poi_category_tennis">Tennis court</string>
-    <string name="poi_category_atm">ATM</string>
-    <string name="poi_category_kiosk">Kiosk</string>
-    <string name="poi_category_museum">Museum</string>
-    <string name="poi_category_fitness_center">Fitness center</string>
-    <string name="poi_category_church">Church</string>
-    <string name="poi_category_mosque">Mosque</string>
-    <string name="poi_category_buddhist_temple">Buddhist temple</string>
-    <string name="poi_category_hindu_temple">Hindu temple</string>
-    <string name="poi_category_synagogue">Synagogue</string>
-    <string name="poi_category_pizza_restaurant">Pizza restaurant</string>
-    <string name="poi_category_burger_restaurant">Burger restaurant</string>
-    <string name="poi_category_place_of_worship">Place of worship</string>
-    <string name="poi_category_chinese_restaurant">Chinese restaurant</string>
-    <string name="poi_category_japanese_restaurant">Japanese restaurant</string>
-    <string name="poi_category_kebab_restaurant">Kebab restaurant</string>
-    <string name="poi_category_asian_restaurant">Asian restaurant</string>
-    <string name="poi_category_ramen_restaurant">Ramen restaurant</string>
-    <string name="poi_category_soup_restaurant">Soup restaurant</string>
-    <string name="poi_category_brunch_restaurant">Brunch restaurant</string>
-    <string name="poi_category_car_wash">Car wash</string>
-    <string name="poi_category_charging_station">Charging station</string>
-    <string name="poi_category_motorcycle_rental">Motorcycle rental</string>
-    <string name="poi_category_gallery">Gallery</string>
-    <string name="poi_category_amusement_park">Amusement park</string>
-    <string name="poi_category_concert_hall">Concert hall</string>
-    <string name="poi_category_stadium">Stadium</string>
-    <string name="poi_category_casino">Casino</string>
-    <string name="poi_category_discount_store">Discount store</string>
-    <string name="poi_category_pet">Pet store</string>
-    <string name="poi_category_shopping">Shopping</string>
-    <string name="poi_category_swimming">Swimming pool</string>
-    <string name="poi_category_martial_arts">Martial arts</string>
-    <string name="poi_category_golf">Golf course</string>
-    <string name="poi_category_gymnastics">Gymnastics</string>
-    <string name="poi_category_ice_hockey">Ice hockey rink</string>
-    <string name="poi_category_baseball">Baseball field</string>
-    <string name="poi_category_american_football">American football field</string>
-    <string name="poi_category_handball">Handball court</string>
-    <string name="poi_category_volleyball">Volleyball court</string>
-    <string name="poi_category_skiing">Skiing</string>
-    <string name="poi_category_cricket">Cricket pitch</string>
-    <string name="poi_category_park">Park</string>
-    <string name="poi_category_monument">Monument</string>
-    <string name="poi_category_government_building">Government building</string>
-    <string name="poi_category_fire_station">Fire station</string>
-    <string name="poi_category_courthouse">Courthouse</string>
-    <string name="poi_category_townhall">Townhall</string>
-    <string name="poi_category_stationery">Stationery</string>
-    <string name="poi_category_climbing_gym">Climbing gym</string>
-    <string name="poi_category_hackerspace">Hackerspace</string>
     <string name="customize_item_label">Label</string>
     <string name="customize_item_tags">Tags</string>
     <string name="customize_item_visibility">Show in</string>

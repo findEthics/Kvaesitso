@@ -5,8 +5,6 @@ import de.mm20.launcher2.search.SearchFilters
 fun SearchFilters.withAllCategories(): SearchFilters {
     return copy(
         apps = true,
-        websites = true,
-        places = true,
         files = true,
         shortcuts = true,
         contacts = true,
@@ -17,8 +15,6 @@ fun SearchFilters.withAllCategories(): SearchFilters {
 
 fun SearchFilters.withOnlyCategory(
     apps: Boolean = false,
-    websites: Boolean = false,
-    places: Boolean = false,
     files: Boolean = false,
     shortcuts: Boolean = false,
     contacts: Boolean = false,
@@ -27,8 +23,6 @@ fun SearchFilters.withOnlyCategory(
 ): SearchFilters {
     return copy(
         apps = apps,
-        websites = websites,
-        places = places,
         files = files,
         shortcuts = shortcuts,
         contacts = contacts,
@@ -52,28 +46,6 @@ fun SearchFilters.toggleApps(): SearchFilters {
     }
 
     return copy(apps = !apps)
-}
-
-fun SearchFilters.toggleWebsites(): SearchFilters {
-    if (allCategoriesEnabled) {
-        return withOnlyCategory(websites = true)
-    }
-    if (websites && enabledCategories == 1) {
-        return withAllCategories()
-    }
-
-    return copy(websites = !websites)
-}
-
-fun SearchFilters.togglePlaces(): SearchFilters {
-    if (allCategoriesEnabled) {
-        return withOnlyCategory(places = true)
-    }
-    if (places && enabledCategories == 1) {
-        return withAllCategories()
-    }
-
-    return copy(places = !places)
 }
 
 fun SearchFilters.toggleFiles(): SearchFilters {

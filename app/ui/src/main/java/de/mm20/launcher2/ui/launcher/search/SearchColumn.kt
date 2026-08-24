@@ -39,8 +39,6 @@ import de.mm20.launcher2.search.Application
 import de.mm20.launcher2.search.CalendarEvent
 import de.mm20.launcher2.search.Contact
 import de.mm20.launcher2.search.File
-import de.mm20.launcher2.search.Location
-import de.mm20.launcher2.search.Website
 import de.mm20.launcher2.ui.component.LauncherCard
 import de.mm20.launcher2.ui.launcher.search.apps.AppResults
 import de.mm20.launcher2.ui.launcher.search.calculator.CalculatorResults
@@ -50,10 +48,8 @@ import de.mm20.launcher2.ui.launcher.search.favorites.SearchFavorites
 import de.mm20.launcher2.ui.launcher.search.favorites.SearchFavoritesVM
 import de.mm20.launcher2.ui.launcher.search.files.FileResults
 import de.mm20.launcher2.ui.launcher.search.filters.SearchFilters
-import de.mm20.launcher2.ui.launcher.search.location.LocationResults
 import de.mm20.launcher2.ui.launcher.search.shortcut.ShortcutResults
 import de.mm20.launcher2.ui.launcher.search.unitconverter.UnitConverterResults
-import de.mm20.launcher2.ui.launcher.search.website.WebsiteResults
 import de.mm20.launcher2.ui.launcher.sheets.HiddenItemsSheet
 import de.mm20.launcher2.ui.launcher.sheets.LocalBottomSheetManager
 import de.mm20.launcher2.ui.locals.LocalGridSettings
@@ -98,8 +94,6 @@ fun SearchColumn(
     val events = viewModel.calendarResults
     val unitConverter = viewModel.unitConverterResults
     val calculator = viewModel.calculatorResults
-    val locations = viewModel.locationResults
-    val website = viewModel.websiteResults
     val hiddenResults = viewModel.hiddenResults
 
     val bestMatch by viewModel.bestMatch
@@ -110,7 +104,6 @@ fun SearchColumn(
     val missingCalendarPermission by viewModel.missingCalendarPermission.collectAsState(false)
     val missingShortcutsPermission by viewModel.missingAppShortcutPermission.collectAsState(false)
     val missingContactsPermission by viewModel.missingContactsPermission.collectAsState(false)
-    val missingLocationPermission by viewModel.missingLocationPermission.collectAsState(false)
     val missingFilesPermission by viewModel.missingFilesPermission.collectAsState(false)
     val hasProfilesPermission by viewModel.hasProfilesPermission.collectAsState(false)
 
@@ -127,9 +120,7 @@ fun SearchColumn(
     var selectedContactIndex: Int by remember(query) { mutableIntStateOf(-1) }
     var selectedFileIndex: Int by remember(query) { mutableIntStateOf(-1) }
     var selectedCalendarIndex: Int by remember(query) { mutableIntStateOf(-1) }
-    var selectedLocationIndex: Int by remember(query) { mutableIntStateOf(-1) }
     var selectedShortcutIndex: Int by remember(query) { mutableIntStateOf(-1) }
-    var selectedWebsiteIndex: Int by remember(query) { mutableIntStateOf(-1) }
 
     val showFilters by viewModel.showFilters
 
@@ -323,31 +314,6 @@ fun SearchColumn(
                         },
                     )
 
-                    LocationResults(
-                        locations = locations,
-                        missingPermission = missingLocationPermission,
-                        onPermissionRequest = {
-                            viewModel.requestLocationPermission(context as AppCompatActivity)
-                        },
-                        onPermissionRequestRejected = {
-                            viewModel.disableLocationSearch()
-                        },
-                        reverse = reverse,
-                        selectedIndex = selectedLocationIndex,
-                        onSelect = { selectedLocationIndex = it },
-                        highlightedItem = bestMatch as? Location,
-                        truncate = expandedCategory != SearchCategory.Location,
-                        onShowAll = {
-                            viewModel.expandCategory(SearchCategory.Location)
-                        }
-                    )
-                    WebsiteResults(
-                        websites = website,
-                        selectedIndex = selectedWebsiteIndex,
-                        onSelect = { selectedWebsiteIndex = it },
-                        highlightedItem = bestMatch as? Website,
-                        reverse = reverse,
-                    )
                     FileResults(
                         files = files,
                         onPermissionRequest = {

@@ -14,7 +14,6 @@
     <string name="wind_east_north_east">পূর্ব উত্তর-পূর্ব</string>
     <string name="wind_south_south_west">দক্ষিণ দক্ষিণ-পশ্চিম</string>
     <string name="widget_name_notes">নোট</string>
-    <string name="owncloud_login_2fa_hint">যদি আপনার দ্বি-স্তর অথেনটিকেশন চালু থাকে, তাহলে অবশ্যই আপনাকে একটি অ্যাপ পাসওয়ার্ড ব্যবহার করতে হবে।</string>
     <string name="disclaimer_currency_converter">ইউরোপীয় সেন্ট্রাল ব্যাংক দ্বারা প্রতিদিন একবার প্রকাশিত বিনিময় হার। সমস্ত তথ্য কোন ধরনের গ্যারান্টি ছাড়াই \"যেমন আছে\" তেমন প্রদান করা হয়। এই তথ্যের জন্য কোন দায়বদ্ধতা ধরে নেয়া যাবে না।
 \n
 \nশেষ আপডেট: %1$s</string>
@@ -116,11 +115,6 @@
     <string name="edit_favorites_dialog_empty_section">আইটেম এখানে টেনে আনুন</string>
     <string name="edit_favorites_dialog_tags">ট্যাগগুলো</string>
     <string name="edit_favorites_dialog_new_tag">ট্যাগ তৈরি করুন…</string>
-    <string name="nextcloud_server_url">নেক্সটক্লাইড সার্ভারের লিংক</string>
-    <string name="nextcloud_server_invalid_url">এই লিংকটি একটি নেক্সটক্লাউড সার্ভারকে নির্দেশ করে না</string>
-    <string name="owncloud_server_url">Owncloud সার্ভার লিংক</string>
-    <string name="owncloud_password">পাসওয়ার্ড</string>
-    <string name="owncloud_username">ইউজার নাম</string>
     <string name="login_flow_continue">চালিয়ে যান</string>
     <string name="login_flow_login">লগইন</string>
     <string name="disclaimer">ডিসক্লেইমার</string>
@@ -176,8 +170,6 @@
     <string name="file_meta_app_min_sdk">ন্যূনতম SDK ভার্সন: %1$s</string>
     <string name="widget_add_widget">উইজেট যোগ করুন</string>
     <string name="edit_favorites_dialog_tag_section_empty">পিন করা ট্যাগ এখানে দেখা যাবে</string>
-    <string name="owncloud_server_invalid_url">এই লিংকটি একটি Owncloud সার্ভারকে নির্দেশ করে না</string>
-    <string name="owncloud_login_failed">লগইন ব্যর্থ: ইউজার নাম অথবা পাসওয়ার্ড সঠিক নয়।</string>
     <string name="weather_condition_heavysleetshowers">প্রচণ্ড শিলা বৃষ্টি</string>
     <string name="weather_condition_heavysnowandthunder">প্রচণ্ড তুষার এবং বজ্রপাত</string>
     <string name="menu_calendar_open_externally">ক্যালেন্ডার অ্যাপে খুলুন</string>
@@ -213,7 +205,6 @@
     <string name="missing_permission_notification_badges">বিজ্ঞপ্তি ব্যাজ প্রদর্শন করতে নোটিফিকেশন অ্যাক্সেস প্রয়োজন</string>
     <string name="missing_permission_calendar_widget">এখানে আসন্ন অ্যাপয়েন্টমেন্ট এবং ইভেন্টগুলি প্রদর্শন করতে ক্যালেন্ডার অনুমতি প্রদান করুন।</string>
     <string name="missing_permission_calendar_search">আপনার ক্যালেন্ডার অনুসন্ধান করতে ক্যালেন্ডার অনুমতি প্রদান করুন।</string>
-    <string name="missing_permission_location_search">নিকটবর্তী অবস্থান অনুসন্ধান করতে অবস্থান অনুমতি প্রদান করুন।</string>
     <string name="weather_condition_heavyrainandthunder">ভারী বৃষ্টি ও বজ্রপাত</string>
     <string name="weather_widget_set_location">স্থান নির্বাচন</string>
     <string name="weather_no_data">আবহাওয়ার তথ্য পাওয়া যায়নি।</string>

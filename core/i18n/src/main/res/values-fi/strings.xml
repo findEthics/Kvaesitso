@@ -6,7 +6,6 @@
     <string name="edit_favorites_dialog_tags">Avainsanat</string>
     <string name="edit_favorites_dialog_tag_section_empty">Kiinnitetyt avainsanat näkyvät tässä</string>
     <string name="edit_favorites_dialog_new_tag">Luo avainsana…</string>
-    <string name="nextcloud_server_url">Nextcloud-palvelimen URL</string>
     <string name="menu_share">Jaa</string>
     <string name="menu_share_store_link">%1$s linkki</string>
     <string name="menu_share_apk_file">Pakettitiedosto</string>
@@ -54,11 +53,6 @@
     <string name="notes_widget_dismissed">Muistiinpano hylätty.</string>
     <string name="shortcut_summary">sovelluksesta %1$s</string>
     <string name="close">Sulje</string>
-    <string name="nextcloud_server_invalid_url">Tämä URL ei osoita kelvolliseen Nextcloud-asennukseen</string>
-    <string name="owncloud_server_url">Owncloud-palvelimen URL</string>
-    <string name="owncloud_server_invalid_url">Tämä URL ei osoita kelvolliseen Owncloud-asennukseen</string>
-    <string name="owncloud_password">Salasana</string>
-    <string name="owncloud_username">Käyttäjänimi</string>
     <string name="action_import">Tuo</string>
     <string name="menu_calendar_open_externally">Avaa kalenterisovelluksessa</string>
     <string name="search_bar_placeholder">Hae</string>
@@ -125,8 +119,6 @@
     <string name="edit_favorites_dialog_unpinned">Ei kiinnitetty - usein käytetty</string>
     <string name="edit_favorites_dialog_pinned_unsorted">Kiinnitetty - automaattisesti järjestetty</string>
     <string name="edit_favorites_dialog_pinned_sorted">Kiinnitetty - käsin järjestetty</string>
-    <string name="owncloud_login_2fa_hint">Jos kaksivaiheinen tunnistautuminen on käytössä, käytä tässä sovellussalasanaa.</string>
-    <string name="owncloud_login_failed">Kirjautuminen epäonnistui: virheellinen käyttäjänimi tai salasana.</string>
     <string name="login_flow_continue">Jatka</string>
     <string name="login_flow_login">Kirjaudu sisään</string>
     <string name="disclaimer">Vastuuvapauslauseke</string>
@@ -159,7 +151,6 @@
         <item quantity="one">%1$d tapahtuma on poistettu.</item>
         <item quantity="other">%1$d tapahtumaa on poistettu.</item>
     </plurals>
-    <string name="no_account_nextcloud">Et ole liittänyt Nextcloud-tiliä vielä</string>
     <string name="preference_enforce_icon_shape_summary">Käytä muotoa kaikkiin kuvakkeisiin, myös niihin, jotka eivät tue sitä</string>
     <string name="preference_clockwidget_layout_horizontal">Tiivis</string>
     <string name="preference_search_search_actions_summary">Säädä pikatoimintoja ja hakuoikoteitä</string>
@@ -207,7 +198,6 @@
     <string name="preference_edit_favorites_summary">Vaihda kiinnitettyjen kohteiden järjestystä</string>
     <string name="restore_incompatible_file">Tämä varmuuskopio on luotu sovelluksen %1$s toisella versiolla eikä sitä voida palauttaa tällä versiolla.</string>
     <string name="icon_picker_default_icon">Oletus</string>
-    <string name="preference_search_files_summary">Hae tiedostoja laitteelta ja pilvestä</string>
     <string name="preference_search_files">Tiedostot</string>
     <string name="preference_search_contacts">Yhteystiedot</string>
     <string name="preference_search_contacts_summary">Hae yhteystietoja tältä laitteelta</string>
@@ -215,12 +205,8 @@
     <string name="preference_search_unitconverter">Yksikkömuunnin</string>
     <string name="preference_search_unitconverter_summary">Käyttö: 1.5 kg tai 4 cm &gt;&gt; in</string>
     <string name="preference_search_currencyconverter">Valuuttamuunnin</string>
-    <string name="preference_search_websites">Verkkosivut</string>
-    <string name="preference_search_websites_summary">Näytä esikatselu verkkosivusta jos hakutermi on verkko-osoite</string>
     <string name="preference_search_localfiles">Paikalliset tiedostot</string>
     <string name="preference_search_localfiles_summary">Hae asiakirjoja, kuvia ja muita tiedostoja tältä laitteelta</string>
-    <string name="preference_search_nextcloud">Nextcloud</string>
-    <string name="preference_search_owncloud">Owncloud</string>
     <string name="preference_screen_buildinfo">Koontiversion tiedot</string>
     <string name="preference_calendar_calendars">Kalenterit</string>
     <string name="preference_search_bar_style">Tyyli</string>
@@ -235,7 +221,6 @@
     <string name="preference_screen_tags">Avainsanat</string>
     <string name="preference_weather_integration">Sää</string>
     <string name="preference_media_integration">Mediasäätimet</string>
-    <string name="no_account_owncloud">Et ole liittänyt Owncloud-tiliä vielä</string>
     <string name="battery_part_charging">Ladataan</string>
     <string name="icon_picker_search_icon">Hae kuvakepaketeista</string>
     <string name="icon_picker_filter_all_packs">Kaikki kuvakepaketit</string>
@@ -362,15 +347,7 @@
     <string name="preference_notification_badges_summary">Näytä pistemerkki sovelluksille, joilla on lukemattomia ilmoituksia</string>
     <string name="preference_suspended_badges_summary">Näytä pistemerkki pysäytetyille sovelluksille</string>
     <string name="preference_suspended_badges">Pysäytetyt sovellukset</string>
-    <string name="preference_cloud_badges">Pilvimerkit</string>
-    <string name="preference_cloud_badges_summary">Näytä merkki pilvessä oleville tiedostoille</string>
     <string name="preference_shortcut_badges_summary">Näytä oikotien merkkinä sovellus, johon oikotie viittaa</string>
-    <string name="preference_nextcloud_signin">Kirjaudu Nextcloud-tilille</string>
-    <string name="preference_nextcloud_signin_summary">Kirjaudu hakeaksesi Nextcloud-palvelimeltasi</string>
-    <string name="preference_nextcloud">Nextcloud</string>
-    <string name="preference_owncloud">Owncloud</string>
-    <string name="preference_owncloud_signin">Kirjaudu Owncloud-tilille</string>
-    <string name="preference_owncloud_signin_summary">Kirjaudu hakeaksesi Owncloud-palvelimeltasi</string>
     <string name="preference_about_telegram">Telegram-ryhmä</string>
     <string name="preference_about_fdroid">F-Droid-pakettivarasto</string>
     <string name="preference_enforce_icon_shape">Pakota muoto</string>
@@ -394,7 +371,6 @@
     <string name="preference_crash_reporter_summary">Virhe- ja kaatumisraportit</string>
     <string name="preference_logs">Lokit</string>
     <string name="preference_search_calculator">Laskin</string>
-    <string name="preference_search_cloud_summary">Hae %1$s:n tiedostoja</string>
     <string name="preference_screen_buildinfo_summary">Lisätietoja sovelluksen tästä koontiversiosta</string>
     <string name="preference_search_bar_auto_focus">Avaa näppäimistö</string>
     <string name="preference_screen_tags_summary">Hallitse avainsanoja ja merkittyjä kohteita</string>
@@ -404,7 +380,6 @@
     <string name="preference_screen_homescreen_summary">Kello, hakupalkki, taustakuva, järjestelmän palkit</string>
     <string name="preference_screen_icons">Ruudukko ja kuvakkeet</string>
     <string name="preference_screen_icons_summary">Ruudukko, kuvakkeiden koko, kuvakepaketit, pistemerkit</string>
-    <string name="connect_account">Liitä tili</string>
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="one">Täynnä %1$s minuutissa</item>
         <item quantity="other">Täynnä %1$s minuutissa</item>

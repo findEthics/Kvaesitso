@@ -1,7 +1,5 @@
 # Online Results
 
-Kvaesitso integrates with supported online services such as OpenStreetMap.
-
 In order to protect your privacy and to avoid unnecessary network traffic, online results are
 disabled by default.
 

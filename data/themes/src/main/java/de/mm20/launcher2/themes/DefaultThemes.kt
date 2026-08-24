@@ -13,8 +13,3 @@ val CutShapesId = UUID(0L, 2L)
 val RectShapesId = UUID(0L, 3L)
 
 val SemiTransparentId = UUID(0L, 1L)
-
-val SystemFontId = UUID(0L, 1L)
-val MonospaceId = UUID(0L, 2L)
-val SerifId = UUID(0L, 3L)
-val RoundedTypographyId = UUID(0L, 4L)

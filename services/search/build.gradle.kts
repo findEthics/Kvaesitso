@@ -49,7 +49,6 @@ dependencies {
 
     implementation(libs.koin.android)
 
-    implementation(libs.jsoup)
     implementation(libs.coil.core)
 
     implementation(project(":data:calculator"))

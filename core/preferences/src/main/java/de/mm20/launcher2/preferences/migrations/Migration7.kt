@@ -20,13 +20,10 @@ internal fun LauncherSettingsData.normalized(): LauncherSettingsData {
         fileSearchProviders = fileSearchProviders.intersect(setOf("local")),
         contactSearchProviders = contactSearchProviders.intersect(setOf("local")),
         calendarSearchProviders = calendarSearchProviders.intersect(setOf("local")),
-        locationSearchProviders = locationSearchProviders.intersect(setOf("openstreetmaps")),
         weatherProvider = weatherProvider.takeIf { it in setOf("metno", "owm", "dwd", "breezy") } ?: "metno",
         weatherProviderSettings = weatherProviderSettings.filterKeys { it in setOf("metno", "owm", "dwd", "breezy") },
-        badgesCloudFiles = false,
         badgesPlugins = false,
         clockWidgetMusicPart = false,
-        clockWidgetSmartspacer = false,
         gesturesSwipeDown = gesturesSwipeDown.withoutFeed(),
         gesturesSwipeLeft = gesturesSwipeLeft.withoutFeed(),
         gesturesSwipeRight = gesturesSwipeRight.withoutFeed(),
@@ -34,6 +31,5 @@ internal fun LauncherSettingsData.normalized(): LauncherSettingsData {
         gesturesDoubleTap = gesturesDoubleTap.withoutFeed(),
         gesturesLongPress = gesturesLongPress.withoutFeed(),
         gesturesHomeButton = gesturesHomeButton.withoutFeed(),
-        feedProviderPackage = null,
     )
 }

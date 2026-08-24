@@ -70,9 +70,6 @@
     <string name="turn_off">끄기</string>
     <string name="widget_action_remove">제거</string>
     <string name="edit_favorites_dialog_new_tag">태그 만들기…</string>
-    <string name="nextcloud_server_url">Nextcloud 서버 URL</string>
-    <string name="owncloud_password">비밀번호</string>
-    <string name="owncloud_username">사용자 이름</string>
     <string name="login_flow_login">로그인</string>
     <string name="weather_widget_set_location">위치 지정</string>
     <string name="weather_location_search_no_result">위치를 찾을 수 없습니다.</string>
@@ -105,7 +102,6 @@
     <string name="menu_item_edit_favs">즐겨찾기 편집</string>
     <string name="edit_favorites_dialog_tags">태그</string>
     <string name="edit_favorites_dialog_tag_section_empty">고정한 태그가 여기에 나타납니다.</string>
-    <string name="owncloud_server_url">Owncloud 서버 URL</string>
     <string name="login_flow_continue">계속</string>
     <string name="date_today">오늘</string>
     <string name="date_tomorrow">내일</string>
@@ -129,8 +125,6 @@
     <string name="notes_widget_action_dismiss">취소</string>
     <string name="notes_widget_dismissed">메모를 취소했습니다.</string>
     <string name="widget_action_replace">교체</string>
-    <string name="preference_nextcloud">Nextcloud</string>
-    <string name="preference_owncloud">Owncloud</string>
     <string name="edit_favorites_dialog_pinned_unsorted">고정됨 – 자동 정렬됨</string>
     <string name="edit_favorites_dialog_empty_section">여기에 항목 끌어다 놓기</string>
     <string name="preference_about_telegram">텔레그램 그룹</string>
@@ -218,10 +212,6 @@
     <string name="tag_name">태그 이름</string>
     <string name="preference_screen_gestures">제스처</string>
     <string name="gesture_action_notifications">알림 서랍 열기</string>
-    <string name="preference_owncloud_signin">Owncloud에 로그인</string>
-    <string name="nextcloud_server_invalid_url">이 URL에는 Nextcloud가 설치되어 있지 않습니다.</string>
-    <string name="owncloud_server_invalid_url">이 URL에는 Owncloud가 설치되어 있지 않습니다.</string>
-    <string name="preference_owncloud_signin_summary">로그인하여 Owncloud 항목 검색</string>
     <string name="disclaimer">면책 조항</string>
     <string name="preference_screen_debug_summary">문제 해결 도구</string>
     <string name="calendar_widget_no_events">오늘 일정 없음</string>
@@ -235,7 +225,6 @@
     <string name="preference_theme_dark">어두운 테마</string>
     <string name="preference_theme">테마</string>
     <string name="preference_screen_colors">색상 구성</string>
-    <string name="preference_nextcloud_signin">Nextcloud에 로그인</string>
     <string name="preference_weather_provider">공급자</string>
     <string name="preference_search_calculator_summary">수학 식 계산</string>
     <string name="preference_cards_stroke_width">획 너비</string>
@@ -250,15 +239,12 @@
     <string name="preference_crash_reporter_summary">오류 및 충돌 보고서</string>
     <string name="preference_logs_summary">애플리케이션 로그 보기 및 내보내기</string>
     <string name="preference_search_files">파일</string>
-    <string name="preference_search_files_summary">로컬 및 클라우드 파일 검색</string>
     <string name="preference_search_favorites_summary">앱 격자 위에 고정한 항목 및 자주 사용한 항목 표시</string>
     <string name="preference_search_unitconverter_summary">사용법: \'1.5 kg\' 또는 \'4 cm &gt;&gt; in\'</string>
     <string name="preference_search_currencyconverter">환율 변환</string>
-    <string name="preference_search_websites_summary">검색어가 URL이면 해당 웹사이트의 미리보기 표시</string>
     <string name="preference_search_unitconverter">단위 변환</string>
     <string name="preference_search_localfiles">로컬 파일</string>
     <string name="preference_calendar_calendars">캘린더</string>
-    <string name="no_account_nextcloud">아직 Nextcloud 계정을 연결하지 않았습니다.</string>
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="other">%1$s분 뒤 충전 완료</item>
     </plurals>
@@ -287,7 +273,6 @@
     <string name="preference_screen_appearance_summary">앱 생김새 사용자 정의</string>
     <string name="preference_screen_about_summary">앱 및 라이선스 정보</string>
     <string name="preference_screen_icons">격자 및 아이콘</string>
-    <string name="no_account_owncloud">아직 Owncloud 계정을 연결하지 않았습니다.</string>
     <string name="favorites">즐겨찾기</string>
     <string name="frequently_used_show_in_favorites">즐겨찾기에 표시</string>
     <string name="frequently_used_rows">줄 수</string>
@@ -295,8 +280,6 @@
     <string name="search_action_open_url">웹사이트 보기</string>
     <string name="preference_crash_reporter">충돌 보고 도구</string>
     <string name="preference_search_calculator">계산기</string>
-    <string name="preference_search_nextcloud">Nextcloud</string>
-    <string name="preference_search_cloud_summary">%1$s의 파일 검색</string>
     <string name="preference_screen_buildinfo">빌드 정보</string>
     <string name="preference_screen_buildinfo_summary">이 빌드에 대한 추가 정보</string>
     <string name="preference_search_bar_style_summary">검색 표시줄 외관 사용자 정의</string>
@@ -313,12 +296,10 @@
     <string name="search_action_label">이름</string>
     <string name="gesture_action_quick_settings">빠른 설정 열기</string>
     <string name="search_action_app">앱</string>
-    <string name="preference_search_websites">웹사이트</string>
     <string name="preference_search_bar_style">스타일</string>
     <string name="preference_colors_default">기본</string>
     <string name="preference_colors_bw">흑백</string>
     <string name="missing_permission_calendar_search_settings">캘린더를 검색하기 위해 캘린더 권한이 필요합니다.</string>
-    <string name="preference_nextcloud_signin_summary">로그인하여 Nextcloud 항목 검색</string>
     <string name="preference_about_license">이 앱은 자유 소프트웨어입니다.</string>
     <string name="preference_about_license_summary">GNU 일반 공중 사용 허가서(GPL) 3.0을 따름</string>
     <string name="preference_clock_widget_fill_height">화면 높이 맞춤</string>
@@ -330,7 +311,6 @@
     <string name="preference_wallpaper_summary">배경화면 선택</string>
     <string name="gesture_action_recents">최근 앱 화면 열기</string>
     <string name="widget_config_weather_integration_settings">날씨 통합 설정</string>
-    <string name="owncloud_login_failed">로그인 실패: 사용자 이름 또는 비밀번호가 잘못되었습니다.</string>
     <string name="disclaimer_currency_converter">European Central Bank(유럽중앙은행)에서 하루에 한 번 게시하는 환율입니다. 모든 정보는 어떠한 종류나 성격의 보증도 제공하지 않고 \"있는 그대로\" 제공합니다. 이 정보에 대해서는 어떠한 책임도 지지 않습니다.
 \n
 \n마지막 업데이트: %1$s</string>
@@ -339,7 +319,6 @@
     <string name="calendar_widget_pinned_events">다가올 일정</string>
     <string name="weather_condition_heavyrain">많은 비</string>
     <string name="weather_condition_lightrain">비 조금</string>
-    <string name="preference_search_owncloud">Owncloud</string>
     <string name="weather_condition_cloudy">흐림</string>
     <string name="preference_screen_tags_summary">태그 및 태그한 항목 관리</string>
     <string name="missing_permission_auto_location">자동으로 위치를 찾기 위해 위치 권한이 필요합니다.</string>
@@ -348,7 +327,6 @@
     <string name="preference_widgets_edit_button_summary">위젯을 추가, 제거하거나 정렬할 수 있는 버튼 표시</string>
     <string name="missing_permission_contact_search_settings">연락처를 검색하기 위해 연락처 권한이 필요합니다.</string>
     <string name="missing_permission_appshortcuts_search">앱 바로 가기를 검색하려면 %1$s 앱을 기본 홈 앱으로 지정해야 합니다.</string>
-    <string name="connect_account">계정 연결</string>
     <string name="icon_picker_filter_all_packs">모든 아이콘 팩</string>
     <string name="preference_font">글꼴</string>
     <string name="search_action_contact">연락처에 추가</string>
@@ -358,7 +336,6 @@
     <string name="preference_layout_open_search">검색 / 앱 서랍</string>
     <string name="preference_themed_icons_summary">애플리케이션의 색 구성에 따라 아이콘 색상 바꾸기</string>
     <string name="gesture_action_none">없음</string>
-    <string name="owncloud_login_2fa_hint">2단계 인증을 사용하고 있는 경우 앱 비밀번호를 사용해야 합니다.</string>
     <string name="music_widget_default_title">%1$s 앱에서 미디어 재생 중</string>
     <string name="preference_layout_fixed_search_bar">검색 표시줄 고정</string>
     <string name="search_bar_position_top">위쪽</string>
@@ -428,52 +405,11 @@
     <string name="location_closed">영업 종료</string>
     <string name="menu_map">지도에서 보기</string>
     <string name="menu_website">웹사이트 열기</string>
-    <string name="poi_category_nightclub">나이트클럽</string>
-    <string name="poi_category_books">서점</string>
-    <string name="poi_category_florist">꽃집</string>
-    <string name="poi_category_church">교회</string>
-    <string name="poi_category_restaurant">레스토랑</string>
-    <string name="poi_category_fast_food">패스트푸드</string>
-    <string name="poi_category_hotel">호텔</string>
-    <string name="poi_category_cafe">카페</string>
-    <string name="poi_category_dentist">치과</string>
-    <string name="poi_category_library">도서관</string>
-    <string name="poi_category_ice_cream">아이스크림 가게</string>
-    <string name="poi_category_theater">극장</string>
-    <string name="poi_category_clinic">진료소</string>
-    <string name="poi_category_university">대학교</string>
-    <string name="poi_category_hairdresser">미용실</string>
-    <string name="poi_category_clothes">옷 가게</string>
-    <string name="poi_category_convenience">편의점</string>
-    <string name="poi_category_bank">은행</string>
-    <string name="poi_category_cinema">영화관</string>
-    <string name="poi_category_car_rental">렌터카</string>
-    <string name="poi_category_kiosk">키오스크</string>
-    <string name="poi_category_atm">ATM</string>
-    <string name="poi_category_museum">박물관</string>
-    <string name="poi_category_fitness_center">헬스장</string>
-    <string name="poi_category_mosque">모스크</string>
-    <string name="poi_category_buddhist_temple">절</string>
     <string name="search_filter_tools">도구</string>
-    <string name="poi_category_supermarket">슈퍼마켓</string>
-    <string name="poi_category_school">학교</string>
-    <string name="poi_category_parking">주차장</string>
-    <string name="poi_category_toilets">화장실</string>
-    <string name="poi_category_pharmacy">약국</string>
-    <string name="poi_category_hospital">병원</string>
-    <string name="poi_category_post_office">우체국</string>
-    <string name="poi_category_pub">펍</string>
     <string name="search_filter_online">온라인 검색 결과</string>
     <string name="plugin_type_locationsearch">장소 검색</string>
     <string name="preference_default_filter">기본 필터</string>
-    <string name="preference_search_osm_locations">OpenStreetMap</string>
-    <string name="poi_category_fuel">주유소</string>
-    <string name="poi_category_doctors">의원</string>
     <string name="search_filter_apps">앱</string>
-    <string name="poi_category_bar">바</string>
-    <string name="poi_category_hindu_temple">힌두 사원</string>
-    <string name="poi_category_police">경찰서</string>
-    <string name="poi_category_bakery">빵집</string>
     <string name="preference_hidden_items_summary">숨긴 앱 및 검색 결과 관리</string>
     <string name="preference_hidden_items">숨긴 검색 결과</string>
     <string name="missing_permission_call_contacts_settings">전화를 걸기 위해 전화 권한이 필요합니다.</string>

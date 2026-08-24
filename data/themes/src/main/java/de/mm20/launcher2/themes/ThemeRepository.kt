@@ -26,7 +26,7 @@ class ThemeRepository(
     val colors = ColorsRepository(context, database)
     val shapes = ShapesRepository(context, database)
     val transparencies = TransparenciesRepository(context, database)
-    val typographies = TypographyRepository(context, database)
+    val typographies = TypographyRepository(database)
 
 
     override suspend fun backup(toDir: File) = withContext(Dispatchers.IO) {

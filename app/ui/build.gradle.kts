@@ -108,10 +108,6 @@ dependencies {
     implementation(libs.coil.core)
     implementation(libs.coil.compose)
 
-    implementation(libs.smartspacer) {
-        exclude(group = "com.github.skydoves", module = "balloon")
-    }
-
     implementation(project(":libs:material-color-utilities"))
 
     implementation(project(":core:base"))
@@ -137,19 +133,13 @@ dependencies {
     implementation(project(":core:crashreporter"))
     implementation(project(":data:notifications"))
     implementation(project(":data:contacts"))
-    implementation(project(":data:locations"))
     implementation(project(":core:permissions"))
-    implementation(project(":data:websites"))
     implementation(project(":data:unitconverter"))
-    implementation(project(":libs:nextcloud"))
-    implementation(project(":libs:owncloud"))
-    implementation(project(":services:accounts"))
     implementation(project(":services:plugins"))
     implementation(project(":services:backup"))
     implementation(project(":data:search-actions"))
     implementation(project(":services:global-actions"))
     implementation(project(":services:widgets"))
     implementation(project(":services:favorites"))
-    implementation(project(":services:feed"))
     implementation(project(":core:devicepose"))
 }

@@ -15,7 +15,6 @@ started this project so future refactorings are to be expected. This is the curr
       module that uses Jetpack Compose.
 - `:services`: Higher level APIs for the app's business logic. Each module represents a specific
   functionality of the launcher
-    - `:accounts`: Common APIs to manage different account types (Nextcloud, Owncloud)
     - `:backup`: Backup and restore functionality
     - `:badges`: Provide different types of badges that are displayed on app icons
     - `:favorites`: Handles pinned items and item visibility
@@ -45,7 +44,6 @@ started this project so future refactorings are to be expected. This is the curr
     - `:plugins`: Low level plugin APIs.
     - `:unitconverter`: Implements unit and currency converter.
     - `:weather`: APIs to fetch weather data
-    - `:websites`: Implements website search
     - `:widgets`: CRUD operations to store and retrieve widgets in/from the database
 - `:core`
     - `:base`: Interface definitions for the most commonly used data types. Commonly used data
@@ -60,14 +58,9 @@ started this project so future refactorings are to be expected. This is the curr
     - `:preferences`: Store user preferences; uses AndroidX Datastore
     - `:profiles`: Manage user profiles on the device
 - `:libs`: Somewhat standalone modules and 3rd party libraries that do not depend on `:core:base`
-    - `:address-formatter`: Fork of https://github.com/woheller69/AndroidAddressFormatter (because
-      the upstream library is only available as a `-SNAPSHOT` version)
     - `:material-color-utilities`: This
       library: https://github.com/material-foundation/material-color-utilities (not available as
       Gradle package yet)
-    - `:nextcloud`: Nextcloud APIs and Nextcloud sign-in; used by `:accounts` and `:files`
-    - `:owncloud`: Owncloud APIs and Owncloud sign-in; used by `:accounts` and `:files`
-    - `:webdav`: common APIs for WebDAV search, used by `:nextcloud` and `:owncloud`
 
 Most of the modules have a `Module.kt` file in their root which contains Koin definitions to make
 the APIs accessible to other modules.

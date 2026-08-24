@@ -1,7 +1,4 @@
 [versions]
-mustache = "0.9.14"
-jacksonCore = "2.21.3"
-jacksonDataformatYaml = "2.21.3"
 minSdk = "26"
 compileSdk = "37"
 compileSdkMinor = "0"
@@ -41,13 +38,8 @@ junit = "4.13.2"
 junitVersion = "1.2.1"
 espressoCore = "3.6.1"
 
-osmOpeningHours = "0.4.0"
 
 [libraries]
-mustache-compiler = { module = "com.github.spullara.mustache.java:compiler", version.ref = "mustache" }
-
-jackson-core = { module = "com.fasterxml.jackson.core:jackson-core", version.ref = "jacksonCore" }
-jackson-dataformat-yaml = { module = "com.fasterxml.jackson.dataformat:jackson-dataformat-yaml", version.ref = "jacksonDataformatYaml" }
 kotlin-stdlib = { group = "org.jetbrains.kotlin", name = "kotlin-stdlib", version.ref = "kotlin" }
 kotlinx-coroutines-core = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-core", version.ref = "kotlinx-coroutines" }
 kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "kotlinx-coroutines" }
@@ -120,9 +112,6 @@ junit = { group = "junit", name = "junit", version.ref = "junit" }
 androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
 androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
 
-osmopeninghours = { group = "de.westnordost", name = "osm-opening-hours", version.ref = "osmOpeningHours" }
-
-smartspacer = { group = "com.kieronquinn.smartspacer", name = "sdk-client", version = "1.2" }
 
 [bundles]
 kotlin = ["kotlin-stdlib", "kotlinx-coroutines-core", "kotlinx-coroutines-android", "kotlinx-collections-immutable", "kotlinx-serialization-json"]

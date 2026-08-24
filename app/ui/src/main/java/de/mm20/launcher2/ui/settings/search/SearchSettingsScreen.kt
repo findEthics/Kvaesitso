@@ -41,7 +41,6 @@ import de.mm20.launcher2.ui.settings.favorites.FavoritesSettingsRoute
 import de.mm20.launcher2.ui.settings.filesearch.FileSearchSettingsRoute
 import de.mm20.launcher2.ui.settings.filterbar.FilterBarSettingsRoute
 import de.mm20.launcher2.ui.settings.hiddenitems.HiddenItemsSettingsRoute
-import de.mm20.launcher2.ui.settings.locations.LocationsSettingsRoute
 import de.mm20.launcher2.ui.settings.searchactions.SearchActionsSettingsRoute
 import de.mm20.launcher2.ui.settings.tags.TagsSettingsRoute
 import de.mm20.launcher2.ui.settings.unitconverter.UnitConverterSettingsRoute
@@ -67,17 +66,14 @@ fun SearchSettingsScreen() {
     )
     val hasContactsPermission by viewModel.hasContactsPermission.collectAsStateWithLifecycle(null)
     val hasCalendarPermission by viewModel.hasCalendarPermission.collectAsStateWithLifecycle(null)
-    val hasLocationPermission by viewModel.hasLocationPermission.collectAsStateWithLifecycle(null)
 
     val favorites by viewModel.favorites.collectAsStateWithLifecycle(null)
     val allApps by viewModel.allApps.collectAsStateWithLifecycle(null)
     val appShortcuts by viewModel.appShortcuts.collectAsStateWithLifecycle(null)
     val calendar by viewModel.calendarSearch.collectAsStateWithLifecycle(null)
-    val places by viewModel.placesSearch.collectAsStateWithLifecycle(null)
     val contacts by viewModel.contacts.collectAsStateWithLifecycle(null)
     val calculator by viewModel.calculator.collectAsStateWithLifecycle(null)
     val unitConverter by viewModel.unitConverter.collectAsStateWithLifecycle(null)
-    val websites by viewModel.websites.collectAsStateWithLifecycle(null)
 
 
     val autoFocus by viewModel.autoFocus.collectAsStateWithLifecycle(null)
@@ -119,7 +115,7 @@ fun SearchSettingsScreen() {
 
                 Preference(
                     title = stringResource(R.string.preference_search_files),
-                    summary = stringResource(R.string.preference_search_files_summary),
+                    summary = stringResource(R.string.preference_search_localfiles_summary),
                     icon = R.drawable.description_24px,
                     onClick = {
                         backStack.add(FileSearchSettingsRoute)
@@ -228,37 +224,6 @@ fun SearchSettingsScreen() {
                         backStack.add(UnitConverterSettingsRoute)
                     }
                 )
-
-                SwitchPreference(
-                    title = stringResource(R.string.preference_search_websites),
-                    summary = stringResource(R.string.preference_search_websites_summary),
-                    icon = R.drawable.public_24px,
-                    value = websites == true,
-                    onValueChanged = {
-                        viewModel.setWebsites(it)
-                    }
-                )
-                GuardedPreference(
-                    locked = hasLocationPermission == false,
-                    onUnlock = {
-                        viewModel.requestLocationPermission(context as AppCompatActivity)
-                    },
-                    description = stringResource(R.string.missing_permission_location_search),
-                ) {
-                    PreferenceWithSwitch(
-                        title = stringResource(R.string.preference_search_locations),
-                        summary = stringResource(R.string.preference_search_locations_summary),
-                        icon = R.drawable.location_on_24px,
-                        onClick = {
-                            backStack.add(LocationsSettingsRoute)
-                        },
-                        switchValue = places == true,
-                        onSwitchChanged = {
-                            viewModel.setPlacesSearch(it)
-                        },
-                        enabled = hasLocationPermission == true,
-                    )
-                }
 
                 Preference(
                     title = stringResource(R.string.preference_screen_search_actions),

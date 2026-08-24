@@ -100,14 +100,10 @@ import de.mm20.launcher2.ui.settings.locale.CurrencySettingsRoute
 import de.mm20.launcher2.ui.settings.locale.CurrencySettingsScreen
 import de.mm20.launcher2.ui.settings.locale.LocaleSettingsRoute
 import de.mm20.launcher2.ui.settings.locale.LocaleSettingsScreen
-import de.mm20.launcher2.ui.settings.locations.LocationsSettingsRoute
-import de.mm20.launcher2.ui.settings.locations.LocationsSettingsScreen
 import de.mm20.launcher2.ui.settings.log.LogRoute
 import de.mm20.launcher2.ui.settings.log.LogScreen
 import de.mm20.launcher2.ui.settings.main.MainRoute
 import de.mm20.launcher2.ui.settings.main.MainSettingsScreen
-import de.mm20.launcher2.ui.settings.osm.OsmSettingsRoute
-import de.mm20.launcher2.ui.settings.osm.OsmSettingsScreen
 import de.mm20.launcher2.ui.settings.search.SearchSettingsRoute
 import de.mm20.launcher2.ui.settings.search.SearchSettingsScreen
 import de.mm20.launcher2.ui.settings.searchactions.SearchActionsSettingsRoute
@@ -199,12 +195,6 @@ class SettingsActivity : BaseActivity() {
             }
             entry<UnitConverterHelpSettingsRoute> {
                 UnitConverterHelpSettingsScreen()
-            }
-            entry<LocationsSettingsRoute> {
-                LocationsSettingsScreen()
-            }
-            entry<OsmSettingsRoute> {
-                OsmSettingsScreen()
             }
             entry<FileSearchSettingsRoute> {
                 FileSearchSettingsScreen()

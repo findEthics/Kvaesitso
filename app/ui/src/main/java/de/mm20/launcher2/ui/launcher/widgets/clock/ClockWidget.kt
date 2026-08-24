@@ -17,7 +17,6 @@ import androidx.compose.foundation.layout.size
 import androidx.compose.foundation.layout.width
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
-import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonGroupDefaults
 import androidx.compose.material3.DropdownMenuGroup
 import androidx.compose.material3.DropdownMenuItem
@@ -58,7 +57,6 @@ import de.mm20.launcher2.preferences.ClockWidgetStyle
 import de.mm20.launcher2.preferences.ui.ClockWidgetSettings
 import de.mm20.launcher2.ui.R
 import de.mm20.launcher2.ui.base.LocalTime
-import de.mm20.launcher2.ui.component.Banner
 import de.mm20.launcher2.ui.component.DismissableBottomSheet
 import de.mm20.launcher2.ui.component.preferences.Preference
 import de.mm20.launcher2.ui.component.preferences.SwitchPreference
@@ -360,7 +358,6 @@ fun ConfigureClockWidgetSheet(
         val monospaced by viewModel.monospaced.collectAsState()
         val useAccentColor by viewModel.useThemeColor.collectAsState()
         val parts by viewModel.parts.collectAsState()
-        val smartspacer by viewModel.useSmartspacer.collectAsState()
 
         Column(
             modifier = Modifier
@@ -623,64 +620,46 @@ fun ConfigureClockWidgetSheet(
                 Column(
                     modifier = Modifier.fillMaxWidth()
                 ) {
-                    if (smartspacer == true) {
-                        Banner(
-                            modifier = Modifier.padding(16.dp),
-                            text = stringResource(R.string.preference_clockwidget_smartspacer),
-                            icon = R.drawable.info_24px,
-                            primaryAction = {
-                                Button(
-                                    onClick = {
-                                        viewModel.disableSmartspacer()
-                                    }
-                                ) {
-                                    Text(stringResource(R.string.turn_off))
-                                }
-                            }
+                    SwitchPreference(
+                        title = stringResource(R.string.preference_clockwidget_date_part),
+                        summary = stringResource(R.string.preference_clockwidget_date_part_summary),
+                        icon = R.drawable.today_24px,
+                        value = parts?.date == true,
+                        onValueChanged = {
+                            viewModel.setDatePart(it)
+                        }
+                    )
+                    SwitchPreference(
+                        title = stringResource(R.string.preference_clockwidget_music_part),
+                        summary = stringResource(R.string.preference_clockwidget_music_part_summary),
+                        icon = R.drawable.music_note_24px,
+                        value = parts?.music == true,
+                        onValueChanged = {
+                            viewModel.setMusicPart(it)
+                        }
+                    )
+                    SwitchPreference(
+                        title = stringResource(R.string.preference_clockwidget_alarm_part),
+                        summary = stringResource(R.string.preference_clockwidget_alarm_part_summary),
+                        icon = R.drawable.alarm_24px,
+                        value = parts?.alarm == true,
+                        onValueChanged = {
+                            viewModel.setAlarmPart(it)
+                        }
+                    )
+                    ListPreference(
+                        title = stringResource(R.string.preference_clockwidget_battery_part),
+                        icon = R.drawable.battery_full_24px,
+                        value = parts?.battery,
+                        onValueChanged = {
+                            if (it != null) viewModel.setBatteryPart(it)
+                        },
+                        items = listOf(
+                            stringResource(R.string.preference_clockwidget_battery_part_hide) to BatteryStatusVisibility.Hide,
+                            stringResource(R.string.preference_clockwidget_battery_part_show) to BatteryStatusVisibility.Show,
+                            stringResource(R.string.preference_clockwidget_battery_part_always_show) to BatteryStatusVisibility.Always
                         )
-                    }
-                    if (smartspacer == false) {
-                        SwitchPreference(
-                            title = stringResource(R.string.preference_clockwidget_date_part),
-                            summary = stringResource(R.string.preference_clockwidget_date_part_summary),
-                            icon = R.drawable.today_24px,
-                            value = parts?.date == true,
-                            onValueChanged = {
-                                viewModel.setDatePart(it)
-                            }
-                        )
-                        SwitchPreference(
-                            title = stringResource(R.string.preference_clockwidget_music_part),
-                            summary = stringResource(R.string.preference_clockwidget_music_part_summary),
-                            icon = R.drawable.music_note_24px,
-                            value = parts?.music == true,
-                            onValueChanged = {
-                                viewModel.setMusicPart(it)
-                            }
-                        )
-                        SwitchPreference(
-                            title = stringResource(R.string.preference_clockwidget_alarm_part),
-                            summary = stringResource(R.string.preference_clockwidget_alarm_part_summary),
-                            icon = R.drawable.alarm_24px,
-                            value = parts?.alarm == true,
-                            onValueChanged = {
-                                viewModel.setAlarmPart(it)
-                            }
-                        )
-                        ListPreference(
-                            title = stringResource(R.string.preference_clockwidget_battery_part),
-                            icon = R.drawable.battery_full_24px,
-                            value = parts?.battery,
-                            onValueChanged = {
-                                    if (it != null) viewModel.setBatteryPart(it)
-                            },
-                            items = listOf(
-                                stringResource(R.string.preference_clockwidget_battery_part_hide) to BatteryStatusVisibility.Hide,
-                                stringResource(R.string.preference_clockwidget_battery_part_show) to BatteryStatusVisibility.Show,
-                                stringResource(R.string.preference_clockwidget_battery_part_always_show) to BatteryStatusVisibility.Always
-                            )
-                        )
-                    }
+                    )
                 }
             }
         }

@@ -9,6 +9,9 @@ import de.mm20.launcher2.preferences.migrations.Migration5
 import de.mm20.launcher2.preferences.migrations.Migration6
 import de.mm20.launcher2.preferences.migrations.Migration7
 import de.mm20.launcher2.preferences.migrations.Migration8
+import de.mm20.launcher2.preferences.migrations.Migration9
+import de.mm20.launcher2.preferences.migrations.Migration10
+import de.mm20.launcher2.preferences.migrations.Migration11
 import de.mm20.launcher2.preferences.migrations.normalized
 import java.io.File
 import de.mm20.launcher2.settings.BaseSettings
@@ -27,6 +30,9 @@ internal class LauncherDataStore(
         Migration6(),
         Migration7(),
         Migration8(),
+        Migration9(),
+        Migration10(),
+        Migration11(),
     ),
     corruptionHandler = ReplaceFileCorruptionHandler { LauncherSettingsData() }
 ) {

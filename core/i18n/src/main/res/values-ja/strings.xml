@@ -100,9 +100,6 @@
     <string name="alert_delete_directory">ディレクトリ %1$s とそのすべての内容は永久に削除されます。続行しますか？</string>
     <string name="alert_delete_shortcut">ショートカット %1$s は永久に削除されます。続行しますか？</string>
     <string name="widget_add_widget">ウィジェットを追加</string>
-    <string name="owncloud_username">ユーザー名</string>
-    <string name="owncloud_login_2fa_hint">2要素認証を有効にしている場合は、ここでアプリパスワードを使用する必要があります。</string>
-    <string name="owncloud_login_failed">ログイン失敗: ユーザー名またはパスワードが正しくありません。</string>
     <string name="show_all">すべて表示</string>
     <string name="calendar_widget_no_events">今日はイベントがありません</string>
     <string name="calendar_widget_next_events">次のイベント</string>
@@ -131,9 +128,6 @@
     <string name="edit_favorites_dialog_tags">タグ</string>
     <string name="edit_favorites_dialog_tag_section_empty">ピン留めしたタグはここに表示されます</string>
     <string name="edit_favorites_dialog_new_tag">タグを作成…</string>
-    <string name="nextcloud_server_url">Nextcloud サーバーの URL</string>
-    <string name="owncloud_server_invalid_url">この URL は、有効な ownCloud のインストールを指定していません</string>
-    <string name="owncloud_password">パスワード</string>
     <string name="file_meta_album">アルバム: %1$s</string>
     <string name="file_meta_app_name">アプリ名: %1$s</string>
     <string name="file_type_archive">アーカイブファイル</string>
@@ -143,7 +137,6 @@
     <string name="file_type_form">フォーム</string>
     <string name="file_type_launcherbackup">%1$s バックアップ</string>
     <string name="file_type_generic">%1$s ファイル</string>
-    <string name="nextcloud_server_invalid_url">この URL は、有効な Nextcloud のインストールを指定していません</string>
     <string name="websearch_dialog_url_error">この URL にはプレースホルダー「${1}」がありません。</string>
     <string name="websearch_dialog_delete_icon">アイコンを削除</string>
     <string name="websearch_dialog_replace_icon">アイコンを置き換え</string>
@@ -161,7 +154,6 @@
     <string name="skip">スキップ</string>
     <string name="turn_off">オフ</string>
     <string name="widget_action_remove">削除</string>
-    <string name="owncloud_server_url">ownCloud サーバーの URL</string>
     <string name="file_type_launchertheme">%1$s テーマ</string>
     <string name="weather_condition_fog">霧</string>
     <string name="weather_condition_rainandthunder">雷雨</string>

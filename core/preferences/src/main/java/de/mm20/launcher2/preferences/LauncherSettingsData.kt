@@ -11,7 +11,7 @@ import java.util.UUID
 @Serializable
 @ConsistentCopyVisibility
 data class LauncherSettingsData internal constructor(
-    val schemaVersion: Int = 8,
+    val schemaVersion: Int = 11,
 
     val uiColorScheme: ColorScheme = ColorScheme.System,
     @Serializable(with = UUIDSerializer::class)
@@ -36,7 +36,6 @@ data class LauncherSettingsData internal constructor(
     val mediaDenyList: Set<String> = emptySet(),
 
     val clockWidgetCompact: Boolean = false,
-    val clockWidgetSmartspacer: Boolean = false,
 
     @Deprecated("")
     @SerialName("clockWidgetStyle")
@@ -94,11 +93,8 @@ data class LauncherSettingsData internal constructor(
     val unitConverterEnabled: Boolean = true,
     val unitConverterCurrencies: Boolean = true,
 
-    val websiteSearchEnabled: Boolean = true,
-
     val badgesNotifications: Boolean = true,
     val badgesSuspendedApps: Boolean = true,
-    val badgesCloudFiles: Boolean = false,
     val badgesShortcuts: Boolean = true,
     val badgesPlugins: Boolean = false,
 
@@ -167,17 +163,6 @@ data class LauncherSettingsData internal constructor(
     val weatherLastUpdate: Long = 0L,
     val weatherProviderSettings: Map<String, ProviderSettings> = emptyMap(),
 
-    @Deprecated("Use locationSearchProviders instead")
-    val locationSearchEnabled: Boolean = false,
-    val locationSearchProviders: Set<String> = setOf("openstreetmaps"),
-    val locationSearchRadius: Int = 1500,
-    val locationSearchHideUncategorized: Boolean = true,
-    val locationSearchOverpassUrl: String? = null,
-    val locationSearchTileServer: String? = null,
-    val locationSearchShowMap: Boolean = true,
-    val locationSearchShowPositionOnMap: Boolean = false,
-    val locationSearchThemeMap: Boolean = true,
-
     val searchFilter: SearchFilters = SearchFilters(),
     val searchFilterBar: Boolean = true,
     val searchFilterBarItems: List<KeyboardFilterBarItem> = listOf(
@@ -187,8 +172,6 @@ data class LauncherSettingsData internal constructor(
         KeyboardFilterBarItem.Events,
         KeyboardFilterBarItem.Contacts,
         KeyboardFilterBarItem.Files,
-        KeyboardFilterBarItem.Websites,
-        KeyboardFilterBarItem.Places,
         KeyboardFilterBarItem.Tools,
         KeyboardFilterBarItem.HiddenResults,
     ),
@@ -219,8 +202,6 @@ data class LauncherSettingsData internal constructor(
      * If empty, the default order is determined by the system locale.
      */
     val localeCurrencies: List<String> = emptyList(),
-
-    val feedProviderPackage: String? = null
 
 
     ) {
@@ -443,10 +424,9 @@ data class ProviderSettings(
 enum class KeyboardFilterBarItem {
     @SerialName("online") OnlineResults,
     @SerialName("apps") Apps,
-    @SerialName("websites") Websites,
     // Kept only so settings written by older versions can be migrated safely.
-    @SerialName("articles") LegacyRemoved,
-    @SerialName("places") Places,
+    @SerialName("articles")
+    @JsonNames("websites", "places") LegacyRemoved,
     @SerialName("files") Files,
     @SerialName("shortcuts") Shortcuts,
     @SerialName("contacts") Contacts,

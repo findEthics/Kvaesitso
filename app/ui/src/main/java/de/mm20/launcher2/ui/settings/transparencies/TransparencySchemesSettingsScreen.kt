@@ -42,7 +42,6 @@ import de.mm20.launcher2.ui.component.preferences.Preference
 import de.mm20.launcher2.ui.component.preferences.PreferenceCategory
 import de.mm20.launcher2.ui.component.preferences.PreferenceScreen
 import de.mm20.launcher2.ui.locals.LocalBackStack
-import de.mm20.launcher2.ui.settings.typography.TypographySettingsRoute
 import de.mm20.launcher2.ui.theme.WallpaperColors
 import de.mm20.launcher2.ui.theme.transparency.transparencySchemeOf
 import de.mm20.launcher2.ui.theme.wallpaperColorsAsState

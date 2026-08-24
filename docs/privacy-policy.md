@@ -20,11 +20,8 @@ apps or users.
     - **Contacts**: Name, phone numbers, email addresses, and photos.
     - **Local files:** File names, paths, sizes, types, metadata (e.g., EXIF, ID3 tags), and
       thumbnails.
-    - **Cloud files:** Metadata for supported cloud services (e.g., file name, size, owner).
 - **Media playback metadata:** Details about currently playing media.
 - **Crash and error reports:** Debugging information to identify and resolve issues.
-- **Connected accounts:** Credentials for authorized third-party integrations (e.g., Nextcloud,
-  Owncloud).
 
 ## 2. How We Use Your Data
 

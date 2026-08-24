@@ -76,8 +76,6 @@
     <string name="wind_east">Східний</string>
     <string name="action_clear">Стерти</string>
     <string name="action_install">Встановити</string>
-    <string name="nextcloud_server_url">URL сервера Nextcloud</string>
-    <string name="owncloud_login_failed">Не вдалося увійти: неправильне ім’я користувача або пароль.</string>
     <string name="weather_condition_heavysleet">Сильний мокрий сніг</string>
     <string name="weather_condition_snow">Сніг</string>
     <string name="weather_condition_lightrainandthunder">Легкий дощ із грозою</string>
@@ -100,7 +98,6 @@
     <string name="menu_item_edit_favs">Редагувати улюблені</string>
     <string name="edit_favorites_dialog_empty_section">Перетягуйте значки сюди</string>
     <string name="edit_favorites_dialog_new_tag">Створити тег</string>
-    <string name="owncloud_password">Пароль</string>
     <string name="login_flow_login">Увійти</string>
     <string name="login_flow_continue">Продовжити</string>
     <string name="calendar_event_allday">Весь день</string>
@@ -135,7 +132,6 @@
     <string name="notes_widget_export_filename">Нотатка_%1$s</string>
     <string name="edit_favorites_dialog_pinned_sorted">Закріплені – відсортовані вручну</string>
     <string name="date_today">Сьогодні</string>
-    <string name="owncloud_login_2fa_hint">Якщо у вас увімкнено двофакторну автентифікацію, ви повинні тут ввести пароль.</string>
     <string name="disclaimer">Застереження</string>
     <string name="weather_condition_lightssleetshowersandthunder">Легкі зливи з мокрим снігом з грозою</string>
     <string name="date_tomorrow">Завтра</string>
@@ -144,12 +140,8 @@
     <string name="widget_action_replace">Замінити</string>
     <string name="edit_favorites_dialog_unpinned">Не закріплені – часто використовуються</string>
     <string name="edit_favorites_dialog_pinned_unsorted">Закріплені – відсортовані автоматично</string>
-    <string name="owncloud_server_url">URL сервера Owncloud</string>
     <string name="edit_favorites_dialog_tag_section_empty">Закріплені теги з’являться тут</string>
-    <string name="nextcloud_server_invalid_url">Цей URL не веде на Nextcloud</string>
     <string name="task_due_time">Виконати до %1$s</string>
-    <string name="owncloud_server_invalid_url">Цей URL не веде на Owncloud</string>
-    <string name="owncloud_username">Ім’я користувача</string>
     <string name="disclaimer_currency_converter">Курси валют публікуються один раз на день Європейським центральним банком. Вся інформація надається «як є», без будь-яких гарантій. Ми не несемо відповідальності за цю інформацію.\n\nОстаннє оновлення: %1$s</string>
     <string name="weather_condition_heavysnowandthunder">Сильний сніг із грозою</string>
     <string name="weather_condition_lightsleetandthunder">Легкий мокрий сніг із грозою</string>
@@ -240,7 +232,6 @@
     <string name="preference_theme_dark">Темна</string>
     <string name="missing_permission_music_widget">Для керування відтворенням медіа потрібен доступ до сповіщень</string>
     <string name="missing_permission_contact_search_settings">Для пошуку контактів потрібен дозвіл</string>
-    <string name="missing_permission_location_search">Для пошуку локацій поряд потрібен дозвіл</string>
     <string name="frequently_used_show_in_favorites">Показувати в улюблених</string>
     <string name="widget_removed">Віджет видалено</string>
     <string name="preference_screen_appearance">Зовнішній вигляд</string>
@@ -312,11 +303,6 @@
     <string name="preference_blur_wallpaper_unsupported">Не підтримується на цьому пристрої</string>
     <string name="preference_wallpaper_summary">Виберіть шпалери</string>
     <string name="preference_suspended_badges">Призупинені застосунки</string>
-    <string name="preference_nextcloud_signin">Війти в Nextcloud</string>
-    <string name="preference_nextcloud_signin_summary">Увійдіть, щоб шукати у своєму Nextcloud сервері</string>
-    <string name="preference_nextcloud">Nextcloud</string>
-    <string name="preference_owncloud">Owncloud</string>
-    <string name="preference_owncloud_signin">Увійдіть до Owncloud</string>
     <string name="preference_category_license">Ліцензія</string>
     <string name="preference_about_license">Цей застосунок є безкоштовним програмним забезпеченням.</string>
     <string name="preference_grid_column_count">Кількість стовбів</string>

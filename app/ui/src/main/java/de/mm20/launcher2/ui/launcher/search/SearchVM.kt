@@ -8,14 +8,12 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.snapshots.SnapshotStateList
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import de.mm20.launcher2.devicepose.DevicePoseProvider
 import de.mm20.launcher2.ktx.isAtLeastApiLevel
 import de.mm20.launcher2.permissions.PermissionGroup
 import de.mm20.launcher2.permissions.PermissionsManager
 import de.mm20.launcher2.preferences.search.CalendarSearchSettings
 import de.mm20.launcher2.preferences.search.ContactSearchSettings
 import de.mm20.launcher2.preferences.search.FileSearchSettings
-import de.mm20.launcher2.preferences.search.LocationSearchSettings
 import de.mm20.launcher2.preferences.search.SearchFilterSettings
 import de.mm20.launcher2.preferences.search.ShortcutSearchSettings
 import de.mm20.launcher2.preferences.ui.SearchUiSettings
@@ -26,14 +24,12 @@ import de.mm20.launcher2.search.Application
 import de.mm20.launcher2.search.CalendarEvent
 import de.mm20.launcher2.search.Contact
 import de.mm20.launcher2.search.File
-import de.mm20.launcher2.search.Location
 import de.mm20.launcher2.search.ResultScore
 import de.mm20.launcher2.search.SavableSearchable
 import de.mm20.launcher2.search.SearchFilters
 import de.mm20.launcher2.search.SearchResults
 import de.mm20.launcher2.search.SearchService
 import de.mm20.launcher2.search.Searchable
-import de.mm20.launcher2.search.Website
 import de.mm20.launcher2.search.data.Calculator
 import de.mm20.launcher2.search.data.UnitConverter
 import de.mm20.launcher2.search.isUnspecified
@@ -66,8 +62,6 @@ class SearchVM : ViewModel(), KoinComponent {
     private val calendarSearchSettings: CalendarSearchSettings by inject()
     private val shortcutSearchSettings: ShortcutSearchSettings by inject()
     private val searchUiSettings: SearchUiSettings by inject()
-    private val locationSearchSettings: LocationSearchSettings by inject()
-    private val devicePoseProvider: DevicePoseProvider by inject()
     private val searchFilterSettings: SearchFilterSettings by inject()
 
     val launchOnEnter = searchUiSettings.launchOnEnter
@@ -103,11 +97,9 @@ class SearchVM : ViewModel(), KoinComponent {
     val fileResults = mutableStateListOf<File>()
     val contactResults = mutableStateListOf<Contact>()
     val calendarResults = mutableStateListOf<CalendarEvent>()
-    val websiteResults = mutableStateListOf<Website>()
     val calculatorResults = mutableStateListOf<Calculator>()
     val unitConverterResults = mutableStateListOf<UnitConverter>()
     val searchActionResults = mutableStateListOf<SearchAction>()
-    val locationResults = mutableStateListOf<Location>()
 
     var previousResults: SearchResults? = null
 
@@ -185,8 +177,6 @@ class SearchVM : ViewModel(), KoinComponent {
                 filters.events -> SearchCategory.Calendar
                 filters.contacts -> SearchCategory.Contacts
                 filters.files -> SearchCategory.Files
-                filters.websites -> SearchCategory.Website
-                filters.places -> SearchCategory.Location
                 filters.shortcuts -> SearchCategory.Shortcuts
                 else -> null
             }
@@ -289,22 +279,6 @@ class SearchVM : ViewModel(), KoinComponent {
                             results.calendars?.filterNot { hiddenKeys.contains(it.key) }
                                 ?.applyRanking(query)
                         )
-                        locationResults.updateItems(
-                            results.locations?.filterNot { hiddenKeys.contains(it.key) }
-                                ?.let { locations ->
-                                    devicePoseProvider.lastCachedLocation?.let {
-                                        locations.asSequence()
-                                            .sortedWith { a, b ->
-                                                a.distanceTo(it).compareTo(b.distanceTo(it))
-                                            }
-                                            .distinctBy { it.key }
-                                            .toList()
-                                    } ?: locations.applyRanking(query)
-                                }
-                        )
-                        websiteResults.updateItems(
-                            results.websites?.applyRanking(query)
-                        )
                         calculatorResults.updateItems(results.calculators)
                         unitConverterResults.updateItems(results.unitConverters)
 
@@ -317,9 +291,7 @@ class SearchVM : ViewModel(), KoinComponent {
                                 appResults.isNotEmpty() -> appResults.first()
                                 appShortcutResults.isNotEmpty() -> appShortcutResults.first()
                                 calendarResults.isNotEmpty() -> calendarResults.first()
-                                locationResults.isNotEmpty() -> locationResults.first()
                                 contactResults.isNotEmpty() -> contactResults.first()
-                                websiteResults.isNotEmpty() -> websiteResults.first()
                                 fileResults.isNotEmpty() -> fileResults.first()
                                 searchActionResults.isNotEmpty() -> searchActionResults.first()
                                 else -> null
@@ -356,19 +328,6 @@ class SearchVM : ViewModel(), KoinComponent {
 
     fun disableContactsSearch() {
         contactSearchSettings.setProviderEnabled("local", false)
-    }
-
-    val missingLocationPermission = combine(
-        permissionsManager.hasPermission(PermissionGroup.Location),
-        locationSearchSettings.osmLocations.distinctUntilChanged()
-    ) { perm, enabled -> !perm && enabled }
-
-    fun requestLocationPermission(context: AppCompatActivity) {
-        permissionsManager.requestPermission(context, PermissionGroup.Location)
-    }
-
-    fun disableLocationSearch() {
-        locationSearchSettings.setOsmLocations(false)
     }
 
     val missingFilesPermission = combine(
@@ -451,7 +410,5 @@ enum class SearchCategory {
     Contacts,
     Files,
     UnitConverter,
-    Website,
-    Location,
     Shortcuts,
 }
