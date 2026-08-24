@@ -52,7 +52,7 @@ class IconPackManager(
     }
 
     private var updateIconPacksMutex = Mutex()
-    suspend fun updateIconPacks(forceReinstall: Boolean = false): Boolean {
+    suspend fun updateIconPacks(): Boolean {
         var iconsHaveBeenUpdated = false
         updateIconPacksMutex.lock()
         val installers = listOf(
@@ -63,7 +63,7 @@ class IconPackManager(
         for (installer in installers) {
             val iconPacks = installer.getInstalledIconPacks()
             for (pack in iconPacks) {
-                if (forceReinstall || !installer.isInstalledAndUpToDate(pack)) {
+                if (!installer.isInstalledAndUpToDate(pack)) {
                     installer.install(pack)
                     iconsHaveBeenUpdated = true
                 } else {
@@ -478,4 +478,3 @@ class IconPackManager(
 
 
 }
-

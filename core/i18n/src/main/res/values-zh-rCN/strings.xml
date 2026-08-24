@@ -2,8 +2,6 @@
 <resources>
     <string name="preference_dim_wallpaper_summary">在深色主题中，使壁纸变暗</string>
     <string name="preference_about_license">此应用是自由软件。</string>
-    <string name="preference_crash_reporter">崩溃报告程序</string>
-    <string name="preference_crash_reporter_summary">错误和崩溃报告</string>
     <string name="preference_search_unitconverter_summary">用法: 1.5 kg 或者 4 cm &gt;&gt; in</string>
     <string name="preference_search_localfiles_summary">搜索储存在此设备上的文档、照片和其它文件</string>
     <string name="weather_widget_set_location">设置位置</string>
@@ -233,8 +231,6 @@
     <string name="preference_about_license_summary">根据 GNU 通用公共许可证 3.0 授权</string>
     <string name="preference_category_grid">网格</string>
     <string name="preference_grid_column_count">列数</string>
-    <string name="preference_screen_debug">调试</string>
-    <string name="preference_screen_debug_summary">故障排除工具</string>
     <string name="preference_category_widgets">组件</string>
     <string name="preference_screen_weatherwidget">天气</string>
     <string name="preference_screen_clockwidget">时钟</string>
@@ -289,24 +285,11 @@
     <string name="calendar_widget_next_events">下一个事件</string>
     <string name="preference_hidden_items">未包含的搜索结果</string>
     <string name="preference_hidden_items_summary">管理未包含的应用和搜索结果</string>
-    <string name="preference_screen_backup">备份与恢复</string>
-    <string name="preference_screen_backup_summary">导出和导入启动器数据</string>
-    <string name="preference_backup">备份</string>
-    <string name="preference_backup_summary">导出设置和启动器数据</string>
-    <string name="preference_restore">恢复</string>
-    <string name="preference_restore_summary">导入以前创建的备份</string>
-    <string name="backup_complete">备份已完成.</string>
-    <string name="restore_invalid_file">所选择的文件不是备份文件.你是否确定选择了正确的文件？</string>
-    <string name="restore_incompatible_file">此备份在不一致的版本%1$s下创建且不能在当前版本恢复.</string>
-    <string name="restore_different_minor_version">此备份在不一致的版本%1$s下创建.一些数据可能不会被正确恢复。</string>
-    <string name="restore_meta">由%3$s于%1$s在%2$s中创建.</string>
-    <string name="restore_complete">备份已恢复.</string>
     <string name="weather_location_search_no_result">位置未找到</string>
     <string name="save">保存</string>
     <string name="preference_cards_shape_rounded">圆角</string>
     <string name="preference_cards_shape_cut">切角</string>
     <string name="preference_cards_shape">形状</string>
-    <string name="file_type_launcherbackup">%1$s备份</string>
     <string name="preference_enforce_icon_shape">强制设置形状</string>
     <string name="preference_enforce_icon_shape_summary">给所有包括正常情况下不支持调整形状的图标设置形状</string>
     <string name="preference_blur_wallpaper">模糊壁纸</string>
@@ -338,16 +321,10 @@
     <string name="edit_favorites_dialog_tags">标签</string>
     <string name="edit_favorites_dialog_tag_section_empty">被固定的标签将出现在这里</string>
     <string name="missing_permission_appshortcuts_create">设置%1$s为默认桌面应用以创建快捷方式.</string>
-    <string name="preference_debug_cleanup_database">清理数据库</string>
-    <string name="preference_debug_cleanup_database_summary">从启动器数据库中删除损坏和未使用的条目</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="other">%1$d 条目已经被移除</item>
-    </plurals>
     <string name="favorites_empty">被固定的和常用的项目会出现在这里</string>
     <string name="favorites_empty_tag">此标签里没有项目</string>
     <string name="frequently_used_rows">行数</string>
     <string name="edit_favorites_dialog_new_tag">创建标签</string>
-    <string name="preference_category_debug_tools">工具</string>
     <string name="apps_profile_work">工作</string>
     <string name="preference_icon_shape_teardrop">泪滴形</string>
     <string name="edit_favorites_dialog_empty_section">拖动项目到此</string>
@@ -369,8 +346,6 @@
     <string name="search_action_alarm">设置闹钟</string>
     <string name="search_action_timer">启动定时器</string>
     <string name="search_action_contact">新建联系人</string>
-    <string name="preference_logs">日志</string>
-    <string name="preference_logs_summary">查看和导出应用日志</string>
     <string name="search_action_open_url">浏览网站</string>
     <string name="help">帮助</string>
     <string name="search_action_event">日程事件</string>
@@ -437,8 +412,6 @@
     <string name="gesture_action_launch_app">打开应用</string>
     <string name="icon_picker_filter_all_packs">全部图标包</string>
     <string name="widget_action_replace">替换</string>
-    <string name="preference_debug_reinstall_iconpacks">重新安装图标包</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">清除与重建图标缓存</string>
     <string name="preference_screen_icons_summary">网格尺寸, 图标, 角标</string>
     <string name="app_widget_loading_failed">应用组件加载失败</string>
     <string name="widget_config_calendar_no_calendars">未发现日程</string>
@@ -474,7 +447,6 @@
     <string name="preference_charging_animation">充电动画</string>
     <string name="preference_clockwidget_dynamic_zone">动态区域</string>
     <string name="imperial">英制</string>
-    <string name="preference_debug_dump_heap_summary">捕获一个快照来分析内存使用。处理完成前应用将会冻结。</string>
     <string name="edit">编辑</string>
     <string name="preference_screen_plugins_summary">管理已安装扩展</string>
     <string name="no_plugins_installed">未安装插件</string>
@@ -490,8 +462,6 @@
     <string name="note_widget_link_file_summary">将组件的内容与外部文件同步</string>
     <string name="note_widget_conflict">冲突</string>
     <string name="clock_style_digital2">简单</string>
-    <string name="preference_debug_dump_heap">内存快照</string>
-    <string name="preference_debug_dump_heap_in_progress">捕获快照中…</string>
     <string name="preference_category_animations">动画</string>
     <string name="action_done">完成</string>
     <string name="action_more_actions">更多行动</string>

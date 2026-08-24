@@ -218,7 +218,6 @@
     <string name="preference_about_license_summary">Licensierad under GNU General Public License 3.0</string>
     <string name="preference_category_grid">Rutnät</string>
     <string name="preference_grid_column_count">Antal kolumner</string>
-    <string name="preference_screen_debug">Felsök</string>
     <string name="preference_category_widgets">Widgets</string>
     <string name="preference_screen_weatherwidget">Väder</string>
     <string name="preference_screen_clockwidget">Klocka</string>
@@ -230,8 +229,6 @@
     <string name="preference_clockwidget_battery_part">Batteri</string>
     <string name="preference_clockwidget_alarm_part">Alarm</string>
     <string name="preference_clockwidget_alarm_part_summary">Visa alarm som ringer inom de närmsta 15 minuterna</string>
-    <string name="preference_crash_reporter">Kraschrapportering</string>
-    <string name="preference_crash_reporter_summary">Error- och kraschrapporter</string>
     <string name="preference_screen_search">Sök</string>
     <string name="preference_screen_search_summary">Konfigurera sökningen</string>
     <string name="preference_search_favorites">Favoriter</string>
@@ -261,7 +258,6 @@
     <string name="menu_share">Dela</string>
     <string name="default_websearch_2_name">YouTube</string>
     <string name="missing_permission_file_search_settings_android10">Filhanteringsåtkomst krävs för att söka bland lokala filer</string>
-    <string name="preference_screen_debug_summary">Felsökningsverktyg</string>
     <string name="menu_share_store_link">%1$s-länk</string>
     <string name="default_websearch_2_url">https://www.youtube.se/results\?search_query=${1}</string>
     <string name="disclaimer_currency_converter">Valutakursen publiceras en gång per dag av den Europeiska centralbanken. All information anges därefter utan någon form av garanti. Vi frånsäger oss ansvaret för nämnd information.

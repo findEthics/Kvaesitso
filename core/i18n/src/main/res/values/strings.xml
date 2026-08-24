@@ -151,7 +151,6 @@
     <!-- Form file -->
     <string name="file_type_form">Form</string>
     <!-- Launcher backup, %1$s: app name -->
-    <string name="file_type_launcherbackup">%1$s backup</string>
     <!-- Launcher theme, %1$s: app name -->
     <string name="file_type_launchertheme">%1$s theme</string>
     <!-- Generic file , %1$s is the file extension -->
@@ -445,18 +444,6 @@
     <string name="preference_imperial_units">Imperial units</string>
     <string name="widget_config_weather_compact">Compact mode</string>
     <string name="preference_category_debug">Debug</string>
-    <string name="preference_category_debug_tools">Tools</string>
-    <string name="preference_debug_dump_heap">Memory snapshot</string>
-    <string name="preference_debug_dump_heap_summary">Capture a snapshot to analyze memory usage. The app will freeze until this process is completed.</string>
-    <string name="preference_debug_dump_heap_in_progress">Capturing snapshot…</string>
-    <string name="preference_debug_cleanup_database">Clean up database</string>
-    <string name="preference_debug_cleanup_database_summary">Remove broken and unused entries from the launcher database</string>
-    <string name="preference_debug_reinstall_iconpacks">Reinstall icon packs</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Clear and rebuild the icon pack cache</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d entry has been removed</item>
-        <item quantity="other">%1$d entries have been removed</item>
-    </plurals>
     <string name="preference_category_icons">Icons</string>
     <string name="preference_cards">Cards</string>
     <string name="preference_cards_summary">Customize card appearance</string>
@@ -539,8 +526,6 @@
     <string name="preference_grid_labels_summary">Show the app name below the icon</string>
     <string name="preference_grid_list_style_summary">Show applications in a list instead of a grid</string>
     <string name="preference_grid_list_icons_summary">Show icons in the list view</string>
-    <string name="preference_screen_debug">Debug</string>
-    <string name="preference_screen_debug_summary">Troubleshooting tools</string>
     <string name="preference_category_widgets">Widgets</string>
     <string name="preference_screen_weatherwidget">Weather</string>
     <string name="preference_category_media_apps">Media apps</string>
@@ -573,16 +558,6 @@
     <string name="preference_clockwidget_battery_part_hide">Off</string>
     <string name="preference_clockwidget_alarm_part">Alarms</string>
     <string name="preference_clockwidget_alarm_part_summary">Show alarms that will ring within the next 8 hours</string>
-    <string name="preference_screen_backup">Backup and restore</string>
-    <string name="preference_screen_backup_summary">Export and import launcher data</string>
-    <string name="preference_backup">Backup</string>
-    <string name="preference_backup_summary">Export preferences and launcher data</string>
-    <string name="preference_restore">Restore</string>
-    <string name="preference_restore_summary">Import a previously created backup</string>
-    <string name="preference_crash_reporter">Crash reporter</string>
-    <string name="preference_crash_reporter_summary">Error and crash reports</string>
-    <string name="preference_logs">Logs</string>
-    <string name="preference_logs_summary">View and export application logs</string>
     <string name="preference_screen_search">Search</string>
     <string name="preference_screen_search_summary">Search, tags, excluded results</string>
     <string name="preference_search_favorites">Favorites</string>
@@ -665,15 +640,9 @@
         <item quantity="one">Full in %1$s minute</item>
         <item quantity="other">Full in %1$s minutes</item>
     </plurals>
-    <string name="backup_complete">The backup has been completed.</string>
-    <string name="restore_invalid_file">The selected file does not appear to be a backup. Are you sure you selected the right file?</string>
     <!-- %1$s: app name -->
-    <string name="restore_incompatible_file">This backup has been created with a different version of %1$s and cannot be restored with this version.</string>
     <!-- %1$s: app name -->
-    <string name="restore_different_minor_version">This backup has been created with a different version of %1$s. Some data might not be restored correctly.</string>
     <!-- %1$s: date and time of backup creation, %s$s: name of the device this backup has been created on, %s$s app name and version of creating app-->
-    <string name="restore_meta">Created %1$s on %2$s with %3$s.</string>
-    <string name="restore_complete">The backup has been restored.</string>
     <string name="icon_picker_default_icon">Default</string>
     <string name="icon_picker_suggestions">Suggestions</string>
     <string name="icon_picker_search_icon">Search in icon packs</string>

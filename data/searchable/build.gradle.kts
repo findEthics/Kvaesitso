@@ -52,7 +52,6 @@ dependencies {
     implementation(project(":data:calendar"))
     implementation(project(":data:database"))
     implementation(project(":core:preferences"))
-    implementation(project(":core:ktx"))
     implementation(project(":core:crashreporter"))
 
 }

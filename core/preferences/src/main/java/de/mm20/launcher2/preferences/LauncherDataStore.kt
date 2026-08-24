@@ -12,8 +12,6 @@ import de.mm20.launcher2.preferences.migrations.Migration8
 import de.mm20.launcher2.preferences.migrations.Migration9
 import de.mm20.launcher2.preferences.migrations.Migration10
 import de.mm20.launcher2.preferences.migrations.Migration11
-import de.mm20.launcher2.preferences.migrations.normalized
-import java.io.File
 import de.mm20.launcher2.settings.BaseSettings
 
 internal class LauncherDataStore(
@@ -42,10 +40,5 @@ internal class LauncherDataStore(
 
     fun update(block: (LauncherSettingsData) -> LauncherSettingsData) {
         updateData(block)
-    }
-
-    override suspend fun restore(fromDir: File) {
-        super.restore(fromDir)
-        context.dataStore.updateData { it.normalized() }
     }
 }

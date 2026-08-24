@@ -11,10 +11,6 @@ Please include all relevant information such as:
 
 ## Crash reports
 
-When the launcher crashes, a crash report is automatically generated. You can find these crash reports at Settings > Debug > Crash Reporter.
+When the launcher crashes, a crash report is automatically generated and a notification opens it.
 
 Use the <span class="material-symbols-rounded">bug_report</span> icon in the top right corner to open an new issue with that report. Make sure to fill in additional information before submitting, such as steps to reproduce (if possible) or what you were trying to do when the launcher crashed.
-
-## Logs
-
-Logs can be exported at Settings > Debug > Export logs. Most of the time it is not necessary to submit logs unless your asked to do so.

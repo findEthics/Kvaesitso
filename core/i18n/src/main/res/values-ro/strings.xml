@@ -214,8 +214,6 @@
     <string name="preference_category_grid">Grilă</string>
     <string name="preference_grid_icon_size">Dimensiune pictogramă</string>
     <string name="preference_grid_column_count">Numărul de coloane</string>
-    <string name="preference_screen_debug">Depanare</string>
-    <string name="preference_screen_debug_summary">Instrumente de depanare</string>
     <string name="preference_category_widgets">Widget-uri</string>
     <string name="preference_screen_weatherwidget">Vreme</string>
     <string name="preference_screen_clockwidget">Ceas</string>
@@ -228,8 +226,6 @@
     <string name="preference_clockwidget_battery_part">Baterie</string>
     <string name="preference_clockwidget_alarm_part">Alarme</string>
     <string name="preference_clockwidget_alarm_part_summary">Afișează alarme care vor suna în următoarele 15 minute</string>
-    <string name="preference_crash_reporter_summary">Rapoarte de eroare și de cădere</string>
-    <string name="preference_crash_reporter">Reporter de cădere</string>
     <string name="preference_screen_search">Caută</string>
     <string name="preference_search_favorites">Favorite</string>
     <string name="preference_search_files">Fișiere</string>
@@ -311,7 +307,6 @@
     <string name="file_type_launchertheme">Temă %1$s</string>
     <string name="websearch_dialog_query_encoding_url">Codificare URL</string>
     <string name="websearch_dialog_query_encoding_form">application/x-www-form-urlencoded</string>
-    <string name="preference_debug_dump_heap_summary">Capturați un snapshot pentru a analiza utilizarea memoriei. Aplicația se va bloca până la finalizarea procesului.</string>
     <string name="action_done">Terminat</string>
     <string name="action_more_actions">Mai multe acțiuni</string>
     <string name="action_clear">Goliți</string>
@@ -325,21 +320,17 @@
     <string name="preference_location_managed_summary">Locația pentru acest furnizor este gestionată de aplicația plugin</string>
     <string name="edit_favorites_dialog_new_tag">Creați o etichetă…</string>
     <string name="widget_config_weather_compact">Mod compact</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Eliminați şi reconstruiți cachr-ul pictogramelor</string>
     <string name="preference_cards_shape">Formă</string>
     <string name="preference_cards_shape_cut">Tăiată</string>
     <string name="preference_cards_shape_rounded">Rotunjită</string>
     <string name="preference_screen_plugins_summary">Gestionați extensiile instalate</string>
     <string name="no_plugins_installed">Nu sunt instalate plugin-uri</string>
     <string name="preference_force_themed_icons">Forțați pictogramele tematice</string>
-    <string name="preference_category_debug_tools">Instrumente</string>
-    <string name="file_type_launcherbackup">Backup %1$s</string>
     <string name="weather_location_search_no_result">Locație negăsită.</string>
     <string name="preference_force_themed_icons_summary">Aplicați schema de culori a aplicației la toate pictogramele, inclusiv celor nesuportate (nerecomandat)</string>
     <string name="preference_nav_bar_icons">Pictograme din bara de navigare</string>
     <string name="preference_system_bar_icons_light">Luminoase</string>
     <string name="preference_screen_integrations">Integrări</string>
-    <string name="preference_debug_cleanup_database">Curățați baza de date</string>
     <string name="preference_system_bar_icons_dark">Întunecate</string>
     <string name="alert_delete_shortcut">Scurtătura %1$s va fi eliminată definitiv. Continuați?</string>
     <string name="websearch_dialog_advanced">Avansat</string>
@@ -348,11 +339,6 @@
     <string name="widget_name_notes">Notiță</string>
     <string name="widget_config_calendar_missing_calendars_hint">Nu vă puteți găsi calendarele?</string>
     <string name="preference_system_bar_icons_auto">Automat</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">A fost eliminată o intrare.</item>
-        <item quantity="few">Au fost eliminate %1$d intrări.</item>
-        <item quantity="other">Au fost eliminate %1$d de intrări.</item>
-    </plurals>
     <string name="preference_icon_shape_teardrop">Lacrimă</string>
     <string name="preference_status_bar_icons">Pictograme din bara de stare</string>
     <string name="notes_widget_placeholder">Scrieți o notiță…</string>
@@ -360,7 +346,6 @@
     <string name="notes_widget_action_save">Salvați</string>
     <string name="widget_name_unknown">Widget necunoscut</string>
     <string name="preference_category_animations">Animații</string>
-    <string name="preference_debug_dump_heap">Snapshot de memorie</string>
     <string name="edit">Editați</string>
     <string name="notes_widget_dismissed">Notă înlăturată.</string>
     <string name="skip">Săriți</string>
@@ -371,16 +356,12 @@
     <string name="websearch_dialog_query_encoding">Interogați codificarea</string>
     <string name="websearch_dialog_query_encoding_none">Niciuna</string>
     <string name="weather_condition_thunderstorm">Furtună</string>
-    <string name="preference_debug_dump_heap_in_progress">Se capturează snapshot-ul…</string>
-    <string name="preference_debug_cleanup_database_summary">Eliminați intrările defecte şi neutilizate din baza de date a lansatorului</string>
-    <string name="preference_debug_reinstall_iconpacks">Reinstalați pachetele de pictograme</string>
     <string name="preference_screen_plugins">Plugin-uri</string>
     <string name="notes_widget_action_dismiss">Înlăturați</string>
     <string name="edit_favorites_dialog_empty_section">Trageți elemente aici</string>
     <string name="widget_action_replace">Înlocuiți</string>
     <string name="edit_favorites_dialog_tags">Etichete</string>
     <string name="edit_favorites_dialog_tag_section_empty">Etichetele fixate vor apărea aici</string>
-    <string name="preference_screen_backup">Backup &amp; Restaurare</string>
     <string name="preference_screen_clockwidget_summary">Configurează stilul ceasului și componentele</string>
     <string name="search_bar_position_top">Sus</string>
     <string name="search_bar_position_bottom">Jos</string>
@@ -395,7 +376,6 @@
     <string name="preference_layout_fixed_search_bar_summary">Nu derula bara de căutare din vedere</string>
     <string name="preference_screen_icons">Grilă &amp; iconițe</string>
     <string name="preference_screen_icons_summary">Grilă, dimensiune pictograme, pachete de iconițe, insigne</string>
-    <string name="preference_screen_backup_summary">Exportă și importă informații despre lansator</string>
     <string name="preference_blur_wallpaper">Încețoșează fundalul</string>
     <string name="preference_blur_wallpaper_summary">Folosește un efect de ceață asupra fundalului</string>
     <string name="preference_blur_wallpaper_unsupported">Nesuportat de acest dispozitiv</string>

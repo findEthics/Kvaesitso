@@ -1,6 +1,5 @@
 package de.mm20.launcher2.preferences
 
-import de.mm20.launcher2.backup.Backupable
 import de.mm20.launcher2.preferences.search.ContactSearchSettings
 import de.mm20.launcher2.preferences.media.MediaSettings
 import de.mm20.launcher2.preferences.search.CalculatorSearchSettings
@@ -21,12 +20,10 @@ import de.mm20.launcher2.preferences.ui.UiSettings
 import de.mm20.launcher2.preferences.ui.UiState
 import de.mm20.launcher2.preferences.weather.WeatherSettings
 import org.koin.android.ext.koin.androidContext
-import org.koin.core.qualifier.named
 import org.koin.dsl.module
 
 val preferencesModule = module {
     single { LauncherDataStore(androidContext()) }
-    factory<Backupable>(named<LauncherDataStore>()) { get<LauncherDataStore>() }
     factory { MediaSettings(get()) }
     factory { ContactSearchSettings(get()) }
     factory { FileSearchSettings(get()) }

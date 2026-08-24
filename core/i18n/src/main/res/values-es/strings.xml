@@ -188,7 +188,6 @@
     <string name="battery_part_charging">Cargando</string>
     <string name="preference_icon_pack">Paquete de iconos</string>
     <string name="preference_category_badges">Insignias</string>
-    <string name="preference_logs_summary">Visualizar y exportar registros de aplicación</string>
     <string name="preference_search_calendar">Calendario</string>
     <string name="preference_blur_wallpaper">Desenfocar fondo de pantalla</string>
     <string name="search_action_alarm">Crear alarma</string>
@@ -200,8 +199,6 @@
     <string name="preference_category_system_bars">Barras de sistema</string>
     <string name="preference_icon_shape_pentagon">Pentágono</string>
     <string name="preference_clockwidget_layout_horizontal">Compacto</string>
-    <string name="preference_backup">Copia de seguridad</string>
-    <string name="restore_complete">La copia de seguridad ha sido restaurada.</string>
     <string name="preference_clockwidget_date_part">Fecha</string>
     <string name="preference_clockwidget_battery_part">Batería</string>
     <string name="preference_dim_wallpaper">Oscurecer el fondo de pantalla</string>
@@ -251,7 +248,6 @@
     <string name="preference_grid_column_count">Número de columnas</string>
     <string name="preference_grid_labels">Mostrar etiquetas</string>
     <string name="preference_grid_labels_summary">Mostrar el nombre de la aplicación debajo del icono</string>
-    <string name="preference_screen_debug">Depuración</string>
     <string name="preference_category_widgets">Widgets</string>
     <string name="preference_screen_weatherwidget">Tiempo</string>
     <string name="preference_screen_clockwidget">Reloj</string>
@@ -276,10 +272,6 @@
     <string name="preference_search_bar_style_summary">Personalizar apariencia de barra de búsqueda</string>
     <string name="preference_search_bar_color">Color</string>
     <string name="preference_hidden_items">Resultados de búsqueda excluidos</string>
-    <string name="backup_complete">La copia de seguridad ha sido completada.</string>
-    <string name="restore_invalid_file">El archivo seleccionado no es una copia de seguridad. ¿Estás seguro de que has seleccionado el archivo correcto\?</string>
-    <string name="restore_different_minor_version">Esta copia de seguridad se ha creado con una diferente versión de %1$s. Puede que algunos datos no se restauren correctamente.</string>
-    <string name="restore_meta">Creado %1$s en %2$s con %3$s.</string>
     <string name="icon_picker_default_icon">Por defecto</string>
     <string name="icon_picker_search_icon">Buscar en paquetes de iconos</string>
     <string name="apps_profile_main">Personal</string>
@@ -315,9 +307,7 @@
     <string name="preference_search_bar_auto_focus_summary">Mostrar el teclado automáticamente al abrir la lista de aplicaciones</string>
     <string name="preference_hidden_items_summary">Administrar aplicaciones y resultados de búsqueda excluidos</string>
     <string name="preference_about_license">Esta aplicación es software libre.</string>
-    <string name="preference_screen_debug_summary">Herramientas de solución de problemas</string>
     <string name="preference_clockwidget_layout_vertical">Por defecto</string>
-    <string name="restore_incompatible_file">Esta copia de seguridad se ha creado con una diferente versión de %1$s y no se puede restaurar con esta versión.</string>
     <string name="preference_clock_widget_fill_height">Rellenar altura de pantalla</string>
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="one">Carga completa en %1$s minuto</item>
@@ -344,21 +334,13 @@
     <string name="missing_permission_accessibility_gesture_settings">Esta acción requiere que el servicio de accesibilidad del lanzador esté activado.</string>
     <string name="search_action_label">Nombre</string>
     <string name="preference_clockwidget_date_part_summary">Mostrar la fecha actual</string>
-    <string name="preference_screen_backup">Copia de seguridad y restauración</string>
     <string name="search_action_websearch_url">Plantilla de URL</string>
     <string name="preference_clockwidget_alarm_part">Alarmas</string>
     <string name="preference_layout_search_bar_position">Posición de la barra de búsqueda</string>
-    <string name="preference_crash_reporter_summary">Reportes de errores y fallos</string>
-    <string name="preference_logs">Registros</string>
     <string name="preference_screen_search">Buscar</string>
     <string name="preference_screen_gestures_summary">Gestos y acciones de gestos</string>
     <string name="preference_screen_search_summary">Búsqueda, etiquetas, elementos excluidos</string>
     <string name="preference_search_calculator_summary">Evaluar términos matemáticos</string>
-    <string name="preference_screen_backup_summary">Exportar e importar datos del lanzador</string>
-    <string name="preference_backup_summary">Exportar preferencias y datos del lanzador</string>
-    <string name="preference_restore">Restaurar</string>
-    <string name="preference_restore_summary">Importar copia de seguridad</string>
-    <string name="preference_crash_reporter">Informe de fallos</string>
     <string name="preference_search_appshortcuts">Accesos directos de aplicaciones</string>
     <string name="preference_search_currencyconverter_summary">Descargar periódicamente tasas de conversión actualizadas para convertir divisas</string>
     <string name="search_action_message">Mensaje</string>
@@ -371,14 +353,8 @@
     <string name="save">Guardar</string>
     <string name="weather_condition_snowshowers">Chubascos de nieve</string>
     <string name="action_undo">Deshacer</string>
-    <string name="file_type_launcherbackup">Copia de seguridad de %1$s</string>
     <string name="preference_icon_shape_square">Cuadrado</string>
     <string name="preference_icon_shape_rounded_square">Cuadrado redondeado</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d entrada ha sido eliminada</item>
-        <item quantity="many">%1$d entradas han sido eliminadas</item>
-        <item quantity="other">%1$d entradas han sido eliminadas</item>
-    </plurals>
     <string name="preference_icon_shape_hexagon">Hexágono</string>
     <string name="menu_customize">Personalizar</string>
     <string name="preference_icon_shape_teardrop">Lágrima</string>
@@ -406,7 +382,6 @@
     <string name="provider_metno">MET Norway</string>
     <string name="preference_automatic_location_summary">Utilizar los servicios de localización para determinar la ubicación automáticamente</string>
     <string name="preference_imperial_units_summary">Utilice grados Fahrenheit y millas por hora</string>
-    <string name="preference_debug_cleanup_database_summary">Eliminar las entradas inservibles y no utilizadas de la base de datos del launcher</string>
     <string name="preference_cards_stroke_width">Anchura del trazo</string>
     <string name="preference_cards_shape_rounded">Redondeada</string>
     <string name="preference_icon_shape_circle">Círculo</string>
@@ -427,8 +402,6 @@
     <string name="missing_permission_appshortcuts_search">Defina %1$s como app de inicio predeterminada para buscar accesos directos de aplicaciones.</string>
     <string name="missing_permission_appshortcuts_create">Defina %1$s como app de inicio predeterminada para crear accesos directos.</string>
     <string name="provider_brightsky">Deutscher Wetterdienst (solo Alemania)</string>
-    <string name="preference_category_debug_tools">Herramientas</string>
-    <string name="preference_debug_cleanup_database">Limpiar la base de datos</string>
     <string name="preference_cards_shape">Forma</string>
     <string name="preference_cards_shape_cut">Cortada</string>
     <string name="preference_icon_shape">Forma</string>
@@ -452,8 +425,6 @@
     <string name="widget_name_unknown">Desconocido</string>
     <string name="widget_config_calendar_missing_calendars_hint">¿No encuentras tus calendarios\?</string>
     <string name="widget_config_weather_compact">Modo compacto</string>
-    <string name="preference_debug_reinstall_iconpacks">Reinstalar paquete de iconos</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Limpiar y reiniciar la caché del paquete de iconos</string>
     <string name="preference_hidden_items_reveal_button">Mostrar el botón de revelar</string>
     <string name="widget_config_appwidget_configure">Configurar widget</string>
     <string name="preference_search_bar_launch_on_enter">Iniciar al entrar</string>
@@ -495,7 +466,6 @@
     <string name="note_widget_file_write_error">Error al guardar la nota</string>
     <string name="note_widget_file_write_error_description">No se ha podido escribir la nota al archivo vinculado. Se ha restaurado una copia desde el almacenamiento interno del lanzador</string>
     <string name="file_type_launchertheme">Tema de %1$s</string>
-    <string name="preference_debug_dump_heap_summary">Captura una instantánea para analizar el uso de memoria. La app se congelará hasta que el proceso se complete.</string>
     <string name="preference_use_system_default">Usar el predeterminado del sistema</string>
     <string name="preference_clock_widget_alignment">Alineación</string>
     <string name="preference_restore_default">Restaurar predeterminado</string>
@@ -513,8 +483,6 @@
     <string name="preference_category_animations">Animaciones</string>
     <string name="preference_charging_animation">Animación de carga</string>
     <string name="preference_charging_animation_summary">Reproduce una animación de burbujas mientras el dispositivo está cargando</string>
-    <string name="preference_debug_dump_heap">Instantánea de memoria</string>
-    <string name="preference_debug_dump_heap_in_progress">Capturando instantánea…</string>
     <string name="preference_clockwidget_dynamic_zone">Zona dinámica</string>
     <string name="preference_blur_wallpaper_radius">Radio de desenfoque</string>
     <string name="preference_custom_colors_corepalette">Paleta de colores</string>

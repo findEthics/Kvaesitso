@@ -81,7 +81,6 @@ abstract class AppDatabase : RoomDatabase() {
     abstract fun searchableDao(): SearchableDao
     abstract fun widgetDao(): WidgetDao
     abstract fun currencyDao(): CurrencyDao
-    abstract fun backupDao(): BackupRestoreDao
     abstract fun customAttrsDao(): CustomAttrsDao
 
     abstract fun searchActionDao(): SearchActionDao

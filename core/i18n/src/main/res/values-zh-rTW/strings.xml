@@ -93,7 +93,6 @@
     <string name="file_type_ebook">電子書</string>
     <string name="file_type_drawing">繪圖</string>
     <string name="file_type_form">表單</string>
-    <string name="file_type_launcherbackup">%1$s 備份</string>
     <string name="file_type_generic">%1$s 檔案</string>
     <string name="alert_delete_directory">將永久刪除資料夾「%1$s」以及「%1$s」中的所有檔案。您要繼續嗎？</string>
     <string name="alert_delete_file">將永久刪除檔案「%1$s」。您要繼續嗎？</string>
@@ -232,9 +231,6 @@
     <string name="preference_imperial_units">英制單位</string>
     <string name="widget_config_weather_compact">緊湊模式</string>
     <string name="preference_category_debug">除錯</string>
-    <string name="preference_category_debug_tools">工具</string>
-    <string name="preference_debug_cleanup_database">清理資料庫</string>
-    <string name="preference_debug_cleanup_database_summary">從啟動器資料庫中刪除損壞與未使用項</string>
     <string name="preference_category_icons">圖示</string>
     <string name="preference_cards">卡片</string>
     <string name="preference_cards_summary">自訂卡片外觀</string>
@@ -294,8 +290,6 @@
     <string name="preference_grid_column_count">列數</string>
     <string name="preference_grid_labels">顯示應用程式名稱</string>
     <string name="preference_grid_labels_summary">在圖示底下顯示應用程式名稱</string>
-    <string name="preference_screen_debug">除錯</string>
-    <string name="preference_screen_debug_summary">故障排除工具</string>
     <string name="preference_category_widgets">小工具</string>
     <string name="preference_screen_weatherwidget">天氣</string>
     <string name="preference_screen_clockwidget">時鐘</string>
@@ -311,16 +305,6 @@
     <string name="preference_clockwidget_battery_part">電池</string>
     <string name="preference_clockwidget_alarm_part">鬧鐘</string>
     <string name="preference_clockwidget_alarm_part_summary">顯示未來 8 小時內響起的鬧鐘</string>
-    <string name="preference_screen_backup">備份與還原</string>
-    <string name="preference_screen_backup_summary">匯出與匯入啟動器資料</string>
-    <string name="preference_backup">備份</string>
-    <string name="preference_backup_summary">匯出設定與啟動器資料</string>
-    <string name="preference_restore">還原</string>
-    <string name="preference_restore_summary">匯入以前建立的備份</string>
-    <string name="preference_crash_reporter">當機報告</string>
-    <string name="preference_crash_reporter_summary">錯誤與當機報告</string>
-    <string name="preference_logs">日誌</string>
-    <string name="preference_logs_summary">檢視與匯出應用程式日誌</string>
     <string name="preference_search_favorites_summary">在應用程式抽屜上方顯示釘選與常用項目</string>
     <string name="preference_search_files">檔案</string>
     <string name="preference_search_contacts">聯絡人</string>
@@ -355,12 +339,6 @@
     <string name="preference_favorites_edit_button_summary">顯示一個按鈕以重新排列我的最愛</string>
     <string name="preference_widgets_edit_button_summary">顯示一個按鈕以新增、移除與重新排列小工具</string>
     <string name="battery_part_charging">充電中</string>
-    <string name="backup_complete">備份已完成。</string>
-    <string name="restore_invalid_file">您選擇的檔案似乎不是備份檔。確定這是正確的檔案嗎？</string>
-    <string name="restore_incompatible_file">此備份在不同的版本 %1$s 建立且無法在目前的版本還原。</string>
-    <string name="restore_different_minor_version">此備份在不同的版本 %1$s 建立。可能無法正確還原某些資料。</string>
-    <string name="restore_meta">由 %3$s 於 %1$s 在 %2$s 中建立。</string>
-    <string name="restore_complete">備份已還原。</string>
     <string name="icon_picker_default_icon">預設</string>
     <string name="icon_picker_suggestions">建議</string>
     <string name="icon_picker_search_icon">搜尋圖示包</string>
@@ -421,9 +399,6 @@
     <plurals name="calendar_widget_running_events">
         <item quantity="other">過去 %1$d 天以來進行中的事件</item>
     </plurals>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="other">已刪除 %1$d 項</item>
-    </plurals>
     <string name="preference_search_bar_launch_on_enter">輸入時啟動</string>
     <string name="preference_search_bar_launch_on_enter_summary">在點擊「前往」後執行焦點上的結果</string>
     <plurals name="battery_part_remaining_charge_time">
@@ -461,12 +436,10 @@
     <string name="preference_media_integration">媒體控制</string>
     <string name="preference_screen_icons">網格與圖示</string>
     <string name="widget_config_calendar_missing_calendars_hint">找不到您的行事曆嗎？</string>
-    <string name="preference_debug_reinstall_iconpacks">重新安裝圖示包</string>
     <string name="preference_gesture_home_button">主畫面按鈕或手勢</string>
     <string name="note_widget_link_file_summary">將此小工具的內容與外部檔案同步</string>
     <string name="note_widget_file_write_error_description">無法將筆記寫入連結的檔案。已將副本儲存至啟動器的內部儲存空間</string>
     <string name="widget_config_appwidget_configure">設定小工具</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">清除並重新建立圖示包快取</string>
     <string name="widget_config_appwidget_borderless">無邊框</string>
     <string name="note_widget_conflict">衝突</string>
     <string name="note_widget_conflict_action_resolve">解決</string>
@@ -492,12 +465,10 @@
     <string name="preference_default_filter_summary">自訂搜尋的預設篩選器</string>
     <string name="theme_color_scheme_autogenerate">從原色開始</string>
     <string name="preference_mdy_color_source">動態色彩來源</string>
-    <string name="preference_debug_dump_heap_in_progress">正在擷取快照…</string>
     <string name="plugin_type_filesearch">檔案</string>
     <string name="preference_use_system_default">使用系統預設</string>
     <string name="unavailable_searchable">此項目已不存在</string>
     <string name="filter_settings_network_warning">目前的篩選器設定預設啟用網路結果。您的搜尋字串可能會不經注意傳送到外部網路服務上。由於隱私問題，我們不推薦這樣設定。</string>
-    <string name="preference_debug_dump_heap_summary">擷取快照以分析記憶體使用情形。該應用程式將會凍結至處理完成為止。</string>
     <string name="customize_item_label">名稱</string>
     <string name="import_theme_error">無法讀取選取的檔案。請確保您選取了有效的主題檔案（*.kvtheme），並且該檔案未損毀。</string>
     <string name="preference_location_managed">由外掛程式管理</string>
@@ -525,7 +496,6 @@
     <string name="weather_forecast_wind">風</string>
     <string name="weather_forecast_precipitation">降水</string>
     <string name="widget_config_appwidget_resize">調整大小</string>
-    <string name="preference_debug_dump_heap">記憶體快照</string>
     <string name="edit">編輯</string>
     <string name="preference_blur_wallpaper_radius">模糊半徑</string>
     <string name="action_clear">清除</string>

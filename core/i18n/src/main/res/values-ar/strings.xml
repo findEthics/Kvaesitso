@@ -61,7 +61,6 @@
     <string name="file_type_ebook">كتاب الكتروني</string>
     <string name="file_type_drawing">ملف رسم غوغل</string>
     <string name="file_type_form">استمارة</string>
-    <string name="file_type_launcherbackup">نسخة %1$s احتياطية</string>
     <string name="alert_delete_file">سوف يتم مسح الملف %1$s نهائيا. هل تريد المتابعة؟</string>
     <string name="alert_delete_shortcut">سوف يتم ازالة اختصار %1$s نهائيا. هل تريد المتابعة؟</string>
     <string name="default_websearch_2_url">https://www.youtube.com/results\?search_query=${1}</string>
@@ -211,8 +210,6 @@
     <string name="provider_brightsky">الخدمة الوطنية للأرصاد الجوية (ألمانية فقط)</string>
     <string name="preference_category_location">الموقع</string>
     <string name="preference_category_debug">تصحيح الأخطاء</string>
-    <string name="preference_category_debug_tools">الأدوات</string>
-    <string name="preference_debug_reinstall_iconpacks">اعادة تثبيت حزم الأيقونات</string>
     <string name="preference_category_links">الروابط</string>
     <string name="preference_version">الاصدار</string>
     <string name="provider_here">هنا</string>
@@ -241,7 +238,6 @@
     <string name="missing_permission_calendar_search_settings">اذونات التقويم مطلوبة للبحث بالتقويم</string>
     <string name="missing_permission_file_search_settings_android10">أذونات الوصول إلى الملفات مطلوبة للوصول الى الملفات المحلية</string>
     <string name="grant_permission">منح</string>
-    <string name="preference_debug_dump_heap">لقطة للذاكرة</string>
     <string name="missing_permission_files_search">يلزم الحصول على إذن التخزين للبحث عن الملفات على هذا الجهاز</string>
     <string name="missing_permission_appshortcuts_create">عين %1$s كتطبيق الشاشة الرئيسية الافتراضي لانشاء اختصارات.</string>
     <string name="weather_condition_thunderstorm">عاصفة رعدية</string>
@@ -267,10 +263,6 @@
     <string name="preference_automatic_location">موقع تلقائي</string>
     <string name="preference_automatic_location_summary">استخدم خدمات الموقع لتحديد الموقع تلقائيًا</string>
     <string name="preference_location">الموقع</string>
-    <string name="preference_debug_cleanup_database_summary">ازالة المدخلات المعطلة والغير مستخدمة من قاعدة بيانات المشغل</string>
-    <string name="preference_debug_dump_heap_summary">يلتقط لقطة لتحليل استخدام الذاكرة. سيتجمد التطبيق حتى تكتمل هذا العملية.</string>
-    <string name="preference_debug_dump_heap_in_progress">يتم أخذ لقطة للذاكرة…</string>
-    <string name="preference_debug_cleanup_database">حذف قاعدة البيانات</string>
     <string name="preference_font">الخط</string>
     <string name="preference_location_managed">تم اداراته بواسطة الاضافة</string>
     <string name="preference_location_managed_summary">الموقع لهذا المزود تمت ادارته بواسطة الاضافة</string>
@@ -282,7 +274,6 @@
     <string name="preference_cards">بطاقات</string>
     <string name="preference_cards_opacity">العتامة</string>
     <string name="missing_permission_appshortcuts_search_settings">يجب تعيين %1$s كتطبيق رئيسي افتراضي للبحث في اختصارات التطبيقات</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">مسح وإعادة بناء ذاكرة التخزين المؤقت لحزمة الأيقونات</string>
     <string name="preference_category_icons">أيقونات</string>
     <string name="preference_icon_shape_circle">حلقة</string>
     <string name="preference_cards_shape">شكل</string>
@@ -318,8 +309,6 @@
     <string name="preference_about_license">هذا التطبيق برنامج مجاني.</string>
     <string name="preference_about_license_summary">مرخص بموجب ترخيص جنو العمومي العام 3.0</string>
     <string name="preference_grid_labels_summary">إظهار اسم التطبيق أسفل الرمز</string>
-    <string name="preference_screen_debug">التصحيح</string>
-    <string name="preference_screen_debug_summary">أدوات استكشاف الأخطاء وإصلاحها</string>
     <string name="preference_category_media_apps">تطبيقات الوسائط</string>
     <string name="preference_screen_clockwidget_summary">تكوين نمط الساعة ومكوناتها</string>
     <string name="preference_clockwidget_layout_horizontal">مضغوط</string>
@@ -385,13 +374,6 @@
     <string name="preference_clock_widget_alignment">المحاذاة</string>
     <string name="preference_clockwidget_dynamic_zone">منطقة ديناميكية</string>
     <string name="preference_clockwidget_date_part">التاريخ</string>
-    <string name="preference_screen_backup">النسخ الاحتياطي والاستعادة</string>
-    <string name="preference_screen_backup_summary">تصدير واستيراد بيانات المشغل</string>
-    <string name="preference_backup">نسخ احتياطي</string>
-    <string name="preference_backup_summary">تصدير التفضيلات وبيانات المشغل</string>
-    <string name="preference_crash_reporter">مُبلّغ الأعطال</string>
-    <string name="preference_crash_reporter_summary">تقارير الأخطاء والأعطال</string>
-    <string name="preference_logs_summary">عرض وتصدير سجلات التطبيقات</string>
     <string name="preference_search_contacts">جهات الاتصال</string>
     <string name="preference_search_appshortcuts_summary">البحث عن اختصارات التطبيقات</string>
     <string name="preference_search_supportedunits">الوحدات المدعومة</string>
@@ -405,10 +387,6 @@
     <string name="preference_clock_widget_fill_height">ملء ارتفاع الشاشة</string>
     <string name="preference_screen_icons_summary">حجم الشبكة، والأيقونات، والشارات</string>
     <string name="battery_part_charging">جاري الشحن</string>
-    <string name="backup_complete">اكتمل النسخ الاحتياطي.</string>
-    <string name="restore_invalid_file">لا يبدو أن الملف المحدد نسخة احتياطية. هل أنت متأكد من أنك حددت الملف الصحيح؟</string>
-    <string name="restore_incompatible_file">تم إنشاء هذه النسخة الاحتياطية بإصدار مختلف من %1$s ولا يمكن استعادتها بهذا الإصدار.</string>
-    <string name="restore_meta">تم الإنشاء في %1$s على %2$s باستخدام %3$s.</string>
     <string name="icon_picker_default_icon">افتراضي</string>
     <string name="icon_picker_suggestions">اقتراحات</string>
     <string name="icon_picker_filter_all_packs">جميع حزم الرموز</string>
@@ -476,9 +454,6 @@
     <string name="preference_clock_widget_show_seconds">إظهار الثواني</string>
     <string name="preference_clockwidget_date_part_summary">إظهار التاريخ الحالي</string>
     <string name="preference_clockwidget_favorites_part">قاعدة التثبيت</string>
-    <string name="preference_restore">استعادة</string>
-    <string name="preference_restore_summary">استيراد نسخة احتياطية تم إنشاؤها مسبقًا</string>
-    <string name="preference_logs">السجلات</string>
     <string name="preference_search_calculator_summary">تقييم المصطلحات الرياضية</string>
     <string name="preference_search_unitconverter">محول الوحدات</string>
     <string name="preference_search_unitconverter_summary">الاستخدام: 1.5 كجم أو 4 سم &gt;&gt; بوصة</string>
@@ -623,14 +598,6 @@
     <string name="calendar_widget_next_day">اليوم التالي</string>
     <string name="profile_work_profile_action_lock">إيقاف تطبيقات العمل مؤقتًا</string>
     <string name="profile_private_profile_action_lock">قفل المساحة الخاصة</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="zero">تمت إزالة %1$d مُدخل</item>
-        <item quantity="one">تمت إزالة %1$d مدخلات.</item>
-        <item quantity="two"/>
-        <item quantity="few"/>
-        <item quantity="many"/>
-        <item quantity="other"/>
-    </plurals>
     <string name="menu_dial">اتصال</string>
     <string name="plugin_action_setup">إعداد</string>
     <string name="plugin_type_calendar">التقويم</string>
@@ -646,8 +613,6 @@
     <string name="search_filter_apps">التطبيقات</string>
     <string name="preference_default_filter">المرشح الافتراضي</string>
     <string name="preference_grid_column_count">عدد الأعمدة</string>
-    <string name="restore_different_minor_version">تم إنشاء هذه النسخة الاحتياطية بإصدار مختلف من %1$s. قد لا يتم استعادة بعض البيانات بشكل صحيح.</string>
-    <string name="restore_complete">تمت استعادة النسخة الاحتياطية.</string>
     <string name="profile_work_profile_state_locked">تطبيقات العمل متوقفة مؤقتًا</string>
     <string name="profile_work_profile_action_unlock">إلغاء الإيقاف المؤقت</string>
     <string name="gesture_action_power_menu">قائمة الطاقة</string>

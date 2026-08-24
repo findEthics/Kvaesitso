@@ -6,7 +6,6 @@ import coil.ImageLoaderFactory
 import coil.decode.SvgDecoder
 import de.mm20.launcher2.applications.applicationsModule
 import de.mm20.launcher2.appshortcuts.appShortcutsModule
-import de.mm20.launcher2.backup.backupModule
 import de.mm20.launcher2.badges.badgesModule
 import de.mm20.launcher2.calculator.calculatorModule
 import de.mm20.launcher2.calendar.calendarModule
@@ -78,7 +77,6 @@ class LauncherApplication : Application(), CoroutineScope, ImageLoaderFactory {
                     widgetsModule,
                     servicesTagsModule,
                     widgetsServiceModule,
-                    backupModule,
                     devicePoseModule,
                     profilesModule,
                     i18nDataModule,

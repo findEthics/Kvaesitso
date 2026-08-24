@@ -53,9 +53,6 @@
     <string name="preference_font">Phông chữ</string>
     <string name="preference_screen_about">Giới thiệu</string>
     <string name="provider_here">TẠI ĐÂY</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="other">Mục nhập %1$d đã bị loại bỏ.</item>
-    </plurals>
     <string name="preference_signout">Đăng xuất</string>
     <string name="preference_clockwidget_date_part">Ngày</string>
     <string name="preference_clockwidget_date_part_summary">Hiển thị ngày hiện tại</string>
@@ -65,7 +62,6 @@
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="other">Đầy sau %1$s phút</item>
     </plurals>
-    <string name="restore_complete">Bản sao lưu đã được khôi phục.</string>
     <string name="search_action_open_url">Xem trang web</string>
     <string name="search_action_event">Lên lịch sự kiện</string>
     <string name="create_search_action_type">Bạn muốn tạo ra loại hành động nào?</string>
@@ -156,7 +152,6 @@
     <string name="file_type_presentation">Trình bày</string>
     <string name="file_type_compressed">Tệp nén</string>
     <string name="file_type_form">Biểu mẫu</string>
-    <string name="file_type_launcherbackup">%1$s sao lưu</string>
     <string name="file_type_launchertheme">%1$s chủ đề</string>
     <string name="file_type_generic">Tệp %1$s</string>
     <string name="alert_delete_directory">Thư mục %1$s và tất cả nội dung của nó sẽ bị xóa vĩnh viễn. Tiếp tục?</string>
@@ -280,14 +275,6 @@
     <string name="preference_imperial_units">Đơn vị Anh</string>
     <string name="widget_config_weather_compact">Chế độ thu gọn</string>
     <string name="preference_category_debug">Gỡ lỗi</string>
-    <string name="preference_category_debug_tools">Công cụ</string>
-    <string name="preference_debug_dump_heap">Ảnh chụp bộ nhớ</string>
-    <string name="preference_debug_dump_heap_summary">Chụp ảnh nhanh để phân tích việc sử dụng bộ nhớ. Ứng dụng sẽ đóng băng cho đến khi quá trình này hoàn tất.</string>
-    <string name="preference_debug_dump_heap_in_progress">Đang chụp ảnh nhanh…</string>
-    <string name="preference_debug_cleanup_database">Dọn dẹp cơ sở dữ liệu</string>
-    <string name="preference_debug_cleanup_database_summary">Xóa các mục bị hỏng và không được sử dụng khỏi cơ sở dữ liệu trình khởi chạy</string>
-    <string name="preference_debug_reinstall_iconpacks">Cài đặt lại gói biểu tượng</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Xóa và xây dựng lại bộ nhớ đệm gói biểu tượng</string>
     <string name="preference_category_icons">Biểu tượng</string>
     <string name="preference_cards">Thẻ</string>
     <string name="preference_cards_summary">Tùy chỉnh giao diện thẻ</string>
@@ -362,8 +349,6 @@
     <string name="preference_grid_column_count">Số cột</string>
     <string name="preference_grid_labels">Hiển thị nhãn</string>
     <string name="preference_grid_labels_summary">Hiển thị tên ứng dụng bên dưới biểu tượng</string>
-    <string name="preference_screen_debug">Gỡ lỗi</string>
-    <string name="preference_screen_debug_summary">Công cụ khắc phục sự cố</string>
     <string name="preference_category_widgets">Tiện ích</string>
     <string name="preference_screen_weatherwidget">Thời tiết</string>
     <string name="preference_category_media_apps">Ứng dụng truyền thông</string>
@@ -385,16 +370,6 @@
     <string name="preference_clockwidget_battery_part">Pin</string>
     <string name="preference_clockwidget_alarm_part">Báo thức</string>
     <string name="preference_clockwidget_alarm_part_summary">Hiển thị báo thức sẽ đổ chuông trong vòng 8 giờ tới</string>
-    <string name="preference_screen_backup">Sao lưu &amp; Khôi phục</string>
-    <string name="preference_screen_backup_summary">Xuất và nhập dữ liệu trình khởi chạy</string>
-    <string name="preference_backup">Sao lưu</string>
-    <string name="preference_backup_summary">Xuất tùy chọn và dữ liệu trình khởi chạy</string>
-    <string name="preference_restore">Khôi phục</string>
-    <string name="preference_restore_summary">Nhập bản sao lưu đã tạo trước đó</string>
-    <string name="preference_crash_reporter">Người báo cáo sự cố</string>
-    <string name="preference_crash_reporter_summary">Báo cáo lỗi và sự cố</string>
-    <string name="preference_logs">Nhật ký</string>
-    <string name="preference_logs_summary">Xem và xuất nhật ký ứng dụng</string>
     <string name="preference_screen_search">Tìm kiếm</string>
     <string name="preference_screen_search_summary">Tìm kiếm, gắn thẻ, mục ẩn</string>
     <string name="preference_search_favorites">Yêu thích</string>
@@ -441,11 +416,6 @@
     <string name="preference_screen_icons">Lưới &amp; biểu tượng</string>
     <string name="preference_screen_icons_summary">Lưới, kích thước biểu tượng, gói biểu tượng, dấu hiệu</string>
     <string name="battery_part_charging">Sạc</string>
-    <string name="backup_complete">Việc sao lưu đã hoàn tất.</string>
-    <string name="restore_invalid_file">Tệp đã chọn dường như không phải là bản sao lưu. Bạn có chắc là mình đã chọn đúng tệp không?</string>
-    <string name="restore_incompatible_file">Bản sao lưu này đã được tạo bằng phiên bản khác của %1$s và không thể khôi phục bằng phiên bản này.</string>
-    <string name="restore_different_minor_version">Bản sao lưu này đã được tạo bằng một phiên bản khác của %1$s. Một số dữ liệu có thể không được khôi phục chính xác.</string>
-    <string name="restore_meta">Đã tạo %1$s trên %2$s với %3$s.</string>
     <string name="icon_picker_default_icon">Mặc định</string>
     <string name="icon_picker_suggestions">Đề xuất</string>
     <string name="icon_picker_search_icon">Tìm kiếm trong gói biểu tượng</string>

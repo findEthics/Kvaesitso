@@ -73,7 +73,6 @@
     <string name="file_type_archive">Archivált fájl</string>
     <string name="file_type_presentation">Bemutató</string>
     <string name="file_type_form">Űrlap</string>
-    <string name="file_type_launcherbackup">%1$s biztonsági mentés</string>
     <string name="alert_delete_directory">A(z) %1$s könyvtár és annak teljes tartalma véglegesen törlődni fog. Folytatja?</string>
     <string name="default_websearch_2_name">YouTube</string>
     <string name="default_websearch_2_url">https://www.youtube.com/results\?search_query=${1}</string>
@@ -163,12 +162,6 @@
     <string name="preference_force_themed_icons">Ikonok kényszerítése a témához</string>
     <string name="missing_permission_music_widget">A médialejátszás vezérléséhez értesítési hozzáférés szükséges</string>
     <string name="missing_permission_calendar_search">A naptárban való kereséshez naptárengedély szükséges</string>
-    <string name="preference_debug_dump_heap_summary">Pillanatfelvétel készítése a memóriahasználat elemzéséhez. Az alkalmazás lefagy, amíg ez a folyamat be nem fejeződik.</string>
-    <string name="preference_debug_cleanup_database_summary">Hibás- és nem használt bejegyzések eltávolítása az indító adatbázisából</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d bejegyzés eltávolítva</item>
-        <item quantity="other">%1$d bejegyzés eltávolítva</item>
-    </plurals>
     <string name="preference_screen_integrations_summary">Fiókok és szolgáltatások kezelése</string>
     <string name="missing_permission_calendar_widget">A közelgő események megjelenítéséhez naptárengedély szükséges</string>
     <string name="weather_condition_heavysnowshowers">Heves hó záporok</string>
@@ -193,7 +186,6 @@
     <string name="missing_permission_file_search_settings_android10">A helyi fájlok kereséséhez az összes fájlhoz való hozzáférés szükséges</string>
     <string name="missing_permission_contact_search">A névjegyek kereséséhez névjegyengedély szükséges</string>
     <string name="preference_category_debug">Hibakeresés</string>
-    <string name="preference_category_debug_tools">Eszközök</string>
     <string name="preference_cards_summary">Kártyák megjelenésének testreszabása</string>
     <string name="preference_font">Betűtípus</string>
     <string name="preference_screen_about">Névjegy</string>
@@ -212,8 +204,6 @@
     <string name="preference_status_bar_icons">Állapotsor ikonjai</string>
     <string name="preference_category_links">Hivatkozások</string>
     <string name="preference_hide_nav_bar">Navigációs sáv elrejtése</string>
-    <string name="preference_debug_reinstall_iconpacks">Ikoncsomagok újratelepítése</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Ikoncsomag gyorsítótárának törlése és újraépítése</string>
     <string name="preference_themed_icons_summary">Ikonok színezése az alkalmazás színösszeállításával</string>
     <string name="open_webpage">Weboldal megnyitása</string>
     <string name="preference_screen_about_summary">Alkalmazás- és licencinformációk</string>
@@ -231,7 +221,6 @@
     <string name="preference_theme_light">Világos</string>
     <string name="preference_theme_dark">Sötét</string>
     <string name="preference_custom_colors_corepalette">Színpaletta</string>
-    <string name="preference_debug_dump_heap_in_progress">Pillanatfelvétel készítése…</string>
     <string name="preference_icon_shape_square">Négyzet</string>
     <string name="weather_condition_partlycloudy">Részben felhős</string>
     <string name="weather_condition_lightsleetandthunder">Enyhe havas eső és mennydörgés</string>
@@ -243,8 +232,6 @@
     <string name="preference_imperial_units_summary">Fahrenheit fok és mérföld per óra használata</string>
     <string name="preference_imperial_units">Birodalmi mértékegységek</string>
     <string name="widget_config_weather_compact">Kompakt mód</string>
-    <string name="preference_debug_dump_heap">Memória-pillanatkép</string>
-    <string name="preference_debug_cleanup_database">Adatbázis tisztítása</string>
     <string name="preference_category_icons">Ikonok</string>
     <string name="preference_cards">Kártyák</string>
     <string name="preference_cards_corner_radius">Sarok sugara</string>
@@ -305,8 +292,6 @@
     <string name="plugin_weather_provider_enable">Beállítás időjáráselőrejelzési szolgáltatónak</string>
     <string name="preference_clock_widget_alignment_bottom">Alulra</string>
     <string name="preference_clockwidget_alarm_part_summary">Azon riasztások megjelenítése, amelyek a következő 8 órán belül megszólalnak</string>
-    <string name="preference_logs">Naplók</string>
-    <string name="preference_logs_summary">Alkalmazásnaplók megtekintése és exportálása</string>
     <string name="preference_screen_buildinfo_summary">További információ az alkalmazás ezen verziójáról</string>
     <string name="preference_search_bar_launch_on_enter">Keresés enterrel</string>
     <string name="preference_hidden_items_summary">Kizárt alkalmazások és keresési eredmények kezelése</string>
@@ -330,7 +315,6 @@
     <string name="note_widget_action_unlink_file">Leválasztás</string>
     <string name="note_widget_conflict_keep_selected">Maradjon kiválasztva</string>
     <string name="preference_screen_buildinfo">Összeállítási információk</string>
-    <string name="preference_screen_debug">Hibakeresés</string>
     <string name="battery_part_charging">⚡︎ Töltés ⚡︎</string>
     <string name="search_action_email">E-mail</string>
     <string name="search_action_alarm">Riasztás beállítása</string>
@@ -350,11 +334,9 @@
     <string name="preference_shortcut_badges_summary">Egy jelvény megjelenítése, amely azt jelzi, hogy egy parancsikon melyik alkalmazáshoz tartozik</string>
     <string name="app_widget_loading_failed">Az alkalmazásmodult nem sikerült betölteni</string>
     <string name="preference_screen_search">Keresés</string>
-    <string name="preference_screen_debug_summary">Hibaelhárítási eszközök</string>
     <string name="preference_category_widgets">Modulok</string>
     <string name="preference_clockwidget_music_part_summary">Médiavezérlők megjelenítése, ha aktív médiamunkamenet van</string>
     <string name="plugin_type_filesearch">Fájlok</string>
-    <string name="preference_crash_reporter_summary">Hiba- és összeomlási jelentések</string>
     <string name="preference_search_result_ordering_weight_factor_high">Változtatható</string>
     <string name="preference_search_currencyconverter">Valutaváltó</string>
     <string name="preference_search_bar_auto_focus_summary">Billentyűzet automatikus megjelenítése az alkalmazásfiók megnyitásakor</string>
@@ -372,14 +354,12 @@
     </plurals>
     <string name="open_search_swipe_left">Balra húzás</string>
     <string name="preference_search_contacts_summary">Keresés a névjegyek között</string>
-    <string name="backup_complete">A biztonsági mentés befejeződött.</string>
     <string name="search_action_message">Üzenet</string>
     <string name="preference_calendar_calendars">Naptárak</string>
     <string name="preference_search_bar_auto_focus">Billentyűzet megjelenítése</string>
     <string name="search_action_label">Név</string>
     <string name="preference_layout_fixed_search_bar">Rögzített keresősáv</string>
     <string name="preference_screen_tags">Címkék</string>
-    <string name="restore_meta">Létrehozva ekkor: %1$s, a(z) %2$s nevű eszközön, ezzel: %3$s.</string>
     <string name="search_action_websearch_url_hint">A webcím-sablon, az internetes keresés webcímének létrehozásához használatos. Használja a(z) „${1}” kulcsot a tényleges keresési kifejezés helyőrzőjeként</string>
     <plurals name="battery_part_remaining_charge_time">
         <item quantity="one">%1$s perc múlva feltöltődik</item>
@@ -426,7 +406,6 @@
     <string name="preference_use_system_default">Rendszer alapértelmezésének használata</string>
     <string name="theme_color_scheme_autogenerate">Az elsődleges színből</string>
     <string name="shortcut_unavailable_description">Ez a parancsikon nem érhető el, mert a(z) %1$s nem az alapértelmezett indító</string>
-    <string name="restore_different_minor_version">Ez a biztonsági mentés a(z) %1$s egy másik verziójával készült. Előfordulhat, hogy egyes adatok nem lesznek helyesen visszaállítva.</string>
     <string name="frequently_used_rows">Sorok száma</string>
     <string name="preference_screen_search_actions">Gyorsműveletek</string>
     <string name="preference_search_search_actions_summary">Gyorsműveletek és keresési parancsikonok beállítása</string>
@@ -463,13 +442,6 @@
     <string name="preference_clockwidget_music_part">Média</string>
     <string name="preference_clockwidget_battery_part">Akkumulátor</string>
     <string name="preference_clockwidget_alarm_part">Riasztások</string>
-    <string name="preference_screen_backup">Biztonsági mentés és visszaállítás</string>
-    <string name="preference_screen_backup_summary">Indító alkalmazás adatainak exportálása és importálása</string>
-    <string name="preference_backup">Biztonsági mentés</string>
-    <string name="preference_backup_summary">Indító alkalmazás adatainak és beállításainak exportálása</string>
-    <string name="preference_restore">Visszaállítás</string>
-    <string name="preference_restore_summary">Egy korábban létrehozott biztonsági mentés importálása</string>
-    <string name="preference_crash_reporter">Összeomlásjelentő</string>
     <string name="preference_search_favorites">Kedvencek</string>
     <string name="preference_search_favorites_summary">Kitűzött és gyakran használt elemek megjelenítése az alkalmazásrács felett</string>
     <string name="preference_search_files">Fájlok</string>
@@ -493,9 +465,6 @@
     <string name="preference_screen_homescreen_summary">Óra, keresősáv, háttérkép, rendszersávok</string>
     <string name="preference_weather_integration">Időjárás</string>
     <string name="preference_media_integration">Médiavezérlés</string>
-    <string name="restore_invalid_file">A kiválasztott fájl nem tűnik biztonsági mentésnek. Biztosan a megfelelő fájlt választotta ki?</string>
-    <string name="restore_incompatible_file">Ez a biztonsági mentés a(z) %1$s egy másik verziójával készült, és ezzel a verzióval nem állítható vissza.</string>
-    <string name="restore_complete">A biztonsági mentés visszaállítása megtörtént.</string>
     <string name="icon_picker_default_icon">Alapértelmezett</string>
     <string name="icon_picker_suggestions">Javaslatok</string>
     <string name="favorites">Kedvencek</string>

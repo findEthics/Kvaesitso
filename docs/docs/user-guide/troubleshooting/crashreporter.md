@@ -1,8 +1,8 @@
 # Crash Reporter
 
-When the launcher crashes, a notification is posted. When you tap on that notification, the crash reporter screen opens. You can also navigate to that screen like this: Settings > Debug > Crash reporter.
+When the launcher crashes, a notification is posted. When you tap on that notification, the crash report screen opens.
 
-The crash reporter lists crashes and exceptions.
+The crash report screen shows the stack trace and device information.
 
 ## Crashes
 

@@ -136,7 +136,6 @@ dependencies {
     implementation(project(":core:permissions"))
     implementation(project(":data:unitconverter"))
     implementation(project(":services:plugins"))
-    implementation(project(":services:backup"))
     implementation(project(":data:search-actions"))
     implementation(project(":services:global-actions"))
     implementation(project(":services:widgets"))

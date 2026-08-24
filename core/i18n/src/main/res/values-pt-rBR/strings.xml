@@ -124,8 +124,6 @@
     <string name="preference_clockwidget_battery_part">Bateria</string>
     <string name="preference_clockwidget_battery_part_hide">Desabilitado</string>
     <string name="preference_clockwidget_alarm_part">Alarmes</string>
-    <string name="preference_crash_reporter_summary">Relatórios de erros e falhas</string>
-    <string name="preference_crash_reporter">Reportar falha</string>
     <string name="preference_screen_search">Pesquisar</string>
     <string name="preference_screen_search_summary">Pesquisa, tags, items escondidos</string>
     <string name="preference_search_favorites">Favoritos</string>
@@ -236,8 +234,6 @@
     <string name="preference_about_license_summary">Licenciado sob a GNU General Public License 3.0</string>
     <string name="preference_category_grid">Grade</string>
     <string name="preference_grid_column_count">Número de colunas</string>
-    <string name="preference_screen_debug">Depuração</string>
-    <string name="preference_screen_debug_summary">Ferramentas de solução de problemas</string>
     <string name="preference_category_widgets">Widgets</string>
     <string name="preference_screen_weatherwidget">Clima</string>
     <string name="preference_screen_clockwidget">Relógio</string>
@@ -263,7 +259,6 @@
     <string name="missing_permission_notification_badges">Acesso a notificações é necessário para mostrar selos de notificação</string>
     <string name="missing_permission_file_search_settings_android10">A permissão gerenciar todos os arquivos é necessária para pesquisar arquivos locais</string>
     <string name="missing_permission_contact_search">Conceda permissão de contato para pesquisar seus contatos.</string>
-    <string name="file_type_launcherbackup">Backup do %1$s</string>
     <string name="weather_location_search_no_result">Localização não encontrada.</string>
     <string name="missing_permission_calendar_widget">Conceda permissão de calendário para exibir compromissos e eventos futuros aqui.</string>
     <string name="preference_font">Fonte</string>
@@ -314,13 +309,6 @@
     <string name="preference_clockwidget_favorites_part_summary">Mostra a primeira linha de itens fixados</string>
     <string name="preference_clockwidget_music_part_summary">Mostra controles de mídia quando houver uma sessão de mídia ativa</string>
     <string name="preference_clockwidget_alarm_part_summary">Mostra alarmes que tocarão nas próximas 8 horas</string>
-    <string name="preference_screen_backup">Backup e Restauração</string>
-    <string name="preference_screen_backup_summary">Exportar e importar dados do iniciador</string>
-    <string name="preference_backup">Backup</string>
-    <string name="preference_backup_summary">Exportar preferências e dados do iniciador</string>
-    <string name="preference_restore">Restauração</string>
-    <string name="preference_restore_summary">Importar um backup criado anteriormente</string>
-    <string name="preference_logs_summary">Exibir e exportar logs do aplicativo</string>
     <string name="preference_search_favorites_summary">Mostra itens fixados e usados com frequência acima da grade do aplicativo</string>
     <string name="preference_search_contacts_summary">Pesquisa contatos neste dispositivo</string>
     <string name="preference_search_calendar_summary">Pesquisa compromissos e eventos futuros</string>
@@ -342,9 +330,6 @@
     <string name="preference_hidden_items_summary">Gerenciar aplicativos ocultos e resultados de pesquisa</string>
     <string name="preference_icon_shape_hexagon">Hexágono</string>
     <string name="preference_icon_shape_pebble">Seixo</string>
-    <string name="preference_category_debug_tools">Ferramentas</string>
-    <string name="preference_debug_cleanup_database">Limpar banco de dados</string>
-    <string name="preference_debug_cleanup_database_summary">Remove entradas quebradas e não utilizadas do banco de dados do iniciador</string>
     <string name="preference_cards_corner_radius">Raio de canto</string>
     <string name="preference_cards_stroke_width">Largura do traçado</string>
     <string name="preference_blur_wallpaper">Desfocar papel de parede</string>
@@ -353,12 +338,6 @@
     <string name="preference_system_bar_icons_auto">Automático</string>
     <string name="preference_system_bar_icons_light">Claro</string>
     <string name="preference_system_bar_icons_dark">Escuro</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d entrada foi removida.</item>
-        <item quantity="many">%1$d entradas foram removidas.</item>
-        <item quantity="other">%1$d entradas foram removidas.</item>
-    </plurals>
-    <string name="preference_logs">Logs</string>
     <string name="search_action_event">Agendar evento</string>
     <string name="create_search_action_website_invalid_url">O site fornecido não pode ser importado automaticamente como uma pesquisa na web. Você pode tentar um site diferente ou inserir os dados necessários manualmente na próxima etapa.</string>
     <string name="tag_name_empty_error">Nome não pode ser vazio</string>
@@ -380,13 +359,7 @@
     <string name="preference_edit_button">Botão editar</string>
     <string name="preference_favorites_edit_button_summary">Mostra um botão para reorganizar os favoritos</string>
     <string name="preference_widgets_edit_button_summary">Mostra um botão para adicionar, remover e reorganizar widgets</string>
-    <string name="backup_complete">O backup foi concluído.</string>
-    <string name="restore_invalid_file">O arquivo selecionado não parece ser um backup. Tem certeza de que selecionou o arquivo correto\?</string>
-    <string name="restore_incompatible_file">Este backup foi criado com uma versão diferente de %1$s e não pode ser restaurado com esta versão.</string>
     <string name="apps_profile_work">Trabalho</string>
-    <string name="restore_different_minor_version">Este backup foi criado com uma versão diferente de %1$s. Alguns dados podem não ser restaurados corretamente.</string>
-    <string name="restore_meta">Criado %1$s em %2$s com %3$s.</string>
-    <string name="restore_complete">O backup foi restaurado.</string>
     <string name="apps_profile_main">Pessoal</string>
     <string name="favorites">Favoritos</string>
     <string name="search_action_email">Email</string>
@@ -489,11 +462,9 @@
     <string name="widget_name_apps">Aplicativos</string>
     <string name="widget_name_notes">Nota</string>
     <string name="widget_action_replace">Substituir</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Limpar e reconstruir o cache do pacote de ícones</string>
     <string name="preference_screen_icons">Gride &amp; ícones</string>
     <string name="preference_screen_icons_summary">Gride, tamanho do ícone, pacotes de ícones, emblemas</string>
     <string name="widget_config_appwidget_borderless">Sem bordas</string>
-    <string name="preference_debug_reinstall_iconpacks">Reinstalar pacote de ícones</string>
     <string name="notes_widget_placeholder">Faça uma nota…</string>
     <string name="notes_widget_action_new">Nova nota</string>
     <string name="notes_widget_action_save">Salvar</string>
@@ -501,10 +472,7 @@
     <string name="notes_widget_action_dismiss">Descartar</string>
     <string name="notes_widget_dismissed">Nota descartada.</string>
     <string name="widget_name_unknown">Aplicativo de widget desconhecido</string>
-    <string name="preference_debug_dump_heap_summary">Captura um snapshot para analisar o uso de memória. O app vai congelar até que o processo complete.</string>
     <string name="preference_gesture_home_button">Botão Home/Gesto</string>
-    <string name="preference_debug_dump_heap_in_progress">Capturando tela…</string>
-    <string name="preference_debug_dump_heap">Snapshot de memória</string>
     <string name="search_action_websearch">Pesquisa na web</string>
     <string name="theme_color_scheme_autogenerate">A partir da cor primária</string>
     <string name="preference_custom_colors_corepalette">Palheta de cores</string>

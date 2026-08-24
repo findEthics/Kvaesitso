@@ -2,7 +2,6 @@
 <resources>
     <string name="file_type_image">Obrázek</string>
     <string name="edit_favorites_dialog_unpinned">Není připnuto – často používáno</string>
-    <string name="file_type_launcherbackup">Záloha %1$s</string>
     <string name="alert_delete_directory">Adresář %1$s a jeho obsah bude nenávratně smazán. Pokračovat\?</string>
     <string name="default_websearch_3_url">https://play.google.com/store/search\?q=${1}</string>
     <string name="disclaimer_currency_converter">Směnné kurzy tak, jak jsou zveřejňovány jednou denně Evropskou centrální bankou. Veškeré informace jsou poskytovány „tak, jak jsou“, bez jakékoliv záruky. Za tyto informace nepřebíráme žádnou odpovědnost.
@@ -34,9 +33,7 @@
     <string name="preference_blur_wallpaper_unsupported">Není podporováno na tomto zařízení</string>
     <string name="preference_suspended_badges_summary">Zobrazit puntík u pozastavených aplikací</string>
     <string name="preference_about_license_summary">Licencováno pod GNU General Public License 3.0</string>
-    <string name="preference_screen_debug_summary">Nástroje pro řešení potíží</string>
     <string name="preference_clockwidget_date_part_summary">Zobrazit aktuální datum</string>
-    <string name="preference_restore_summary">Importovat dříve vytvořenou zálohu</string>
     <string name="preference_search_favorites_summary">Zobrazit připnuté a často používané položky nad mřízkou s aplikacemi</string>
     <string name="preference_search_calculator_summary">Vyhodnocování matematických výrazů</string>
     <string name="preference_search_unitconverter_summary">Použití: 1.5 kg nebo 4 cm &gt;&gt; in</string>
@@ -47,8 +44,6 @@
         <item quantity="few">Plná za %1$s minuty</item>
         <item quantity="other">Plná za %1$s minut</item>
     </plurals>
-    <string name="restore_invalid_file">Zdá se, že vybraný soubor není záloha. Opravdu jste vybrali správný soubor\?</string>
-    <string name="restore_different_minor_version">Tato záloha byla vytvořena v jiné verzi %1$s. Některá data nemusí být správně obnovena.</string>
     <string name="menu_share">Sdílet</string>
     <string name="menu_share_store_link">Odkaz na %1$s</string>
     <string name="menu_share_apk_file">Balíček</string>
@@ -268,7 +263,6 @@
     <string name="preference_category_grid">Mřížka</string>
     <string name="preference_grid_icon_size">Velikost ikon</string>
     <string name="preference_grid_column_count">Počet sloupců</string>
-    <string name="preference_screen_debug">Ladění</string>
     <string name="preference_category_widgets">Widgety</string>
     <string name="preference_screen_weatherwidget">Počasí</string>
     <string name="preference_screen_clockwidget">Hodiny</string>
@@ -282,13 +276,6 @@
     <string name="preference_clockwidget_battery_part">Baterie</string>
     <string name="preference_clockwidget_alarm_part">Budíky</string>
     <string name="preference_clockwidget_alarm_part_summary">Zobrazit budíky, které zazvoní v následujících 8 hodinách</string>
-    <string name="preference_screen_backup">Záloha a obnovení</string>
-    <string name="preference_screen_backup_summary">Exportovat a importovat data spouštěče</string>
-    <string name="preference_backup">Záloha</string>
-    <string name="preference_backup_summary">Exportovat nastavení a data spouštěče</string>
-    <string name="preference_restore">Obnovit</string>
-    <string name="preference_crash_reporter">Hlášení pádů</string>
-    <string name="preference_crash_reporter_summary">Hlášení chyb a pádů</string>
     <string name="preference_screen_search_summary">Vyhledávání, štítky, vyloučené výsledky</string>
     <string name="preference_screen_search">Hledání</string>
     <string name="preference_search_favorites">Oblíbené</string>
@@ -313,10 +300,6 @@
     <string name="preference_hidden_items">Vyloučené výsledky vyhledávání</string>
     <string name="preference_hidden_items_summary">Spravovat vyloučené aplikace a výsledky vyhledávání</string>
     <string name="battery_part_charging">Nabíjení</string>
-    <string name="backup_complete">Záloha byla dokončena.</string>
-    <string name="restore_incompatible_file">Tato záloha byla vytvořena v jiné verzi %1$s a nemůže být v této verzi obnovena.</string>
-    <string name="restore_meta">Vytvořeno %1$s na %2$s s %3$s.</string>
-    <string name="restore_complete">Záloha byla obnovena.</string>
     <string name="create_search_action_website_url">Zadejte adresu webu:</string>
     <string name="websearch_dialog_query_encoding">Kódování dotazu</string>
     <string name="websearch_dialog_query_encoding_url">Procentové kódování</string>
@@ -326,8 +309,6 @@
     <string name="preference_status_bar_icons">Ikony ve stavové liště</string>
     <string name="preference_nav_bar_icons">Ikony v navigační liště</string>
     <string name="preference_system_bar_icons_auto">Automaticky</string>
-    <string name="preference_logs_summary">Zobrazit a exportovat protokoly aplikace</string>
-    <string name="preference_logs">Protokoly</string>
     <string name="menu_remove">Odebrat</string>
     <string name="preference_edit_button">Tlačítko k upravení</string>
     <string name="preference_widgets_edit_button_summary">Zobrazit tlačítko k přidání, odebrání a uspořádání widgetů</string>
@@ -347,11 +328,6 @@
     <string name="skip">Přeskočit</string>
     <string name="action_next">Další</string>
     <string name="missing_permission_appshortcuts_create">Pro vytváření zkratek nastavte %1$s jako výchozí aplikaci domovské obrazovky.</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">Odebrána %1$d položka</item>
-        <item quantity="few">Odebrány %1$d položky</item>
-        <item quantity="other">Odebráno %1$d položek</item>
-    </plurals>
     <string name="preference_icon_shape_teardrop">Kapka</string>
     <string name="preference_system_bar_icons_light">Světlé</string>
     <string name="preference_system_bar_icons_dark">Tmavé</string>
@@ -400,9 +376,6 @@
     <string name="preference_screen_search_actions">Rychlé akce</string>
     <string name="search_action_app">Aplikace</string>
     <string name="edit_favorites_dialog_empty_section">Sem přesuňte položky</string>
-    <string name="preference_category_debug_tools">Nástroje</string>
-    <string name="preference_debug_cleanup_database">Vymazat databázi</string>
-    <string name="preference_debug_cleanup_database_summary">Odebrat rozbité a nepoužité položky z databáze spouštěče</string>
     <string name="websearch_dialog_query_encoding_none">Žádné</string>
     <string name="preference_layout_open_search">Vyhledávání a šuplík s aplikacemi</string>
     <string name="open_search_pull_down">Posunutí dolů</string>
@@ -465,7 +438,6 @@
     <string name="widget_config_weather_integration_settings">Nastavení integrace počasí</string>
     <string name="app_widget_loading_failed">Nepodařilo se načíst widget aplikace</string>
     <string name="preference_category_media_apps">Aplikace médií</string>
-    <string name="preference_debug_reinstall_iconpacks">Znovu nainstalovat balíčky ikon</string>
     <string name="widget_name_notes">Poznámka</string>
     <string name="notes_widget_placeholder">Napište poznámku</string>
     <string name="notes_widget_action_new">Nová poznámka</string>
@@ -475,7 +447,6 @@
     <string name="notes_widget_dismissed">Poznámka zavřena</string>
     <string name="preference_hidden_items_reveal_button">Zobrazit tlačítko odhalení</string>
     <string name="preference_hidden_items_reveal_button_summary">Zobrazit tlačítko pro odhalení vyloučených výsledků vyhledávání</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Vymazat a znovu sestavit mezipaměť balíčků ikon</string>
     <string name="widget_config_appwidget_background">Karta pozadí</string>
     <string name="widget_config_calendar_missing_calendars_hint">Nevidíte své kalendáře\?</string>
     <string name="note_widget_link_file">Propojit se souborem</string>
@@ -495,9 +466,6 @@
     <string name="note_widget_file_write_error_description">Nepodařilo se zapsat poznámku do propojeného souboru. Z interního úložiště spouštěče byla obnovena kopie</string>
     <string name="preference_gesture_home_button">Domovské tlačítko/gesto</string>
     <string name="search_action_websearch">Vyhledávání na webu</string>
-    <string name="preference_debug_dump_heap">Snímek paměti</string>
-    <string name="preference_debug_dump_heap_summary">Zachytit snímek paměti pro analyzování využití paměti. Aplikace bude nefunkční, dokud tento proces nebude dokončen.</string>
-    <string name="preference_debug_dump_heap_in_progress">Zachytávání snímku…</string>
     <string name="preference_custom_colors_corepalette">Barevná paleta</string>
     <string name="preference_use_system_default">Podle systému</string>
     <string name="theme_color_scheme_autogenerate">Z primární barvy</string>

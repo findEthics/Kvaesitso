@@ -227,8 +227,6 @@
     <string name="preference_category_license">Licenza</string>
     <string name="preference_category_grid">Griglia</string>
     <string name="preference_grid_column_count">Numero colonne</string>
-    <string name="preference_screen_debug">Debug</string>
-    <string name="preference_screen_debug_summary">Strumenti di risoluzione dei problemi</string>
     <string name="preference_category_widgets">Widget</string>
     <string name="preference_screen_weatherwidget">Meteo</string>
     <string name="preference_screen_clockwidget">Orologio</string>
@@ -254,7 +252,6 @@
     <string name="preference_search_localfiles_summary">Cerca documenti, foto e altri file salvati su questo dispositivo</string>
     <string name="preference_search_favorites_summary">Mostra elementi appuntati e usati frequentemente sopra la griglia delle app</string>
     <string name="preference_search_calculator_summary">Calcola i termini matematici</string>
-    <string name="preference_crash_reporter_summary">Segnalazioni di errori e arresti anomali</string>
     <string name="preference_calendar_calendars">Calendari</string>
     <string name="preference_screen_buildinfo">Informazioni build</string>
     <string name="preference_search_bar_style">Stile</string>
@@ -266,8 +263,6 @@
         <item quantity="many">Carico in %1$s minuti</item>
         <item quantity="other">Carico in %1$s minuti</item>
     </plurals>
-    <string name="preference_restore_summary">Importa un backup creato in precedenza</string>
-    <string name="restore_meta">Creato il %1$s alle %2$s con %3$s.</string>
     <string name="preference_enforce_icon_shape">Applica forma</string>
     <string name="weather_condition_lightssleetshowersandthunder">Deboli rovesci di nevischio e tuoni</string>
     <string name="weather_condition_lightsnowshowers">Deboli rovesci di neve</string>
@@ -279,37 +274,25 @@
     <string name="preference_cards_shape_cut">Tagliata</string>
     <string name="preference_force_themed_icons">Applica icone a tema</string>
     <string name="preference_force_themed_icons_summary">Applica la combinazione di colori dell\'applicazione a tutte le icone, comprese quelle non supportate (non consigliato)</string>
-    <string name="preference_restore">Ripristino</string>
     <string name="preference_search_appshortcuts">Scorciatoie app</string>
     <string name="preference_search_appshortcuts_summary">Cerca scorciatoie app</string>
     <string name="preference_grid_icon_size">Dimensione icona</string>
     <string name="preference_search_currencyconverter">Convertitore di valuta</string>
     <string name="preference_hidden_items">Risultati ricerca esclusi</string>
     <string name="preference_hidden_items_summary">Gestisci app escluse e risultati di ricerca</string>
-    <string name="restore_incompatible_file">Questo backup è stato creato con una versione diversa di %1$s e non può essere ripristinato con questa versione.</string>
     <string name="icon_picker_default_icon">Predefinito</string>
     <string name="icon_picker_suggestions">Suggerimenti</string>
     <string name="icon_picker_search_icon">Cerca nei pacchetti icone</string>
     <string name="weather_condition_sleetshowersandthunder">Rovesci di nevischio e tuoni</string>
-    <string name="preference_crash_reporter">Riporta crash</string>
     <string name="preference_blur_wallpaper">Sfoca lo sfondo</string>
     <string name="preference_blur_wallpaper_summary">Usa un effetto sfocato sullo sfondo</string>
-    <string name="file_type_launcherbackup">%1$s backup</string>
     <string name="weather_condition_lightrainshowers">Pioggia leggera debole</string>
-    <string name="backup_complete">Il backup è stato completato.</string>
-    <string name="restore_invalid_file">Il file selezionato non sembra essere un backup. Sei sicuro di aver selezionato il file giusto\?</string>
     <string name="preference_blur_wallpaper_unsupported">Non supportato su questo dispositivo</string>
-    <string name="restore_different_minor_version">Questo backup è stato creato con una versione diversa di %1$s. Alcuni dati potrebbero non essere ripristinati correttamente.</string>
-    <string name="preference_screen_backup_summary">Esporta e importa i dati del launcher</string>
-    <string name="preference_backup">Backup</string>
-    <string name="preference_screen_backup">Backup e ripristino</string>
     <string name="action_undo">Annulla</string>
     <string name="weather_location_search_no_result">Posizione non trovata</string>
     <string name="preference_font">Carattere</string>
-    <string name="restore_complete">Il backup è stato ripristinato.</string>
     <string name="preference_clockwidget_favorites_part">Dock</string>
     <string name="preference_clockwidget_favorites_part_summary">Mostra elementi appuntati nel dock</string>
-    <string name="preference_backup_summary">Esporta preferenze e dati del launcher</string>
     <string name="preference_search_currencyconverter_summary">Scarica periodicamente i tassi di cambio per convertire le valute</string>
     <string name="menu_customize">Personalizza</string>
     <string name="calendar_widget_next_events">Evento successivo</string>
@@ -332,14 +315,6 @@
     <string name="apps_profile_work">Lavoro</string>
     <string name="menu_remove">Rimuovi</string>
     <string name="missing_permission_appshortcuts_create">Imposta %1$s come app home predefinita per creare scorciatoie.</string>
-    <string name="preference_category_debug_tools">Strumenti</string>
-    <string name="preference_debug_cleanup_database">Pulisci database</string>
-    <string name="preference_debug_cleanup_database_summary">Rimuovi le voci interrotte e inusate dal database del launcher</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d voce è stata rimossa</item>
-        <item quantity="many">%1$d voci sono state rimosse</item>
-        <item quantity="other">%1$d voci sono state rimosse</item>
-    </plurals>
     <string name="favorites">Preferiti</string>
     <string name="edit_favorites_dialog_empty_section">Trascina gli elementi qui</string>
     <string name="frequently_used_rows">Numero di righe</string>
@@ -367,8 +342,6 @@
     <string name="preference_system_bar_icons_light">Chiaro</string>
     <string name="preference_system_bar_icons_dark">Scuro</string>
     <string name="preference_search_bar_color">Colore</string>
-    <string name="preference_logs">Log</string>
-    <string name="preference_logs_summary">Visualizza ed esporta i log dell\'applicazione</string>
     <string name="preference_screen_search_actions">Azioni rapide</string>
     <string name="preference_search_search_actions_summary">Configura azioni rapide e scorciatoie di ricerca</string>
     <string name="search_action_call">Chiamata</string>
@@ -465,8 +438,6 @@
     <string name="widget_config_appwidget_borderless">Senza bordo</string>
     <string name="widget_config_appwidget_configure">Configura widget</string>
     <string name="widget_config_weather_integration_settings">Impostazioni integrazione meteo</string>
-    <string name="preference_debug_reinstall_iconpacks">Reinstalla pacchetti icone</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Svuota e ricostruisci la cache del pacchetto icone</string>
     <string name="widget_name_notes">Nota</string>
     <string name="notes_widget_action_save">Salva</string>
     <string name="notes_widget_placeholder">Scrivi una nota</string>
@@ -495,9 +466,6 @@
     <string name="note_widget_file_read_error_description">Impossibile leggere il file collegato. Una copia è stata ripristinata dalla memoria interna del launcher. Se modifichi la nota, il file collegato potrebbe essere sovrascritto</string>
     <string name="preference_gesture_home_button">Pulsante home/gesto</string>
     <string name="search_action_websearch">Ricerca web</string>
-    <string name="preference_debug_dump_heap_summary">Cattura uno snapshot per analizzare l\'uso della memoria. L\'applicazione si bloccherà fino al completamento di questo processo.</string>
-    <string name="preference_debug_dump_heap">Snapshot memoria</string>
-    <string name="preference_debug_dump_heap_in_progress">Catturando uno snapshot…</string>
     <string name="preference_custom_colors_corepalette">Tavolozza colori</string>
     <string name="theme_color_scheme_autogenerate">Dal colore primario</string>
     <string name="preference_use_system_default">Predefinita del sistema</string>

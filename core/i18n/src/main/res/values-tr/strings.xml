@@ -150,7 +150,6 @@
     <!-- Google Forms file -->
     <string name="file_type_form">Form</string>
     <!-- Launcher backup, %1$s: app name -->
-    <string name="file_type_launcherbackup">%1$s yedeği</string>
     <!-- Launcher theme, %1$s: app name -->
     <string name="file_type_launchertheme">%1$s teması</string>
     <!-- Generic file , %1$s is the file extension -->
@@ -438,18 +437,6 @@
     <string name="preference_imperial_units">İmparatorluk birimleri</string>
     <string name="widget_config_weather_compact">Kompakt mod</string>
     <string name="preference_category_debug">Hata Ayıklama</string>
-    <string name="preference_category_debug_tools">Araçlar</string>
-    <string name="preference_debug_dump_heap">Bellek anlık görüntüsü</string>
-    <string name="preference_debug_dump_heap_summary">Bellek kullanımını analiz etmek için bir anlık görüntü yakalayın. Bu işlem tamamlanana kadar uygulama donacaktır.</string>
-    <string name="preference_debug_dump_heap_in_progress">Anlık görüntü yakalanıyor…</string>
-    <string name="preference_debug_cleanup_database">Veritabanını temizle</string>
-    <string name="preference_debug_cleanup_database_summary">Başlatıcı veritabanından bozuk ve kullanılmayan girişleri kaldırın</string>
-    <string name="preference_debug_reinstall_iconpacks">Simge paketlerini yeniden yükle</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">Simge paketi önbelleğini temizle ve yeniden oluştur</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d giriş kaldırıldı</item>
-        <item quantity="other">%1$d giriş kaldırıldı</item>
-    </plurals>
     <string name="preference_category_icons">Simgeler</string>
     <string name="preference_cards">Kartlar</string>
     <string name="preference_cards_summary">Kart görünümünü özelleştir</string>
@@ -530,8 +517,6 @@
     <string name="preference_grid_labels_summary">Simgenin altında uygulama adını göster</string>
     <string name="preference_grid_list_style_summary">Uygulamaları ızgara yerine liste halinde göster</string>
     <string name="preference_grid_list_icons_summary">Liste görünümünde simgeleri göster</string>
-    <string name="preference_screen_debug">Hata Ayıklama</string>
-    <string name="preference_screen_debug_summary">Sorun giderme araçları</string>
     <string name="preference_category_widgets">Widgetlar</string>
     <string name="preference_screen_weatherwidget">Hava Durumu</string>
     <string name="preference_category_media_apps">Medya uygulamaları</string>
@@ -559,16 +544,6 @@
     <string name="preference_clockwidget_battery_part">Pil</string>
     <string name="preference_clockwidget_alarm_part">Alarmlar</string>
     <string name="preference_clockwidget_alarm_part_summary">Sonraki 8 saat içinde çalacak alarmları göster</string>
-    <string name="preference_screen_backup">Yedekle ve geri yükle</string>
-    <string name="preference_screen_backup_summary">Başlatıcı verilerini dışa ve içe aktar</string>
-    <string name="preference_backup">Yedekle</string>
-    <string name="preference_backup_summary">Tercihleri ve başlatıcı verilerini dışa aktar</string>
-    <string name="preference_restore">Geri Yükle</string>
-    <string name="preference_restore_summary">Daha önce oluşturulmuş bir yedeği içe aktar</string>
-    <string name="preference_crash_reporter">Çökme raporlayıcı</string>
-    <string name="preference_crash_reporter_summary">Hata ve çökme raporları</string>
-    <string name="preference_logs">Günlükler</string>
-    <string name="preference_logs_summary">Uygulama günlüklerini görüntüle ve dışa aktar</string>
     <string name="preference_screen_search">Arama</string>
     <string name="preference_screen_search_summary">Arama, etiketler, hariç tutulan sonuçlar</string>
     <string name="preference_search_favorites">Favoriler</string>
@@ -643,15 +618,9 @@
         <item quantity="one">%1$s dakika içinde dolacak</item>
         <item quantity="other">%1$s dakika içinde dolacak</item>
     </plurals>
-    <string name="backup_complete">Yedekleme tamamlandı.</string>
-    <string name="restore_invalid_file">Seçilen dosya bir yedekleme dosyası gibi görünmüyor. Doğru dosyayı seçtiğinizden emin misiniz?</string>
     <!-- %1$s: app name -->
-    <string name="restore_incompatible_file">Bu yedekleme %1$s\'in farklı bir sürümüyle oluşturulmuş ve bu sürümle geri yüklenemez.</string>
     <!-- %1$s: app name -->
-    <string name="restore_different_minor_version">Bu yedekleme %1$s\'in farklı bir sürümüyle oluşturulmuş. Bazı veriler doğru şekilde geri yüklenmeyebilir.</string>
     <!-- %1$s: date and time of backup creation, %s$s: name of the device this backup has been created on, %s$s app name and version of creating app-->
-    <string name="restore_meta">Oluşturma: %1$s, %2$s cihazında %3$s ile.</string>
-    <string name="restore_complete">Yedekleme geri yüklendi.</string>
     <string name="icon_picker_default_icon">Varsayılan</string>
     <string name="icon_picker_suggestions">Öneriler</string>
     <string name="icon_picker_search_icon">Simge paketlerinde ara</string>

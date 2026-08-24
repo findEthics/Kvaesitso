@@ -47,7 +47,6 @@ include(":services:tags")
 include(":services:search")
 include(":services:badges")
 include(":services:icons")
-include(":services:backup")
 include(":services:music")
 
 include(":libs:material-color-utilities")

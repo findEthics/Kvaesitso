@@ -54,8 +54,6 @@ import de.mm20.launcher2.ui.settings.apps.AppSearchSettingsRoute
 import de.mm20.launcher2.ui.settings.apps.AppSearchSettingsScreen
 import de.mm20.launcher2.ui.settings.appshortcuts.AppShortcutsSettingsRoute
 import de.mm20.launcher2.ui.settings.appshortcuts.AppShortcutsSettingsScreen
-import de.mm20.launcher2.ui.settings.backup.BackupSettingsRoute
-import de.mm20.launcher2.ui.settings.backup.BackupSettingsScreen
 import de.mm20.launcher2.ui.settings.buildinfo.BuildInfoSettingsRoute
 import de.mm20.launcher2.ui.settings.buildinfo.BuildInfoSettingsScreen
 import de.mm20.launcher2.ui.settings.calendarsearch.CalendarProviderSettingsRoute
@@ -70,12 +68,6 @@ import de.mm20.launcher2.ui.settings.contacts.ContactsSettingsRoute
 import de.mm20.launcher2.ui.settings.contacts.ContactsSettingsScreen
 import de.mm20.launcher2.ui.settings.crashreporter.CrashReportRoute
 import de.mm20.launcher2.ui.settings.crashreporter.CrashReportScreen
-import de.mm20.launcher2.ui.settings.crashreporter.CrashReporterRoute
-import de.mm20.launcher2.ui.settings.crashreporter.CrashReporterScreen
-import de.mm20.launcher2.ui.settings.debug.DebugSettingsRoute
-import de.mm20.launcher2.ui.settings.debug.DebugSettingsScreen
-import de.mm20.launcher2.ui.settings.debug.StringNormalizerTestRoute
-import de.mm20.launcher2.ui.settings.debug.StringNormalizerTestScreen
 import de.mm20.launcher2.ui.settings.easteregg.EasterEggSettingsRoute
 import de.mm20.launcher2.ui.settings.easteregg.EasterEggSettingsScreen
 import de.mm20.launcher2.ui.settings.favorites.FavoritesSettingsRoute
@@ -100,8 +92,6 @@ import de.mm20.launcher2.ui.settings.locale.CurrencySettingsRoute
 import de.mm20.launcher2.ui.settings.locale.CurrencySettingsScreen
 import de.mm20.launcher2.ui.settings.locale.LocaleSettingsRoute
 import de.mm20.launcher2.ui.settings.locale.LocaleSettingsScreen
-import de.mm20.launcher2.ui.settings.log.LogRoute
-import de.mm20.launcher2.ui.settings.log.LogScreen
 import de.mm20.launcher2.ui.settings.main.MainRoute
 import de.mm20.launcher2.ui.settings.main.MainSettingsScreen
 import de.mm20.launcher2.ui.settings.search.SearchSettingsRoute
@@ -235,12 +225,6 @@ class SettingsActivity : BaseActivity() {
             entry<EasterEggSettingsRoute> {
                 EasterEggSettingsScreen()
             }
-            entry<DebugSettingsRoute> {
-                DebugSettingsScreen()
-            }
-            entry<StringNormalizerTestRoute> {
-                StringNormalizerTestScreen()
-            }
             entry<LocaleSettingsRoute> {
                 LocaleSettingsScreen()
             }
@@ -249,15 +233,6 @@ class SettingsActivity : BaseActivity() {
             }
             entry<CurrencySettingsRoute> {
                 CurrencySettingsScreen()
-            }
-            entry<BackupSettingsRoute> {
-                BackupSettingsScreen()
-            }
-            entry<CrashReporterRoute> {
-                CrashReporterScreen()
-            }
-            entry<LogRoute> {
-                LogScreen()
             }
             entry<CrashReportRoute> {
                 CrashReportScreen(it.fileName)

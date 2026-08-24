@@ -59,6 +59,5 @@ dependencies {
     implementation(project(":core:base"))
     implementation(project(":core:preferences"))
     implementation(project(":data:database"))
-    implementation(project(":core:crashreporter"))
 
 }

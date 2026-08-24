@@ -87,6 +87,28 @@ Both are currently disabled by `FeatureFlags` and hidden from users. Smartspacer
 
 Feed is an optional swipe-in panel hosting an external launcher-overlay feed. Smartspacer is an optional external app integration for at-a-glance cards under the clock. Removing either has no current user impact.
 
+## Task G: [x] Remove Debug Tools
+
+Expected result: remove release-visible diagnostics while retaining automatic crash capture and its notification detail screen.
+
+- Remove the Debug settings entry, Debug/Log/String Normalizer screens, navigation routes, and crash-report list screen.
+- Remove log export, heap dumps, database cleanup, and forced icon-pack reinstallation; then remove their dead APIs.
+- Keep `core:crashreporter`, its manifest provider, `CrashReportRoute`, and crash-report detail screen.
+- Keep debug-build StrictMode initialization; it is separate from the Settings feature.
+- Remove obsolete Debug strings and docs that advertise Settings > Debug or log export.
+- Confirm Debug is absent in release and a crash notification still opens its report.
+
+## Task H: [x] Remove Backup and Restore
+
+Expected result: remove custom `.kvaesitso` archive import/export and its archive-only code.
+
+- Delete `services/backup`; remove its Gradle include/dependencies and Koin module registration.
+- Remove `Backupable`, archive participants/registrations, archive serialization, and `BackupRestoreDao`.
+- Remove backup file-search handling, the Backup settings route/UI, icon, strings, and docs.
+- Remove now-unused Gradle dependencies from widgets, custom attributes, and searchable data modules.
+- Do not add a preference or Room migration; no persisted setting or database schema changes.
+- Keep Android platform Auto Backup unless explicitly requested otherwise; it is separate from custom archive import/export.
+
 ## Deferred Opportunity: Trim the Font
 
 Do not change this now. If further size reduction is needed, use offline font tooling to instance/subset `google_sans_flex.ttf` into a Rounded-only font:
@@ -101,6 +123,8 @@ Do not change this now. If further size reduction is needed, use offline font to
 1. Task A: English-only resources.
 2. Task E: typography picker simplification.
 3. Task F: dead Feed/Smartspacer cleanup.
-4. Task B: Websites search.
-5. Task C: Places/Locations search.
-6. Task D: Cloud providers, after the accounts dependency check.
+4. Task G: Debug tools.
+5. Task H: Backup and restore.
+6. Task B: Websites search.
+7. Task C: Places/Locations search.
+8. Task D: Cloud providers, after the accounts dependency check.

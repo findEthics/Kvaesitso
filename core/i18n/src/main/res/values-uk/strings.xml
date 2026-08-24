@@ -52,7 +52,6 @@
     <string name="file_type_compressed">Стиснутий файл</string>
     <string name="file_type_text">Текстовий файл</string>
     <string name="action_import">Імпорт</string>
-    <string name="file_type_launcherbackup">Резервна копія %1$s</string>
     <string name="action_done">Готово</string>
     <string name="action_more_actions">Більше</string>
     <string name="file_type_source_code">Файл вихідного коду</string>
@@ -279,7 +278,6 @@
     <string name="preference_category_location">Локалізація</string>
     <string name="preference_automatic_location">Автоматична локалізація</string>
     <string name="widget_config_weather_compact">Компактний вигляд</string>
-    <string name="preference_category_debug_tools">Інтсрументи</string>
     <string name="preference_category_icons">Іконки</string>
     <string name="preference_cards">Картки</string>
     <string name="preference_cards_opacity">Непрозорість</string>

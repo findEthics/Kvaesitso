@@ -50,7 +50,6 @@ interface File : SavableSearchable {
                 "application/vnd.android.package-archive" -> R.drawable.android_24px to R.color.lightgreen
                 "application/vnd.google-apps.form" -> R.drawable.ballot_24px to R.color.deeppurple
                 "application/vnd.google-apps.drawing" -> R.drawable.shape_line_24px to R.color.teal
-                "application/vnd.de.mm20.launcher2.backup" -> R.drawable.settings_24px to R.color.brown
                 "application/vnd.de.mm20.launcher2.theme" -> R.drawable.palette_24px to R.color.amber
                 else -> R.drawable.draft_24px to R.color.bluegrey
             }
@@ -66,12 +65,6 @@ interface File : SavableSearchable {
 
     fun getFileType(context: Context): String {
         if (isDirectory) return context.getString(R.string.file_type_directory)
-        if (mimeType == "application/vnd.de.mm20.launcher2.backup") {
-            return context.getString(
-                R.string.file_type_launcherbackup,
-                context.getString(R.string.app_name)
-            )
-        }
         if (mimeType == "application/vnd.de.mm20.launcher2.theme") {
             return context.getString(
                 R.string.file_type_launchertheme,

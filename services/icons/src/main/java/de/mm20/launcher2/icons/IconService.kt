@@ -256,13 +256,6 @@ class IconService(
         }
     }
 
-    fun reinstallAllIconPacks() {
-        scope.launch {
-            iconPackManager.updateIconPacks(forceReinstall = true)
-            iconPacksUpdated.tryEmit(Unit)
-        }
-    }
-
     fun getInstalledIconPacks(): Flow<List<IconPack>> {
         return iconPackManager.getInstalledIconPacks()
     }

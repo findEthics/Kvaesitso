@@ -62,7 +62,6 @@
     <string name="file_type_ebook">رایاکتاب</string>
     <string name="file_type_drawing">طراحی</string>
     <string name="file_type_form">فرم</string>
-    <string name="file_type_launcherbackup">%1$s پشتیبان</string>
     <string name="file_type_launchertheme">%1$s پوسته</string>
     <string name="file_type_generic">%1$s پرونده</string>
     <string name="alert_delete_directory">پوشه %1$s و تمام محتوای آن برای همیشه پاک می‌شود. ادامه دهید؟</string>
@@ -191,7 +190,6 @@
     <string name="provider_openweathermap">نقشه آزاد آب و هوا(OpenWeatherMap)</string>
     <string name="provider_brightsky">خدمات هواشناسی آلمان (فقط آلمان)</string>
     <string name="provider_here">Here</string>
-    <string name="preference_debug_dump_heap">تصویر حافظه</string>
     <string name="preference_icon_shape_hexagon">شش‌ضلعی</string>
     <string name="preference_category_searchbar">نوار جستجو</string>
     <string name="preference_screen_integrations">یکپارچه‌سازی‌ها</string>
@@ -230,7 +228,6 @@
     <string name="preference_hidden_items">یافته‌های جستجوی مخفی</string>
     <string name="preference_hidden_items_summary">مدیریت برنامه‌ها و یافته‌های جستجوی مخفی</string>
     <string name="preference_screen_homescreen_summary">ساعت، نوار جستجو، تصویر زمینه، نوارهای سامانه</string>
-    <string name="restore_invalid_file">گمان میرود پرونده انتخاب‌شده یک پشتیبان نباشد. آیا باور دارید پرونده درست را انتخاب کرده‌اید؟</string>
     <string name="note_widget_file_read_error_description">پرونده پیوند داده‌شده را نمی‌توان خواند. گمان میرود جابجا یا پاک‌شده است. یک نگارش از حافظه داخلی برنامه راه‌انداز بازیابی شده است. اگر یادداشت را ویرایش کنید، پرونده پیوند داده‌شده احتمالاً بازنویسی خواهد شد.</string>
     <string name="theme_color_scheme_custom_color">سفارشی</string>
     <string name="shortcut_unavailable_description">این میانبر به دلیل اینکه %1$s در جانگاه راه‌انداز پیش‌گزیده انتخاب نشده غیرفعال است</string>
@@ -263,7 +260,6 @@
     <string name="preference_search_calendar">تقویم</string>
     <string name="preference_search_calendar_summary">جستجوی تعهدات و رویدادهای آینده</string>
     <string name="preference_search_localfiles_summary">جستجوی اسناد، عکس‌ها و سایر فایل‌های ذخیره‌شده روی این دستگاه</string>
-    <string name="preference_crash_reporter">گزارش‌دهنده خرابی</string>
     <string name="preference_search_contacts">مخاطبین</string>
     <string name="preference_widgets_edit_button_summary">نمایش دکمه‌ای برای افزودن، پاک‌کردن و بازچینی ابزارک‌ها</string>
     <string name="preference_contacts_call_on_tap">تماس با لمس</string>
@@ -291,8 +287,6 @@
     <string name="preference_search_bar_auto_focus_summary">به شیوه خودکار هنگام بازکردن کشوی برنامه‌ها، صفحه‌کلید نمایش داده شود</string>
     <string name="preference_screen_icons">شبکه و نمادها</string>
     <string name="preference_screen_icons_summary">شبکه، اندازه نماد، بسته‌های نماد، نشان‌ها</string>
-    <string name="restore_different_minor_version">این پشتیبان با نسخه متفاوتی از %1$s ایجاد شده است. ممکن است برخی از داده‌ها به درستی بازیابی نشوند.</string>
-    <string name="restore_incompatible_file">این پشتیبان با نگارشی ناهمسان با %1$s ساخته شده و نمی‌تواند با این نگارش بازیابی شود.</string>
     <string name="search_action_label">نام</string>
     <string name="search_action_app">برنامه</string>
     <string name="icon_picker_suggestions">پیشنهادات</string>
@@ -378,16 +372,9 @@
     <string name="preference_location_managed_summary">مکان برای این ارائه‌دهنده توسط برنامه افزونه مدیریت می‌شود</string>
     <string name="preference_location">مکان</string>
     <string name="preference_category_debug">اشکال‌زدایی</string>
-    <string name="preference_category_debug_tools">ابزارها</string>
     <string name="preference_imperial_units_summary">به‌کار بردن درجه فارنهایت و مایل بر ساعت</string>
     <string name="preference_imperial_units">واحدهای امپریال</string>
     <string name="widget_config_weather_compact">حالت فشرده</string>
-    <string name="preference_debug_dump_heap_summary">ثبت یک نمونه برای تحلیل مصرف حافظه. برنامه تا پایان این فرآیند متوقف می‌شود.</string>
-    <string name="preference_debug_dump_heap_in_progress">در حال گرفتن نگارش پشتیبان…</string>
-    <string name="preference_debug_cleanup_database">پاکسازی پایگاه داده</string>
-    <string name="preference_debug_cleanup_database_summary">پاک‌کردن ورودی‌های خراب و به‌کار نرفته از پایگاه داده برنامه</string>
-    <string name="preference_debug_reinstall_iconpacks">نصب دوباره بسته نمادها</string>
-    <string name="preference_debug_reinstall_iconpacks_summary">پاک کردن و بازسازی حافظه نهان بسته‌های نماد</string>
     <string name="preference_category_icons">نمادها</string>
     <string name="preference_cards">کارت‌ها</string>
     <string name="preference_cards_summary">سفارشی‌سازی ظاهر کارت‌ها</string>
@@ -410,22 +397,12 @@
     <string name="preference_shortcut_badges_summary">نمایش نشان برای میانبرها</string>
     <string name="preference_plugin_badges">نشان‌های افزونه</string>
     <string name="preference_plugin_badges_summary">نشان دادن اینکه یک نتیجه جستجو توسط کدام افزونه ایجاد شده است</string>
-    <string name="preference_screen_debug">اشکال‌زدایی</string>
-    <string name="preference_screen_debug_summary">ابزارهای عیب‌یابی</string>
     <string name="preference_category_widgets">ابزارک‌ها</string>
     <string name="preference_grid_labels">نمایش برچسب‌ها</string>
     <string name="preference_grid_labels_summary">نمایش نام برنامه زیر نماد</string>
-    <string name="preference_screen_backup">پشتیبان‌گیری و بازیابی</string>
-    <string name="preference_screen_backup_summary">صادرات و واردات داده‌های راه‌انداز</string>
-    <string name="preference_backup">پشتیبان‌گیری</string>
-    <string name="preference_restore">بازیابی</string>
     <string name="preference_clockwidget_alarm_part_summary">نمایش آلارم‌هایی که در ۸ ساعت آینده به صدا درمی‌آیند</string>
-    <string name="preference_crash_reporter_summary">گزارش‌های خطا و خرابی</string>
-    <string name="preference_logs">گزارش‌ها</string>
-    <string name="preference_logs_summary">مشاهده و صدور گزارش‌های برنامه</string>
     <string name="preference_calendar_hide_completed">پنهان کردن وظیفه‌های انجام‌شده</string>
     <string name="preference_search_bar_style_summary">سفارشی کردن ظاهر نوار جستجو</string>
-    <string name="restore_meta">ساخته شده %1$s در %2$s با %3$s.</string>
     <string name="open_search_swipe_right">کشیدن به راست</string>
     <string name="tag_name">نام برچسب</string>
     <string name="preference_layout_open_search">جستجو / کشوی برنامه‌ها</string>
@@ -499,9 +476,7 @@
     <string name="preference_compact_tags">برچسب‌های فشرده</string>
     <string name="preference_compact_tags_summary">مخفی کردن برچسب‌ها یا نمادها برای کاهش فضای اشغال‌شده توسط برچسب‌ها</string>
     <string name="preference_screen_homescreen">صفحه خانگی</string>
-    <string name="backup_complete">پشتیبان‌گیری تکمیل شد.</string>
     <string name="icon_picker_default_icon">پیش‌گزیده</string>
-    <string name="restore_complete">پشتیبان بازیابی شد.</string>
     <string name="apps_profile_work">کار</string>
     <string name="icon_picker_filter_all_packs">همه بسته‌های نماد</string>
     <string name="apps_profile_main">شخصی</string>
@@ -556,10 +531,6 @@
     </plurals>
     <string name="apps_profile_private">خصوصی</string>
     <string name="favorites">موارد دلخواه</string>
-    <plurals name="debug_cleanup_database_result">
-        <item quantity="one">%1$d مورد پاک‌شده.</item>
-        <item quantity="other">%1$d مورد پاک‌شده.</item>
-    </plurals>
     <string name="preference_search_supportedunits">واحدهای پشتیبانی شده</string>
     <string name="preference_clock_widget_time_format">فرمت زمان</string>
     <string name="preference_clock_widget_time_format_24h">24 ساعته</string>
@@ -574,8 +545,6 @@
     <string name="preference_clockwidget_date_part_summary">نمایش تاریخ کنونی</string>
     <string name="preference_clockwidget_favorites_part">نوار ابزار</string>
     <string name="preference_clockwidget_favorites_part_summary">نمایش اولین ردیف موارد دلخواه</string>
-    <string name="preference_restore_summary">وارد کردن یک پشتیبان ایجاد شده قبلی</string>
-    <string name="preference_backup_summary">صادرات تنظیمات و داده‌های راه‌انداز</string>
     <string name="preference_search_currencyconverter_summary">به شیوه دوره‌ای نرخ ارزها را برای تبدیل واحد پولی دریافت کنید</string>
     <string name="preference_search_localfiles">فایل‌های محلی</string>
     <string name="preference_calendar_calendars">تقویم‌ها</string>
