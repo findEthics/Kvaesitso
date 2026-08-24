@@ -14,7 +14,6 @@ import de.mm20.launcher2.preferences.search.SearchFilterSettings
 import de.mm20.launcher2.preferences.search.ShortcutSearchSettings
 import de.mm20.launcher2.preferences.search.UnitConverterSettings
 import de.mm20.launcher2.preferences.search.WebsiteSearchSettings
-import de.mm20.launcher2.preferences.search.WikipediaSearchSettings
 import de.mm20.launcher2.preferences.ui.BadgeSettings
 import de.mm20.launcher2.preferences.ui.ClockWidgetSettings
 import de.mm20.launcher2.preferences.ui.GestureSettings
@@ -39,7 +38,6 @@ val preferencesModule = module {
     factory { UiSettings(get()) }
     factory { ShortcutSearchSettings(get()) }
     factory { FavoritesSettings(get()) }
-    factory { WikipediaSearchSettings(get()) }
     factory { IconSettings(get()) }
     factory { RankingSettings(get()) }
     factory { CalendarSearchSettings(get()) }

@@ -66,8 +66,6 @@
     <string name="wind_west_north_west">西北西</string>
     <string name="wind_north_west">西北</string>
     <string name="wind_north_north_west">北北西</string>
-    <string name="wikipedia_url">https://zh.wikipedia.org/zh-tw/</string>
-    <string name="wikipedia_source">來自維基百科</string>
     <string name="file_meta_title">標題：%1$s</string>
     <string name="file_meta_artist">作者：%1$s</string>
     <string name="file_meta_album">專輯：%1$s</string>
@@ -354,8 +352,6 @@
     <string name="preference_search_unitconverter_summary">用法：1.5 kg 或者 4 cm &gt;&gt; in</string>
     <string name="preference_search_currencyconverter">貨幣轉換器</string>
     <string name="preference_search_currencyconverter_summary">定期下載匯率來轉換貨幣</string>
-    <string name="preference_search_wikipedia">維基百科</string>
-    <string name="preference_search_wikipedia_summary">搜尋自由的百科全書</string>
     <string name="preference_search_websites">網站</string>
     <string name="preference_search_websites_summary">如果搜尋查詢是 URL，則顯示網站的預覽</string>
     <string name="preference_search_localfiles">本機檔案</string>
@@ -375,7 +371,6 @@
     <string name="preference_hidden_items_summary">管理已排除的應用程式與搜尋結果</string>
     <string name="preference_screen_tags">標籤</string>
     <string name="preference_screen_tags_summary">管理標籤與標記項目</string>
-    <string name="preference_wikipedia_customurl">Wikipedia 網址</string>
     <string name="preference_edit_favorites_summary">改變釘選項目的順序</string>
     <string name="preference_category_favorites_frequently_used">常用</string>
     <string name="preference_favorites_frequently_used_summary">在我的最愛顯示常用的項目</string>

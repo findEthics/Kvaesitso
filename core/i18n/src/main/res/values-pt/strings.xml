@@ -89,7 +89,6 @@
     <string name="owncloud_username">Nome de utilizador</string>
     <string name="wallpaper">Papel de parede</string>
     <string name="wind_south">Sul</string>
-    <string name="wikipedia_source">De Wikipedia</string>
     <string name="file_type_text">Ficheiro de texto</string>
     <string name="websearch_dialog_query_encoding_url">Codificação em percentagem</string>
     <string name="widget_name_unknown">Desconhecido</string>
@@ -107,7 +106,6 @@
     <string name="file_meta_owner">Dono: %1$s</string>
     <string name="file_type_compressed">Ficheiro comprimido</string>
     <string name="default_websearch_2_url">https://www.youtube.com/results?search_query=${1}</string>
-    <string name="wikipedia_url">https://en.wikipedia.org</string>
     <string name="file_meta_album">Álbum: %1$s</string>
     <string name="file_meta_size">Tamanho: %1$s</string>
     <string name="file_meta_type">Tipo: %1$s</string>
@@ -361,7 +359,6 @@
     <string name="preference_screen_search_summary">Pesquisas, etiquetas, itens ocultos</string>
     <string name="preference_search_favorites">Favoritos</string>
     <string name="preference_screen_tags_summary">Gerir etiquetas e itens com etiqueta</string>
-    <string name="preference_wikipedia_customurl">URL da Wikipedia</string>
     <string name="restore_complete">O backup foi restaurado.</string>
     <string name="icon_picker_filter_all_packs">Todos os pacotes de ícones</string>
     <string name="favorites">Favoritos</string>
@@ -508,8 +505,6 @@
     <string name="preference_search_unitconverter_summary">Exemplo: 1,5 kg ou 4 cm -&gt; pol</string>
     <string name="preference_search_currencyconverter">Conversor de moeda</string>
     <string name="preference_search_currencyconverter_summary">Periodicamente, descarregar taxas de câmbio para conversão de moeda</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Pesquisar na enciclopédia livre</string>
     <string name="preference_search_websites">Sites</string>
     <string name="preference_search_locations">Locais</string>
     <string name="preference_search_locations_radius">Raio de pesquisa</string>

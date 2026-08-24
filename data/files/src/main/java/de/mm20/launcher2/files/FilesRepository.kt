@@ -4,7 +4,6 @@ import android.content.Context
 import de.mm20.launcher2.files.providers.LocalFileProvider
 import de.mm20.launcher2.files.providers.NextcloudFileProvider
 import de.mm20.launcher2.files.providers.OwncloudFileProvider
-import de.mm20.launcher2.files.providers.PluginFileProvider
 import de.mm20.launcher2.nextcloud.NextcloudApiHelper
 import de.mm20.launcher2.owncloud.OwncloudClient
 import de.mm20.launcher2.permissions.PermissionGroup
@@ -65,7 +64,7 @@ internal class FileRepository(
 
                     "nextcloud" -> NextcloudFileProvider(nextcloudClient)
                     "owncloud" -> OwncloudFileProvider(owncloudClient)
-                    else -> PluginFileProvider(context, it)
+                    else -> null
                 }
             }
 

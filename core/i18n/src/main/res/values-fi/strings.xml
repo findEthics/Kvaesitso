@@ -32,8 +32,6 @@
     <string name="wind_east_south_east">Itäkaakko</string>
     <string name="wind_south_east">Kaakko</string>
     <string name="wind_south_south_west">Etelälounas</string>
-    <string name="wikipedia_url">https://fi.wikipedia.org</string>
-    <string name="wikipedia_source">Wikipediasta</string>
     <string name="file_meta_size">Koko: %1$s</string>
     <string name="file_meta_app_name">Sovelluksen nimi: %1$s</string>
     <string name="file_type_directory">Hakemisto</string>
@@ -206,7 +204,6 @@
     <string name="preference_search_favorites">Suosikit</string>
     <string name="preference_search_calculator_summary">Laske matemaattisia termejä</string>
     <string name="preference_search_bar_color">Väri</string>
-    <string name="preference_wikipedia_customurl">Wikipedian osoite</string>
     <string name="preference_edit_favorites_summary">Vaihda kiinnitettyjen kohteiden järjestystä</string>
     <string name="restore_incompatible_file">Tämä varmuuskopio on luotu sovelluksen %1$s toisella versiolla eikä sitä voida palauttaa tällä versiolla.</string>
     <string name="icon_picker_default_icon">Oletus</string>
@@ -218,7 +215,6 @@
     <string name="preference_search_unitconverter">Yksikkömuunnin</string>
     <string name="preference_search_unitconverter_summary">Käyttö: 1.5 kg tai 4 cm &gt;&gt; in</string>
     <string name="preference_search_currencyconverter">Valuuttamuunnin</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_websites">Verkkosivut</string>
     <string name="preference_search_websites_summary">Näytä esikatselu verkkosivusta jos hakutermi on verkko-osoite</string>
     <string name="preference_search_localfiles">Paikalliset tiedostot</string>
@@ -443,7 +439,6 @@
     <string name="preference_search_currencyconverter_summary">Lataa säännöllisesti valuuttojen vaihtokurssit</string>
     <string name="preference_layout_fixed_rotation">Lukittu näytön kierto</string>
     <string name="preference_shortcut_badges">Oikoteiden merkit</string>
-    <string name="preference_search_wikipedia_summary">Hae vapaasta tietosanakirjasta</string>
     <string name="frequently_used_rows">Rivien määrä</string>
     <string name="search_action_message">Viesti</string>
     <string name="search_action_app">Sovellus</string>

@@ -86,7 +86,6 @@ fun IconsSettingsScreen() {
     val cloudFileBadges by viewModel.cloudFileBadges.collectAsStateWithLifecycle(null)
     val suspendedAppBadges by viewModel.suspendedAppBadges.collectAsStateWithLifecycle(null)
     val shortcutBadges by viewModel.shortcutBadges.collectAsStateWithLifecycle(null)
-    val pluginBadges by viewModel.pluginBadges.collectAsStateWithLifecycle(null)
 
     val iconSize = with(density) { grid.iconSize.dp.toPx() }.toInt()
 
@@ -265,14 +264,6 @@ fun IconsSettingsScreen() {
                     value = shortcutBadges == true,
                     onValueChanged = {
                         viewModel.setShortcuts(it)
-                    }
-                )
-                SwitchPreference(
-                    title = stringResource(R.string.preference_plugin_badges),
-                    summary = stringResource(R.string.preference_plugin_badges_summary),
-                    value = pluginBadges == true,
-                    onValueChanged = {
-                        viewModel.setPluginBadges(it)
                     }
                 )
             }

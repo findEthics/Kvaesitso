@@ -21,7 +21,6 @@
     <string name="settings">設定</string>
     <string name="wind_south_east">南東</string>
     <string name="wind_north_north_west">北北西</string>
-    <string name="wikipedia_url">https://ja.wikipedia.org</string>
     <string name="menu_favorites_pin">お気に入りにピン留め</string>
     <string name="menu_share_apk_file">APK ファイル</string>
     <string name="menu_share_store_link">%1$s リンク</string>
@@ -74,7 +73,6 @@
     <string name="preference_icon_shape_rounded_square">角丸</string>
     <string name="preference_icon_shape_square">スクエア</string>
     <string name="preference_clockwidget_alarm_part">アラーム</string>
-    <string name="wikipedia_source">Wikipedia から</string>
     <string name="file_meta_title">タイトル: %1$s</string>
     <string name="file_meta_artist">アーティスト: %1$s</string>
     <string name="file_meta_size">サイズ: %1$s</string>

@@ -7,6 +7,10 @@ import de.mm20.launcher2.preferences.migrations.Migration3
 import de.mm20.launcher2.preferences.migrations.Migration4
 import de.mm20.launcher2.preferences.migrations.Migration5
 import de.mm20.launcher2.preferences.migrations.Migration6
+import de.mm20.launcher2.preferences.migrations.Migration7
+import de.mm20.launcher2.preferences.migrations.Migration8
+import de.mm20.launcher2.preferences.migrations.normalized
+import java.io.File
 import de.mm20.launcher2.settings.BaseSettings
 
 internal class LauncherDataStore(
@@ -21,6 +25,8 @@ internal class LauncherDataStore(
         Migration4(),
         Migration5(),
         Migration6(),
+        Migration7(),
+        Migration8(),
     ),
     corruptionHandler = ReplaceFileCorruptionHandler { LauncherSettingsData() }
 ) {
@@ -30,5 +36,10 @@ internal class LauncherDataStore(
 
     fun update(block: (LauncherSettingsData) -> LauncherSettingsData) {
         updateData(block)
+    }
+
+    override suspend fun restore(fromDir: File) {
+        super.restore(fromDir)
+        context.dataStore.updateData { it.normalized() }
     }
 }

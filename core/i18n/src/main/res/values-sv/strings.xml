@@ -31,11 +31,9 @@
     <string name="wind_north_west">NV</string>
     <string name="wind_north_north_west">NNV</string>
     <string name="preference_icon_shape_circle">Cirkel</string>
-    <string name="wikipedia_source">Från Wikipedia</string>
     <string name="file_meta_title">Titel: %1$s</string>
     <string name="file_meta_artist">Artist: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
-    <string name="wikipedia_url">https://sv.wikipedia.org</string>
     <string name="file_meta_path">Sökväg: %1$s</string>
     <string name="file_meta_type">Typ: %1$s</string>
     <string name="file_meta_app_name">Appnamn: %1$s</string>
@@ -257,8 +255,6 @@
     <string name="preference_search_calculator">Kalkylator</string>
     <string name="preference_search_calculator_summary">Utvärdera matematiska termer</string>
     <string name="preference_search_unitconverter">Måttomvandlare</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Sök i den fria encyklopedin</string>
     <string name="preference_search_websites">Hemsidor</string>
     <string name="preference_search_websites_summary">Förhandsvisa hemsida om söktermen är en URL</string>
     <string name="preference_search_localfiles">Lokala filer</string>
@@ -275,7 +271,6 @@
     <string name="preference_search_bar_style_summary">Anpassa sökfältets utseende</string>
     <string name="preference_search_bar_auto_focus">Visa tangentbord</string>
     <string name="preference_search_bar_auto_focus_summary">Visa automatiskt tangentbordet när sökfältet öppnas</string>
-    <string name="preference_wikipedia_customurl">Wikipedia-länk</string>
     <string name="no_account_nextcloud">Du har inte anslutit ett Nextcloud-konto ännu</string>
     <string name="no_account_owncloud">Du har inte anslutit ett Owncloud-konto ännu</string>
     <string name="connect_account">Anslut konto</string>

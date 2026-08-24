@@ -47,7 +47,6 @@ started this project so future refactorings are to be expected. This is the curr
     - `:weather`: APIs to fetch weather data
     - `:websites`: Implements website search
     - `:widgets`: CRUD operations to store and retrieve widgets in/from the database
-    - `:wikipedia`: Implements Wikipedia search
 - `:core`
     - `:base`: Interface definitions for the most commonly used data types. Commonly used data
       classes, helper functions and utilities.

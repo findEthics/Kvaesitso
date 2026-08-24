@@ -23,7 +23,6 @@
     <string name="wind_west_south_west">ตะวันตกค่อนไปทางใต้</string>
     <string name="wind_west">ตะวันตก</string>
     <string name="wind_north_north_west">เหนือค่อนไปทางตะวันตก</string>
-    <string name="wikipedia_source">โดยวิกิพีเดีย</string>
     <string name="file_meta_artist">ศิลปิน: %1$s</string>
     <string name="file_meta_album">อัลบั้ม: %1$s</string>
     <string name="file_meta_year">ปี: %1$s</string>
@@ -224,8 +223,6 @@
     <string name="preference_search_unitconverter">ตัวแปลงหน่วย</string>
     <string name="preference_search_unitconverter_summary">วิธีใช้: 1.5 กก. หรือ 4 ซม. &gt;&gt; นิ้ว</string>
     <string name="preference_search_currencyconverter">ตัวแปลงสกุลเงิน</string>
-    <string name="preference_search_wikipedia">วิกิพีเดีย</string>
-    <string name="preference_search_wikipedia_summary">ค้นหาในสารานุกรมเสรี</string>
     <string name="preference_search_websites">เว็บไซต์</string>
     <string name="preference_search_localfiles">ไฟล์บนเครื่อง</string>
     <string name="preference_search_cloud_summary">ค้นหาไฟล์ของ %1$s</string>
@@ -241,7 +238,6 @@
     <string name="preference_hidden_items_reveal_button_summary">แสดงปุ่มเผยผลการค้นหาที่ถูกตัดออก</string>
     <string name="preference_screen_tags">แท็ก</string>
     <string name="preference_screen_tags_summary">จัดการแท็ก และสิ่งที่ถูกแท็ก</string>
-    <string name="preference_wikipedia_customurl">ลิงก์วิกิพีเดีย</string>
     <string name="preference_edit_favorites_summary">เปลี่ยนการเรียงของสิ่งที่ถูกปักหมุด</string>
     <string name="preference_category_favorites_frequently_used">ใช้บ่อย</string>
     <string name="preference_favorites_frequently_used_summary">แสดงสิ่งที่ถูกใช้บ่อยๆในรายการโปรด</string>
@@ -327,7 +323,6 @@
     <string name="wind_north_west">ตะวันตกเฉียงเหนือ</string>
     <string name="preference_screen_icons_summary">ลิ้นชักแอป ไอคอน ป้าย</string>
     <string name="icon_picker_search_icon">ค้นหาในชุดไอคอน</string>
-    <string name="wikipedia_url">https://th.wikipedia.org</string>
     <string name="websearch_dialog_replace_icon">แทนที่ไอคอน</string>
     <string name="file_meta_title">เพลง: %1$s</string>
     <string name="websearch_dialog_delete_icon">ลบไอคอน</string>

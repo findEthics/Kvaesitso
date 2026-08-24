@@ -15,9 +15,7 @@ import de.mm20.launcher2.ui.settings.debug.DebugSettingsRoute
 import de.mm20.launcher2.ui.settings.gestures.GesturesSettingsRoute
 import de.mm20.launcher2.ui.settings.homescreen.HomescreenSettingsRoute
 import de.mm20.launcher2.ui.settings.icons.IconsSettingsRoute
-import de.mm20.launcher2.ui.settings.integrations.IntegrationsSettingsRoute
 import de.mm20.launcher2.ui.settings.locale.LocaleSettingsRoute
-import de.mm20.launcher2.ui.settings.plugins.PluginsSettingsRoute
 import de.mm20.launcher2.ui.settings.search.SearchSettingsRoute
 import kotlinx.serialization.Serializable
 
@@ -70,22 +68,6 @@ fun MainSettingsScreen() {
                     summary = stringResource(id = R.string.preference_screen_gestures_summary),
                     onClick = {
                         backStack.add(GesturesSettingsRoute)
-                    }
-                )
-                Preference(
-                    icon = R.drawable.power_24px,
-                    title = stringResource(id = R.string.preference_screen_integrations),
-                    summary = stringResource(id = R.string.preference_screen_integrations_summary),
-                    onClick = {
-                        backStack.add(IntegrationsSettingsRoute)
-                    }
-                )
-                Preference(
-                    icon = R.drawable.extension_24px,
-                    title = stringResource(id = R.string.preference_screen_plugins),
-                    summary = stringResource(id = R.string.preference_screen_plugins_summary),
-                    onClick = {
-                        backStack.add(PluginsSettingsRoute)
                     }
                 )
                 Preference(

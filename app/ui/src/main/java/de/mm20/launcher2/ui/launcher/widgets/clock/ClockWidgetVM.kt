@@ -5,16 +5,13 @@ import android.content.Intent
 import android.provider.AlarmClock
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import de.mm20.launcher2.ktx.isAtLeastApiLevel
 import de.mm20.launcher2.ktx.tryStartActivity
 import de.mm20.launcher2.preferences.ui.ClockWidgetSettings
 import de.mm20.launcher2.ui.launcher.widgets.clock.parts.AlarmPartProvider
 import de.mm20.launcher2.ui.launcher.widgets.clock.parts.BatteryPartProvider
 import de.mm20.launcher2.ui.launcher.widgets.clock.parts.DatePartProvider
 import de.mm20.launcher2.ui.launcher.widgets.clock.parts.FavoritesPartProvider
-import de.mm20.launcher2.ui.launcher.widgets.clock.parts.MusicPartProvider
 import de.mm20.launcher2.ui.launcher.widgets.clock.parts.PartProvider
-import de.mm20.launcher2.ui.launcher.widgets.clock.parts.SmartspacerPartProvider
 import kotlinx.coroutines.flow.Flow
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.channelFlow
@@ -28,16 +25,9 @@ import org.koin.core.component.inject
 class ClockWidgetVM : ViewModel(), KoinComponent {
     private val settings: ClockWidgetSettings by inject()
 
-    private val partProviders = settings.parts.combine(settings.useSmartspacer) { p, s ->
-        p to s
-    }.map { (parts, smartspacer) ->
-        if (smartspacer && isAtLeastApiLevel(29)) {
-            return@map listOf(SmartspacerPartProvider())
-        }
-
+    private val partProviders = settings.parts.map { parts ->
         val providers = mutableListOf<PartProvider>()
         if (parts.date) providers += DatePartProvider()
-        if (parts.music) providers += MusicPartProvider()
         providers += BatteryPartProvider(parts.battery)
         if (parts.alarm) providers += AlarmPartProvider()
         providers

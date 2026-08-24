@@ -42,7 +42,6 @@
     <string name="wind_west">Заходні</string>
     <string name="wind_north_west">Паўночны заходні</string>
     <string name="wind_north_north_west">Паўночны паўночны заходні</string>
-    <string name="wikipedia_source">З Вікіпедыі</string>
     <string name="file_meta_title">Назва: %1$s</string>
     <string name="file_meta_artist">Выканаўца: %1$s</string>
     <string name="file_meta_album">Альбом: %1$s</string>
@@ -82,7 +81,6 @@
     <string name="wind_east_north_east">Усходні паўночны ўсходні</string>
     <string name="wind_north_east">Паўночны ўсходні</string>
     <string name="wind_west_north_west">Заходні паўночны заходні</string>
-    <string name="wikipedia_url">https://be.wikipedia.org</string>
     <string name="file_meta_app_pkgname">Назва пакета: %1$s</string>
     <string name="alert_delete_directory">Каталог %1$s і ўсе яго змесціва будзе назаўжды выдалена. Працягнуць?</string>
     <string name="file_meta_type">Тып: %1$s</string>
@@ -412,8 +410,6 @@
     <string name="preference_search_unitconverter_summary">Выкарыстоўванне: 1.5 кг ці 4 см &gt;&gt; цал</string>
     <string name="preference_search_unitconverter">Канвертар адзінак</string>
     <string name="preference_search_calculator_summary">Вызначэнне матэматычных тэрмінаў</string>
-    <string name="preference_search_wikipedia">Вікіпедыя</string>
-    <string name="preference_search_wikipedia_summary">Пошук у свабоднай энцыклапедыі</string>
     <string name="preference_search_websites">Вэб-сайты</string>
     <string name="preference_search_locations">Месцы</string>
     <string name="preference_search_locations_radius">Радыус пошука</string>
@@ -441,7 +437,6 @@
     <string name="preference_search_bar_auto_focus">Адкрываць клавіятуру</string>
     <string name="preference_search_supportedunits">Адзінкі, якія падтрымліваюцца</string>
     <string name="preference_screen_tags_summary">Кіраванне цэтлікамі і ярлыкамі</string>
-    <string name="preference_wikipedia_customurl">Спасылка на Вікіпедыю</string>
     <string name="preference_hidden_items_reveal_button_summary">Адлюстроўваць кнопку для паказу выключаных пошукавых вынікаў</string>
     <string name="preference_screen_tags">Цэтлікі</string>
     <string name="preference_hidden_items_reveal_button">Кнопка \"Паказаць схаваныя\"</string>

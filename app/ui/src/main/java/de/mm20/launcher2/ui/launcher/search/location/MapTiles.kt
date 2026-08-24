@@ -507,7 +507,7 @@ private object MockLocation : Location {
     override val acceptedPaymentMethods: Map<PaymentMethod, Boolean>?
         get() = mapOf(PaymentMethod.Card to true, PaymentMethod.Cash to false)
 
-    override val websiteUrl: String = "https://en.wikipedia.org/wiki/Brandenburg_Gate"
+    override val websiteUrl: String = "https://example.com/landmarks/brandenburg-gate"
 
     override val phoneNumber: String = "+49 1234567"
 
@@ -519,7 +519,7 @@ private object MockLocation : Location {
         context.tryStartActivity(
             Intent(
                 Intent.ACTION_VIEW,
-                Uri.parse("https://en.wikipedia.org/wiki/Brandenburg_Gate")
+                Uri.parse("https://example.com/landmarks/brandenburg-gate")
             )
         )
 

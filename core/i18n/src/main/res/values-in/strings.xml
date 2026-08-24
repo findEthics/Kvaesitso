@@ -27,7 +27,6 @@
     <string name="wind_west_north_west">Barat-barat laut</string>
     <string name="wind_north_west">Barat laut</string>
     <string name="wind_north_north_west">Utara-barat laut</string>
-    <string name="wikipedia_source">Dari Wikipedia</string>
     <string name="file_meta_title">Judul: %1$s</string>
     <string name="file_meta_artist">Artis: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -69,7 +68,6 @@
     <string name="widget_action_replace">Ganti</string>
     <string name="wind_east_north_east">Timur-timur laut</string>
     <string name="date_today">Hari ini</string>
-    <string name="wikipedia_url">https://id.wikipedia.org</string>
     <string name="file_meta_owner">Pemilik: %1$s</string>
     <string name="alert_delete_directory">Direktori %1$s dan seluruh isinya akan dihapus secara permanen. Lanjut\?</string>
     <string name="default_websearch_2_url">https://www.youtube.com/results\?search_query=${1}</string>
@@ -301,8 +299,6 @@
     <string name="preference_search_unitconverter">Konversi unit</string>
     <string name="preference_search_currencyconverter">Kurs mata uang</string>
     <string name="preference_search_websites">Laman web</string>
-    <string name="preference_search_wikipedia_summary">Cari ensiklopedia bebas</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_websites_summary">Tampilkan pratinjau sebuah laman web jika kueri pencarian adalah URL</string>
     <string name="preference_search_localfiles">Berkas lokal</string>
     <string name="preference_search_cloud_summary">Mencari berkas %1$s</string>

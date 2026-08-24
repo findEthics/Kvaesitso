@@ -26,8 +26,6 @@
     <string name="wind_east_south_east">Leste-Sudeste</string>
     <string name="wind_south_south_east">Sul-Sudeste</string>
     <string name="uv_index">UV %1$d</string>
-    <string name="wikipedia_url">https://pt.wikipedia.org</string>
-    <string name="wikipedia_source">de Wikipédia</string>
     <string name="file_meta_title">Título: %1$s</string>
     <string name="file_meta_artist">Artista: %1$s</string>
     <string name="file_meta_album">Álbum: %1$s</string>
@@ -147,7 +145,6 @@
     <string name="preference_search_calculator">Calculadora</string>
     <string name="preference_search_unitconverter">Conversão de unidades</string>
     <string name="preference_search_unitconverter_summary">Uso: 1.5 kg ou 4 cm &gt;&gt; in</string>
-    <string name="preference_search_wikipedia">Wikipédia</string>
     <string name="preference_search_websites">Sites</string>
     <string name="preference_search_localfiles">Arquivos locais</string>
     <string name="weather_condition_heavyrainandthunder">Chuva intensa e trovões</string>
@@ -351,7 +348,6 @@
     <string name="preference_search_calculator_summary">Avalia termos matemáticos</string>
     <string name="preference_search_currencyconverter">Conversor de moedas</string>
     <string name="preference_search_currencyconverter_summary">Baixe periodicamente as taxas de câmbio para converter moedas</string>
-    <string name="preference_search_wikipedia_summary">Pesquisa na enciclopédia gratuita</string>
     <string name="preference_search_websites_summary">Mostra uma visualização de um site se a consulta de pesquisa for um URL</string>
     <string name="preference_search_localfiles_summary">Pesquisa documentos, fotos e outros arquivos armazenados neste dispositivo</string>
     <string name="preference_search_cloud_summary">Pesquisar arquivos de %1$s</string>
@@ -407,7 +403,6 @@
     <string name="preference_edit_button">Botão editar</string>
     <string name="preference_favorites_edit_button_summary">Mostra um botão para reorganizar os favoritos</string>
     <string name="preference_widgets_edit_button_summary">Mostra um botão para adicionar, remover e reorganizar widgets</string>
-    <string name="preference_wikipedia_customurl">URL da Wikipédia</string>
     <string name="no_account_nextcloud">Você ainda não conectou uma conta Nextcloud</string>
     <string name="no_account_owncloud">Você ainda não conectou uma conta Owncloud</string>
     <string name="connect_account">Conectar conta</string>

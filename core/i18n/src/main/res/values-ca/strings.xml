@@ -28,7 +28,6 @@
     <string name="wind_west_north_west">Nord-oest</string>
     <string name="wind_north_west">Nord-oest</string>
     <string name="wind_north_north_west">Nord-oest</string>
-    <string name="wikipedia_source">Font: Wikipedia</string>
     <string name="file_meta_album">Àlbum: %1$s</string>
     <string name="file_meta_duration">Duració: %1$s</string>
     <string name="file_meta_year">Any: %1$s</string>
@@ -66,7 +65,7 @@
     <string name="websearch_dialog_custom_icon">Personalitza la icona</string>
     <string name="websearch_dialog_advanced">Avançat</string>
     <string name="websearch_dialog_query_encoding">Petició de codificació</string>
-    <string name="websearch_dialog_query_encoding_url">Vés a https://en.wikipedia.org/wiki/Percent-encoding</string>
+    <string name="websearch_dialog_query_encoding_url">Vés a https://example.com/wiki/Percent-encoding</string>
     <string name="websearch_dialog_query_encoding_form">application/x-www-form-urlencoded</string>
     <string name="websearch_dialog_query_encoding_none">Rés</string>
     <string name="menu_edit_widgets">Edita els ginys</string>
@@ -308,8 +307,6 @@
     <string name="preference_search_unitconverter_summary">Ús: 1,5 kg o 4 cm &gt;&gt; polzades</string>
     <string name="preference_search_currencyconverter">Convertidor de moneda</string>
     <string name="preference_search_currencyconverter_summary">Baixeu periòdicament els tipus de canvi per convertir monedes</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Cerca a l\'enciclopèdia lliure</string>
     <string name="preference_search_websites">Llocs web</string>
     <string name="preference_search_websites_summary">Mostra una vista prèvia d\'un lloc web si la cerca és una URL</string>
     <string name="preference_search_localfiles">Fitxers locals</string>
@@ -331,7 +328,6 @@
     <string name="preference_hidden_items_reveal_button_summary">Mostra un botó per mostrar els resultats de la cerca ocults</string>
     <string name="preference_screen_tags">Etiquetes</string>
     <string name="preference_screen_tags_summary">Gestioneu les etiquetes i els elements etiquetats</string>
-    <string name="preference_wikipedia_customurl">URL de la Wikipedia</string>
     <string name="preference_edit_favorites_summary">Canvia l\'ordre dels elements fixats</string>
     <string name="preference_category_favorites_frequently_used">Freqüentment utilitzats</string>
     <string name="preference_favorites_frequently_used_summary">Mostra els elements utilitzats freqüentment als preferits</string>
@@ -446,7 +442,6 @@
     <string name="note_widget_file_read_error_description">No s\'ha pogut llegir el fitxer enllaçat. S\'ha restaurat una còpia des de l\'emmagatzematge intern del llançador. Si editeu la nota, és possible que el fitxer enllaçat se sobreescrigui</string>
     <string name="note_widget_file_write_error">S\'ha produït un error en desar la nota</string>
     <string name="menu_share">Comparteix</string>
-    <string name="wikipedia_url">https://ca.wikipedia.org/</string>
     <string name="file_meta_title">Títol: %1$s</string>
     <string name="nextcloud_server_invalid_url">Aquesta URL no apunta a cap punt d\'instal·lació Nextcloud vàlid</string>
     <string name="provider_metno">MET Noruega</string>

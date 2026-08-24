@@ -14,11 +14,11 @@ Filters are reset when the search bar is cleared.
 
 ## Available filters
 
-- **Online results:** Allows the launcher to search online services like Wikipedia. This filter is
+- **Online results:** Allows the launcher to search supported online services. This filter is
   disabled by default, to protect your privacy.
 - **Type filters:**: Filter by result type (e.g., apps, contacts, files, places …). Neither of these
   filters imply an online search. You need to enable the online results filter as well if
-  you want to search Wikipedia, for example.
+  providers.
 - **Hidden results**: Show search results that were hidden by the user.
 
 ## Customization

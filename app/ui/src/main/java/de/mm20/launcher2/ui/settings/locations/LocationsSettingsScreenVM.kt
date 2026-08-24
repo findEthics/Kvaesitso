@@ -5,8 +5,6 @@ import android.icu.util.ULocale
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import de.mm20.launcher2.ktx.isAtLeastApiLevel
-import de.mm20.launcher2.plugin.PluginType
-import de.mm20.launcher2.plugins.PluginService
 import de.mm20.launcher2.preferences.MeasurementSystem
 import de.mm20.launcher2.preferences.search.LocationSearchSettings
 import kotlinx.coroutines.flow.SharingStarted
@@ -17,14 +15,6 @@ import org.koin.core.component.inject
 
 class LocationsSettingsScreenVM : ViewModel(), KoinComponent {
     private val settings: LocationSearchSettings by inject()
-    private val pluginService: PluginService by inject()
-
-    val availablePlugins = pluginService.getPluginsWithState(
-        type = PluginType.LocationSearch,
-        enabled = true,
-    )
-    val enabledPlugins = settings.enabledPlugins
-
     val osmLocations = settings.osmLocations
         .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
 
@@ -78,7 +68,4 @@ class LocationsSettingsScreenVM : ViewModel(), KoinComponent {
         settings.setThemeMap(themeMap)
     }
 
-    fun setPluginEnabled(authority: String, enabled: Boolean) {
-        settings.setPluginEnabled(authority, enabled)
-    }
 }

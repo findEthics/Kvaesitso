@@ -19,7 +19,6 @@ import de.mm20.launcher2.ui.settings.owncloud.OwncloudSettingsRoute
 import de.mm20.launcher2.ui.settings.smartspacer.SmartspacerSettingsRoute
 import de.mm20.launcher2.ui.settings.tasks.TasksIntegrationSettingsRoute
 import de.mm20.launcher2.ui.settings.weather.WeatherIntegrationSettingsRoute
-import de.mm20.launcher2.ui.settings.wikipedia.WikipediaSettingsRoute
 import kotlinx.serialization.Serializable
 
 @Serializable
@@ -72,13 +71,6 @@ fun IntegrationsSettingsScreen() {
                     icon = R.drawable.owncloud,
                     onClick = {
                         backStack.add(OwncloudSettingsRoute)
-                    }
-                )
-                Preference(
-                    title = stringResource(R.string.preference_search_wikipedia),
-                    icon = R.drawable.wikipedia,
-                    onClick = {
-                        backStack.add(WikipediaSettingsRoute)
                     }
                 )
             }

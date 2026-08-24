@@ -13,7 +13,7 @@ val KeyboardFilterBarItem.iconMedium
         KeyboardFilterBarItem.Places -> R.drawable.location_on_24px
         KeyboardFilterBarItem.Files -> R.drawable.description_24px
         KeyboardFilterBarItem.Tools -> R.drawable.handyman_24px
-        KeyboardFilterBarItem.Articles -> R.drawable.wikipedia
+        KeyboardFilterBarItem.LegacyRemoved -> error("Legacy filter item")
         KeyboardFilterBarItem.Websites -> R.drawable.public_24px
         KeyboardFilterBarItem.Shortcuts -> R.drawable.mobile_arrow_up_right_24px
         KeyboardFilterBarItem.HiddenResults -> R.drawable.visibility_off_24px
@@ -28,7 +28,7 @@ val KeyboardFilterBarItem.iconSmall
         KeyboardFilterBarItem.Places -> R.drawable.location_on_20px
         KeyboardFilterBarItem.Files -> R.drawable.description_20px
         KeyboardFilterBarItem.Tools -> R.drawable.handyman_20px
-        KeyboardFilterBarItem.Articles -> R.drawable.wikipedia
+        KeyboardFilterBarItem.LegacyRemoved -> error("Legacy filter item")
         KeyboardFilterBarItem.Websites -> R.drawable.public_20px
         KeyboardFilterBarItem.Shortcuts -> R.drawable.mobile_arrow_up_right_20px
         KeyboardFilterBarItem.HiddenResults -> R.drawable.visibility_off_20px
@@ -43,7 +43,7 @@ fun KeyboardFilterBarItem.getLabel(context: Context): String {
         KeyboardFilterBarItem.Places -> context.getString(R.string.preference_search_locations)
         KeyboardFilterBarItem.Files -> context.getString(R.string.preference_search_files)
         KeyboardFilterBarItem.Tools -> context.getString(R.string.search_filter_tools)
-        KeyboardFilterBarItem.Articles -> context.getString(R.string.preference_search_wikipedia)
+        KeyboardFilterBarItem.LegacyRemoved -> error("Legacy filter item")
         KeyboardFilterBarItem.Websites -> context.getString(R.string.preference_search_websites)
         KeyboardFilterBarItem.Shortcuts -> context.getString(R.string.preference_search_appshortcuts)
         KeyboardFilterBarItem.HiddenResults -> context.getString(R.string.preference_hidden_items)
@@ -66,7 +66,7 @@ fun SearchFilters.isSelected(item: KeyboardFilterBarItem): Boolean {
         KeyboardFilterBarItem.Places -> places
         KeyboardFilterBarItem.Files -> files
         KeyboardFilterBarItem.Tools -> tools
-        KeyboardFilterBarItem.Articles -> articles
+        KeyboardFilterBarItem.LegacyRemoved -> false
         KeyboardFilterBarItem.Websites -> websites
         KeyboardFilterBarItem.Shortcuts -> shortcuts
         KeyboardFilterBarItem.HiddenResults -> hiddenItems
@@ -82,7 +82,7 @@ fun SearchFilters.toggle(item: KeyboardFilterBarItem): SearchFilters {
         KeyboardFilterBarItem.Places -> return togglePlaces()
         KeyboardFilterBarItem.Files -> return toggleFiles()
         KeyboardFilterBarItem.Tools -> return toggleTools()
-        KeyboardFilterBarItem.Articles -> return toggleArticles()
+        KeyboardFilterBarItem.LegacyRemoved -> return this
         KeyboardFilterBarItem.Websites -> return toggleWebsites()
         KeyboardFilterBarItem.Shortcuts -> return toggleShortcuts()
         KeyboardFilterBarItem.HiddenResults -> return copy(hiddenItems = !hiddenItems)

@@ -9,8 +9,6 @@ import de.mm20.launcher2.accounts.AccountType
 import de.mm20.launcher2.accounts.AccountsRepository
 import de.mm20.launcher2.permissions.PermissionGroup
 import de.mm20.launcher2.permissions.PermissionsManager
-import de.mm20.launcher2.plugin.PluginType
-import de.mm20.launcher2.plugins.PluginService
 import de.mm20.launcher2.preferences.search.FileSearchSettings
 import kotlinx.coroutines.flow.SharingStarted
 import kotlinx.coroutines.flow.stateIn
@@ -22,7 +20,6 @@ class FileSearchSettingsScreenVM : ViewModel(), KoinComponent {
     private val fileSearchSettings: FileSearchSettings by inject()
     private val accountsRepository: AccountsRepository by inject()
     private val permissionsManager: PermissionsManager by inject()
-    private val pluginService: PluginService by inject()
 
     val hasFilePermission = permissionsManager.hasPermission(PermissionGroup.ExternalStorage)
             .stateIn(viewModelScope, SharingStarted.WhileSubscribed(), null)
@@ -30,13 +27,6 @@ class FileSearchSettingsScreenVM : ViewModel(), KoinComponent {
     val loading = mutableStateOf(true)
     val nextcloudAccount = mutableStateOf<Account?>(null)
     val owncloudAccount = mutableStateOf<Account?>(null)
-
-    val availablePlugins = pluginService.getPluginsWithState(
-        type = PluginType.FileSearch,
-        enabled = true,
-    )
-
-    val enabledPlugins = fileSearchSettings.enabledPlugins
 
 
     fun onResume() {
@@ -81,7 +71,4 @@ class FileSearchSettingsScreenVM : ViewModel(), KoinComponent {
         accountsRepository.signin(context, accountType)
     }
 
-    fun setPluginEnabled(authority: String, enabled: Boolean) {
-        fileSearchSettings.setPluginEnabled(authority, enabled)
-    }
 }

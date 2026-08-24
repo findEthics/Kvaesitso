@@ -16,7 +16,7 @@ There are six different clock styles:
 - Fat digital clock
 - Boring digital clock
 - Orbit clock
-- [Binary clock](https://en.wikipedia.org/wiki/Binary_clock#Binary-coded_sexagesimal_clocks)
+- Binary clock
 - Analog clock
 - Empty clock; in case you want to disable the clock altogether
 

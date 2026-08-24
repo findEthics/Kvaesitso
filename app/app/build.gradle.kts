@@ -154,7 +154,6 @@ dependencies {
     implementation(project(":data:weather"))
     implementation(project(":data:websites"))
     implementation(project(":data:widgets"))
-    implementation(project(":data:wikipedia"))
     implementation(project(":data:database"))
     implementation(project(":data:search-actions"))
     implementation(project(":services:global-actions"))

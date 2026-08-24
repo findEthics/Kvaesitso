@@ -199,7 +199,6 @@
     <string name="gesture_action_lock_screen">خاموش کردن صفحه</string>
     <string name="poi_category_fitness_center">مرکز تناسب اندام</string>
     <string name="poi_category_amusement_park">پارک تفریحی</string>
-    <string name="wikipedia_url">https://en.wikipedia.org</string>
     <string name="provider_openweathermap">نقشه آزاد آب و هوا(OpenWeatherMap)</string>
     <string name="provider_brightsky">خدمات هواشناسی آلمان (فقط آلمان)</string>
     <string name="provider_here">Here</string>
@@ -581,7 +580,6 @@
     <string name="preference_layout_search_bar_position">جایگاه نوار جستجو</string>
     <string name="action_clear">پاک‌سازی</string>
     <string name="wind_north_north_west">شمال شمال غربی</string>
-    <string name="wikipedia_source">از ویکی‌پدیا</string>
     <string name="preference_layout_fixed_search_bar">نوار جستجوی ثابت</string>
     <string name="preference_layout_fixed_search_bar_summary">نوار جستجو را بیرون از دیدره پیمایش نکنید</string>
     <string name="preference_layout_fixed_rotation">چرخش ثابت صفحه</string>
@@ -624,7 +622,6 @@
     <string name="preference_search_files">پرونده‌ها</string>
     <string name="preference_search_unitconverter_summary">کاربرد: ۱.۵ کیلوگرم یا ۴ سانتی‌متر &gt;&gt; اینچ</string>
     <string name="preference_search_currencyconverter">تبدیل ارز</string>
-    <string name="preference_search_wikipedia">ویکی‌پدیا</string>
     <string name="preference_search_calculator_summary">محاسبه عبارات ریاضی</string>
     <string name="preference_search_unitconverter">تبدیل واحد</string>
     <string name="preference_search_nextcloud">نکست‌کلود</string>
@@ -660,7 +657,6 @@
     <string name="preference_restore_summary">وارد کردن یک پشتیبان ایجاد شده قبلی</string>
     <string name="preference_backup_summary">صادرات تنظیمات و داده‌های راه‌انداز</string>
     <string name="preference_search_currencyconverter_summary">به شیوه دوره‌ای نرخ ارزها را برای تبدیل واحد پولی دریافت کنید</string>
-    <string name="preference_search_wikipedia_summary">جستجوی دانشنامه آزاد</string>
     <string name="preference_search_websites">وبگاه‌ها</string>
     <string name="preference_search_locations">مکان‌ها</string>
     <string name="preference_search_locations_radius">شعاع جستجو</string>
@@ -685,7 +681,6 @@
     <string name="preference_favorites_frequently_used_summary">نمایش موارد مورد استفاده بالا در موارد دلخواه</string>
     <string name="preference_favorites_edit_button_summary">نمایش دکمه‌ای برای بازچینی موارد دلخواه</string>
     <string name="preference_screen_tags_summary">مدیریت برچسب‌ها و موارد برچسب‌گذاری شده</string>
-    <string name="preference_wikipedia_customurl">نشانی وبگاه ویکی‌پدیا</string>
     <string name="preference_edit_favorites_summary">تغییر ترتیب موارد سنجاق‌شده</string>
     <string name="preference_category_favorites_frequently_used">بیشتر به‌کار گرفته شده</string>
     <string name="preference_weather_integration">آب و هوا</string>

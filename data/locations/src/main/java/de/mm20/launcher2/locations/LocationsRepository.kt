@@ -2,7 +2,6 @@ package de.mm20.launcher2.locations
 
 import android.content.Context
 import de.mm20.launcher2.devicepose.DevicePoseProvider
-import de.mm20.launcher2.locations.providers.PluginLocationProvider
 import de.mm20.launcher2.locations.providers.openstreetmaps.OsmLocationProvider
 import de.mm20.launcher2.permissions.PermissionGroup
 import de.mm20.launcher2.permissions.PermissionsManager
@@ -58,10 +57,10 @@ internal class LocationsRepository(
                 return@combineTransform
             }
 
-            val providers = settingsData.providers.map {
+            val providers = settingsData.providers.mapNotNull {
                 when (it) {
                     "openstreetmaps" -> OsmLocationProvider(context, settings)
-                    else -> PluginLocationProvider(context, it)
+                    else -> null
                 }
             }
 

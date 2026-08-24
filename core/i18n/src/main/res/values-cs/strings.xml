@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="wikipedia_url">https://cs.wikipedia.org</string>
     <string name="file_type_image">Obrázek</string>
     <string name="edit_favorites_dialog_unpinned">Není připnuto – často používáno</string>
     <string name="file_type_launcherbackup">Záloha %1$s</string>
@@ -86,7 +85,6 @@
     <string name="wind_west_north_west">Západní severozápad</string>
     <string name="wind_north_west">Severozápad</string>
     <string name="wind_north_north_west">Severní severozápad</string>
-    <string name="wikipedia_source">Z Wikipedie</string>
     <string name="file_meta_title">Název: %1$s</string>
     <string name="file_meta_artist">Umělec: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -321,8 +319,6 @@
     <string name="preference_search_calculator">Kalkulačka</string>
     <string name="preference_search_unitconverter">Převodník jednotek</string>
     <string name="preference_search_currencyconverter">Převodník měn</string>
-    <string name="preference_search_wikipedia">Wikipedie</string>
-    <string name="preference_search_wikipedia_summary">Prohledávat bezplatnou encyklopedii</string>
     <string name="preference_search_websites">Weby</string>
     <string name="preference_search_websites_summary">Zobrazit náhled webu, když je vyhledávací dotaz URL</string>
     <string name="preference_search_localfiles">Místní soubory</string>
@@ -338,7 +334,6 @@
     <string name="preference_search_bar_auto_focus_summary">Automaticky zobrazit klávesnici při otevření seznamu aplikací</string>
     <string name="preference_hidden_items">Vyloučené výsledky vyhledávání</string>
     <string name="preference_hidden_items_summary">Spravovat vyloučené aplikace a výsledky vyhledávání</string>
-    <string name="preference_wikipedia_customurl">URL Wikipedie</string>
     <string name="no_account_nextcloud">Zatím jste nepřipojili svůj účet Nextcloud</string>
     <string name="no_account_owncloud">Zatím jste nepřipojili svůj účet Owncloud</string>
     <string name="connect_account">Připojit účet</string>

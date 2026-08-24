@@ -1,6 +1,5 @@
 package de.mm20.launcher2.locations
 
-import de.mm20.launcher2.locations.providers.PluginLocation
 import de.mm20.launcher2.locations.providers.openstreetmaps.OsmLocation
 import de.mm20.launcher2.locations.providers.openstreetmaps.OsmLocationProvider
 import de.mm20.launcher2.search.Location
@@ -15,5 +14,4 @@ val locationsModule = module {
     single<LocationsRepository> { LocationsRepository(androidContext(), get(), get(), get()) }
     factory<SearchableRepository<Location>>(named<Location>()) { get<LocationsRepository>() }
     factory<SearchableDeserializer>(named(OsmLocation.DOMAIN)) { OsmLocationDeserializer(get()) }
-    factory<SearchableDeserializer>(named(PluginLocation.DOMAIN)) { PluginLocationDeserializer(androidContext(), get()) }
 }

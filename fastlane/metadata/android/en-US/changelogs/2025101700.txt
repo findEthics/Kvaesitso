@@ -8,4 +8,3 @@
 - Bugfixes:
   - fix tap interaction with live wallpapers
   - fix time parsing when time format is set to 12-hour clock
-  - fix Wikipedia search

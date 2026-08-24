@@ -30,7 +30,6 @@
     <string name="menu_open_file">Mở</string>
     <string name="menu_calendar_open_externally">Mở trong ứng dụng lịch</string>
     <string name="wind_west_south_west">Tây tây nam</string>
-    <string name="wikipedia_url">https://en.wikipedia.org</string>
     <string name="file_type_ebook">E-book</string>
     <string name="file_type_drawing">Vẽ</string>
     <string name="alert_delete_shortcut">Lối tắt %1$s sẽ bị xóa vĩnh viễn. Tiếp tục?</string>
@@ -135,7 +134,6 @@
     <string name="wind_west_north_west">Tây tây bắc</string>
     <string name="wind_north_west">Tây Bắc</string>
     <string name="wind_north_north_west">Bắc Tây Bắc</string>
-    <string name="wikipedia_source">Từ Wikipedia</string>
     <string name="file_meta_title">Tiêu đề: %1$s</string>
     <string name="file_meta_artist">Nghệ sĩ: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -438,8 +436,6 @@
     <string name="preference_search_unitconverter_summary">Cách sử dụng: 1,5 kg hoặc 4 cm &gt;&gt; trong</string>
     <string name="preference_search_currencyconverter">Công cụ chuyển đổi tiền tệ</string>
     <string name="preference_search_currencyconverter_summary">Định kỳ tải xuống tỷ giá hối đoái để chuyển đổi tiền tệ</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Tìm kiếm bách khoa toàn thư miễn phí</string>
     <string name="preference_search_websites">Trang web</string>
     <string name="preference_search_locations">Địa điểm</string>
     <string name="preference_search_locations_radius">Bán kính tìm kiếm</string>
@@ -464,7 +460,6 @@
     <string name="preference_hidden_items_reveal_button_summary">Hiển thị nút để hiển thị kết quả tìm kiếm bị ẩn</string>
     <string name="preference_screen_tags">Thẻ</string>
     <string name="preference_screen_tags_summary">Quản lý thẻ và mục được gắn thẻ</string>
-    <string name="preference_wikipedia_customurl">URL Wikipedia</string>
     <string name="preference_edit_favorites_summary">Thay đổi thứ tự của các mục được ghim</string>
     <string name="preference_category_favorites_frequently_used">Được sử dụng thường xuyên</string>
     <string name="preference_favorites_frequently_used_summary">Hiển thị các mục được sử dụng thường xuyên trong mục yêu thích</string>

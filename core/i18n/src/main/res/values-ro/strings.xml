@@ -24,7 +24,6 @@
     <string name="wind_west_south_west">Vest sud-vest</string>
     <string name="wind_west_north_west">Vest nord-vest</string>
     <string name="wind_north_west">Nord-vest</string>
-    <string name="wikipedia_source">Din Wikipedia</string>
     <string name="file_meta_title">Titlu: %1$s</string>
     <string name="file_meta_artist">Artist: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -79,7 +78,6 @@
     <string name="wind_west">Vest</string>
     <string name="calendar_widget_next_events">Următorul eveniment</string>
     <string name="wind_north_north_west">Nord nord-vest</string>
-    <string name="wikipedia_url">https://ro.wikipedia.org</string>
     <string name="file_meta_app_name">Denumire aplicatie: %1$s</string>
     <string name="file_meta_app_pkgname">Nume pachet: %1$s</string>
     <string name="file_type_presentation">Prezentare</string>
@@ -274,7 +272,6 @@
     <string name="preference_search_bar_auto_focus_summary">Afișarea automată a tastaturii la deschiderea căutării</string>
     <string name="preference_hidden_items">Rezultate de căutare ascunse</string>
     <string name="preference_hidden_items_summary">Gestionarea aplicațiilor ascunse și a rezultatelor căutării</string>
-    <string name="preference_wikipedia_customurl">Url-ul Wikipedia</string>
     <string name="no_account_owncloud">Nu ați conectat încă un cont Owncloud</string>
     <string name="connect_account">Conectați contul</string>
     <string name="battery_part_charging">Încărcare</string>
@@ -318,9 +315,7 @@
     <string name="preference_search_unitconverter_summary">Utilizare: 1.5 kg sau 4 cm &gt;&gt; in</string>
     <string name="no_account_nextcloud">Nu ai conectat încă un cont Nextcloud</string>
     <string name="preference_clockwidget_music_part_summary">Afișează controale media atunci când există o sesiune media activă</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_screen_search_summary">Configurarea căutării</string>
-    <string name="preference_search_wikipedia_summary">Caută în enciclopedia liberă</string>
     <string name="preference_search_favorites_summary">Afișarea elementelor fixate și utilizate frecvent deasupra grilei de aplicații</string>
     <string name="preference_search_localfiles">Fișiere locale</string>
     <string name="preference_mdy_color_source_wallpaper">Imagine fundal</string>

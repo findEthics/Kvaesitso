@@ -55,7 +55,6 @@
     <string name="alert_delete_shortcut">%1$s lasterbidea betirako ezabatuko da. Jarraitu nahi duzu\?</string>
     <string name="default_websearch_2_name">YouTube</string>
     <string name="default_websearch_3_url">https://play.google.com/store/search\?q=${1}</string>
-    <string name="wikipedia_url">https://eu.wikipedia.org</string>
     <string name="default_websearch_3_name">Google Play</string>
     <string name="alert_delete_directory">%1$s karpeta eta barruan duen guztia betirako ezabatuko dira. Jarraitu nahi duzu\?</string>
     <string name="websearch_dialog_replace_icon">Ikonoa ordeztu</string>
@@ -101,7 +100,6 @@
     <string name="owncloud_login_2fa_hint">Faktore bikoitzeko autentifikazioa gaitua baduzi, aplikazio-pasahitza hemen erabili behar duzu.</string>
     <string name="menu_app_info">Aplikazioaren informazioa</string>
     <string name="menu_share_store_link">%1$s esteka</string>
-    <string name="wikipedia_source">Wikipediatik</string>
     <string name="file_type_launcherbackup">%1$s-(r)en segurtasun kopia</string>
     <string name="default_websearch_2_url">https://www.youtube.es/results\?search_query=${1}</string>
     <string name="websearch_dialog_url_error">\'${1}\' leku-marka falta da URL honetan</string>
@@ -265,8 +263,6 @@
     <string name="preference_search_calendar_summary">Bilatu datozen hitzordu eta ekitaldiak</string>
     <string name="preference_search_calculator">Kalkulagailua</string>
     <string name="preference_search_unitconverter_summary">Erabilera: 1.5 kg edo 4 cm &gt;&gt; in</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Bilatu entziklopedia librean</string>
     <string name="preference_search_websites">Webguneak</string>
     <string name="preference_location">Kokapena</string>
     <string name="preference_notification_badges_summary">Irakurri gabeko jakinarazpenak dituzten aplikazioetan biribiltxoa erakutsi</string>
@@ -353,7 +349,6 @@
     <string name="preference_hidden_items_reveal_button">Erakutsi agerian jartzeko botoia</string>
     <string name="preference_screen_tags">Etiketak</string>
     <string name="preference_screen_tags_summary">Etiketak eta etiketatutako elementuak kudeatu</string>
-    <string name="preference_wikipedia_customurl">Wikipedia URLa</string>
     <string name="preference_edit_favorites_summary">Ainguratutako elementuen ordena aldatu</string>
     <string name="preference_category_favorites_frequently_used">Maiz erabiliak</string>
     <string name="preference_favorites_frequently_used_summary">Maiz erabiltzen diren elementuak gogokoetan erakutsi</string>

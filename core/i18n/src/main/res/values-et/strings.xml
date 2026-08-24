@@ -30,7 +30,6 @@
     <string name="wind_north_east">Kirde</string>
     <string name="wind_east">Ida</string>
     <string name="wind_west">Lääne</string>
-    <string name="wikipedia_source">Wikipediast</string>
     <string name="file_meta_title">Pealkiri: %1$s</string>
     <string name="file_meta_artist">Artist: %1$s</string>
     <string name="file_meta_duration">Kestus: %1$s</string>
@@ -229,7 +228,6 @@
     <string name="preference_search_calculator">Kalkulaator</string>
     <string name="preference_search_unitconverter">Ühiku konvertija</string>
     <string name="preference_search_currencyconverter">Valuuta konverter</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_websites">Veebisaidid</string>
     <string name="preference_search_locations">Asukohad</string>
     <string name="preference_search_locations_radius">Otsingu raadius</string>
@@ -246,7 +244,6 @@
     <string name="preference_hidden_items">Peidetud otsingu tulemused</string>
     <string name="preference_screen_tags">Sildid</string>
     <string name="preference_screen_tags_summary">Halda silte ja sildistatud kirjeid</string>
-    <string name="preference_wikipedia_customurl">Wikipedia URL</string>
     <string name="preference_category_favorites_frequently_used">Sageli kasutatud</string>
     <string name="preference_edit_button">Muutmise nupp</string>
     <string name="preference_favorites_edit_button_summary">Näita lemmikute muutmise nuppu</string>
@@ -459,7 +456,6 @@
     <string name="preference_grid_list_style_summary">Näita rakendusi võrgustiku asemel nimekirjana</string>
     <string name="preference_screen_clockwidget">Kell</string>
     <string name="preference_search_calendar_summary">Otsi tulevasi kokkuleppeid ja sündmusi</string>
-    <string name="preference_search_wikipedia_summary">Otsi tasuta Wikipediast</string>
     <string name="preference_search_bar_launch_on_enter">Käivita sisenemisel</string>
     <string name="preference_hidden_items_summary">Halda peidetud rakendusi ja otsingutulemusi</string>
     <string name="preference_screen_homescreen_summary">Kell, otsinguriba, taustapilt, süsteemiriba</string>
@@ -471,7 +467,6 @@
     <string name="file_type_image">Pilt</string>
     <string name="websearch_dialog_query_encoding_none">Pole</string>
     <string name="edit">Muuda</string>
-    <string name="wikipedia_url">https://et.wikipedia.org</string>
     <string name="file_meta_dimensions">Mõõdud: %1$s</string>
     <string name="help">Abiinfo</string>
     <string name="file_meta_owner">Omanik: %1$s</string>

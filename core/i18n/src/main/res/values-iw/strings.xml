@@ -50,8 +50,6 @@
     <string name="wind_north_west">צפון-מערב</string>
     <string name="wind_north_north_west">צפון צפון-מערב</string>
     <string name="wind_west_north_west">מערב צפון-מערב</string>
-    <string name="wikipedia_url">https://he.wikipedia.org</string>
-    <string name="wikipedia_source">מוויקיפדיה</string>
     <string name="file_meta_title">כותרת: %1$s</string>
     <string name="file_meta_artist">האמן: %1$s</string>
     <string name="file_meta_album">אלבום: %1$s</string>
@@ -379,11 +377,9 @@
     <string name="preference_search_calculator_summary">אומדן ביטויים מתמטיים</string>
     <string name="preference_search_appshortcuts">קיצורי דרך ליישומים</string>
     <string name="preference_search_appshortcuts_summary">חיפוש קיצורי דרך ליישומים</string>
-    <string name="preference_search_wikipedia_summary">חפש באנציקלופדיה החופשית</string>
     <string name="preference_search_websites">אתרי אינטרנט</string>
     <string name="preference_search_currencyconverter_summary">הורדה מעת לעת של שערי חליפין כדי להמיר מטבעות</string>
     <string name="preference_search_supportedunits">יחידות נתמכות</string>
-    <string name="preference_search_wikipedia">ויקיפדיה</string>
     <string name="preference_search_locations">מקומות</string>
     <string name="preference_search_locations_summary">חיפוש באזור המקומי חנויות ומקומות אחרים</string>
     <string name="preference_search_locations_radius">רדיוס החיפוש</string>
@@ -403,7 +399,6 @@
     <string name="preference_favorites_frequently_used_summary">הצגת פריטים בשימוש תדיר במועדפים</string>
     <string name="preference_edit_button">מקש עריכה</string>
     <string name="preference_favorites_edit_button_summary">הצגת מקש לסידור מחדש של המועדפים</string>
-    <string name="preference_wikipedia_customurl">כתובת URL בויקיפדיה</string>
     <string name="preference_edit_favorites_summary">שינוי סדר הפריטים הנעוצים</string>
     <string name="preference_category_favorites_frequently_used">בשימוש תדיר</string>
     <string name="preference_widgets_on_home_screen_summary">הצגת יישומונים במסך הבית במקום בעמוד נפרד</string>

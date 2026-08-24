@@ -24,7 +24,6 @@
     <string name="wind_west">Δυτικός</string>
     <string name="wind_west_north_west">Δυτικός βορειοδυτικός</string>
     <string name="wind_north_west">Βορειοδυτικός</string>
-    <string name="preference_wikipedia_customurl">Wikipedia URL</string>
     <string name="file_meta_title">Τίτλος: %1$s</string>
     <string name="file_meta_artist">Καλλιτέχνης: %1$s</string>
     <string name="file_meta_duration">Διάρκεια: %1$s</string>
@@ -221,7 +220,6 @@
     <string name="preference_search_calculator_summary">Αξιολόγηση μαθηματικών όρων</string>
     <string name="preference_search_unitconverter">Μετατροπέας μονάδων</string>
     <string name="preference_search_currencyconverter">Μετατροπέας νομίσματος</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_websites">Ιστοσελίδες</string>
     <string name="preference_search_nextcloud">Nextcloud</string>
     <string name="preference_search_cloud_summary">Αναζήτηση στα αρχεία του %1$s</string>
@@ -277,8 +275,6 @@
     <string name="wind_south_south_west">Νότιος νοτιοδυτικός</string>
     <string name="wind_west_south_west">Δυτικός νοτιοδυτικός</string>
     <string name="wind_north_north_west">Βόρειος βορειοδυτικός</string>
-    <string name="wikipedia_url">https://el.wikipedia.org</string>
-    <string name="wikipedia_source">Από τη Wikipedia</string>
     <string name="disclaimer_currency_converter">Συναλλαγματικές ισοτιμίες όπως δημοσιεύονται μία φορά την ημέρα από την Ευρωπαϊκή Κεντρική Τράπεζα. Όλες οι πληροφορίες παρέχονται «ως έχουν» χωρίς κανενός είδους εγγύηση. Δεν αναλαμβάνεται καμία ευθύνη για αυτές τις πληροφορίες.
 \n
 \nΤελευταία ενημέρωση: %1$s</string>
@@ -387,7 +383,6 @@
     <string name="preference_cloud_badges">Σήματα αρχείων στο cloud</string>
     <string name="preference_search_currencyconverter_summary">Λήψη περιοδικών συναλλαγματικών ισοτιμιών για μετατροπή νομισμάτων</string>
     <string name="restore_invalid_file">Το επιλεγμένο αρχείο δεν φαίνεται να αποτελεί αντίγραφο ασφαλείας. Είστε σίγουροι ότι επιλέξατε το σωστό αρχείο;</string>
-    <string name="preference_search_wikipedia_summary">Αναζήτηση στην ελεύθερη εγκυκλοπαίδεια</string>
     <string name="restore_incompatible_file">Αυτό το αντίγραφο ασφαλείας έχει δημιουργηθεί με διαφορετική έκδοση του %1$s και δεν μπορεί να επαναφερθεί με αυτήν την έκδοση.</string>
     <string name="preference_search_websites_summary">Εμφάνιση προεπισκόπησης του ιστότοπου εάν το ερώτημα αναζήτησης είναι διεύθυνση URL</string>
     <string name="preference_search_localfiles">Τοπικά αρχεία</string>

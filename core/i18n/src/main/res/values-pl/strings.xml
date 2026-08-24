@@ -18,7 +18,6 @@
     <string name="wind_south_east">Południowy-wschód</string>
     <string name="wind_south">Południe</string>
     <string name="wind_north_west">Północny-zachód</string>
-    <string name="wikipedia_source">Z Wikipedii</string>
     <string name="file_meta_title">Tytuł: %1$s</string>
     <string name="file_meta_artist">Artysta: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -186,7 +185,6 @@
     <string name="preference_search_currencyconverter">Konwerter walut</string>
     <string name="preference_search_websites">Strony internetowe</string>
     <string name="preference_search_localfiles">Lokalne pliki</string>
-    <string name="preference_search_wikipedia_summary">Przeszukaj wolną encyklopedię</string>
     <string name="preference_search_owncloud">Owncloud</string>
     <string name="preference_search_nextcloud">Nextcloud</string>
     <string name="preference_search_cloud_summary">Szukaj plików użytkownika %1$s</string>
@@ -211,8 +209,6 @@
     <string name="preference_search_favorites_summary">Pokazuje przypięte oraz często używane rzeczy nad listą aplikacji</string>
     <string name="wind_west">Zachód</string>
     <string name="preference_search_files_summary">Szukaj lokalnych plików oraz plików zapisanych w chmurze</string>
-    <string name="wikipedia_url">https://pl.wikipedia.org</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="file_meta_path">Ścieżka: %1$s</string>
     <string name="file_meta_app_pkgname">Nazwa pakietu: %1$s</string>
     <string name="preference_search_localfiles_summary">Szukaj dokumentów, zdjęć oraz innych plików na twoim urządzeniu</string>
@@ -261,7 +257,6 @@
     <string name="preference_nextcloud_signin_summary">Zaloguj się, aby móc przeszukiwać twój serwer Nextcloud</string>
     <string name="preference_search_currencyconverter_summary">Cyklicznie pobieraj kurs walut do konwersji walut</string>
     <string name="preference_search_websites_summary">Pokazuj podgląd strony internetowej gdy wyszukiwaną frazą jest adres URL</string>
-    <string name="preference_wikipedia_customurl">Adres URL Wikipedii</string>
     <string name="preference_search_bar_auto_focus_summary">Automatyczne wyświetlanie klawiatury po otwarciu szuflady aplikacji</string>
     <string name="preference_search_bar_style_summary">Dostosuj wygląd paska wyszukiwania</string>
     <string name="action_undo">Cofnij</string>

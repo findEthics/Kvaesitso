@@ -90,13 +90,6 @@
     <string name="wind_north_north_west">North north west</string>
     <string name="uv_index">UV %1$d</string>
     <!-- No rain or snow, used in weather widget -->
-    <!-- The URL of the Wikipedia instance that is used per default. Can be overridden by user.
-     This should point to the Wikipedia in the given language. If no such Wikipedia exists,
-      a fallback that is suited best for most users of this language should be used
-      (English in most cases) -->
-    <string name="wikipedia_url">https://en.wikipedia.org</string>
-    <!-- Shown in Wikipedia results to indicate where they come from -->
-    <string name="wikipedia_source">From Wikipedia</string>
     <!-- File metadata, title of audio tracks -->
     <string name="file_meta_title">Title: %1$s</string>
     <!-- File metadata, artist of audio tracks -->
@@ -649,8 +642,6 @@
     <string name="preference_search_currencyconverter_summary">Periodically download exchange rates to convert currencies</string>
     <string name="preference_search_supportedunits">Supported units</string>
     <string name="preference_currency_settings">Currency settings</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Search the free encyclopedia</string>
     <string name="preference_search_websites">Websites</string>
     <string name="preference_search_locations">Places</string>
     <string name="preference_search_locations_radius">Search radius</string>
@@ -681,7 +672,6 @@
     <string name="preference_hidden_items_reveal_button_summary">Show a button to reveal excluded search results</string>
     <string name="preference_screen_tags">Tags</string>
     <string name="preference_screen_tags_summary">Manage tags and tagged items</string>
-    <string name="preference_wikipedia_customurl">Wikipedia URL</string>
     <string name="preference_edit_favorites_summary">Change the order of pinned items</string>
     <string name="preference_category_favorites_frequently_used">Frequently used</string>
     <string name="preference_favorites_frequently_used_summary">Show frequently used items in favorites</string>

@@ -27,11 +27,17 @@ class SearchFilterSettings internal constructor(
     }
 
     val filterBarItems
-        get() = launcherDataStore.data.map { it.searchFilterBarItems.distinct() }
+        get() = launcherDataStore.data.map {
+            it.searchFilterBarItems.filterNot { item ->
+                item == KeyboardFilterBarItem.LegacyRemoved
+            }.distinct()
+        }
 
     fun setFilterBarItems(items: List<KeyboardFilterBarItem>) {
         launcherDataStore.update {
-            it.copy(searchFilterBarItems = items)
+            it.copy(searchFilterBarItems = items.filterNot {
+                it == KeyboardFilterBarItem.LegacyRemoved
+            })
         }
     }
 }

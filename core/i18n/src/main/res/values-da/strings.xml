@@ -17,7 +17,6 @@
     <string name="wind_north_north_west">Nord nordvest</string>
     <string name="skip">Spring over</string>
     <string name="alert_delete_directory">Mappen %1$s og dens indhold slettes permanent. Fortsæt?</string>
-    <string name="wikipedia_url">https://da.wikipedia.org</string>
     <string name="turn_off">Slå fra</string>
     <string name="widget_action_remove">Fjern</string>
     <string name="owncloud_password">Adgangskode</string>
@@ -74,7 +73,6 @@
     <string name="file_type_drawing">Tegning</string>
     <string name="file_type_form">Formular</string>
     <string name="alert_delete_file">Filen %1$s slettes permanent. Fortsæt?</string>
-    <string name="wikipedia_source">Fra Wikipedia</string>
     <string name="file_meta_title">Titel: %1$s</string>
     <string name="file_meta_artist">Kunstner: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
@@ -308,8 +306,6 @@
     <string name="preference_search_calculator_summary">Evaluér matematiske termer</string>
     <string name="preference_search_unitconverter">Enhedsomregner</string>
     <string name="preference_search_currencyconverter">Valutaomregner</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Søg i den frie encyklopædi</string>
     <string name="preference_search_websites">Hjemmesider</string>
     <string name="preference_search_websites_summary">Vis en forhåndsvisning af en hjemmeside, hvis søgeforespørgslen er en URL</string>
     <string name="preference_search_localfiles">Lokale filer</string>
@@ -325,7 +321,6 @@
     <string name="preference_hidden_items_reveal_button_summary">Vis en knap for at afsløre skjulte søgeresultater</string>
     <string name="preference_screen_tags_summary">Administrér tags og taggede elementer</string>
     <string name="preference_screen_tags">Tags</string>
-    <string name="preference_wikipedia_customurl">Wikipedia-URL</string>
     <string name="preference_edit_favorites_summary">Ændr rækkefølgen af fastgjorte elementer</string>
     <string name="preference_category_favorites_frequently_used">Ofte brugt</string>
     <string name="preference_favorites_frequently_used_summary">Vis ofte brugte elementer i favoritter</string>

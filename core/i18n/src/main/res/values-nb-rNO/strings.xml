@@ -33,7 +33,6 @@
     <string name="wind_west">Vest</string>
     <string name="wind_west_north_west">Vest-nord-vest</string>
     <string name="wind_north_west">Nord-vest</string>
-    <string name="wikipedia_source">Fra Wikipedia</string>
     <string name="file_meta_title">Tittel: %1$s</string>
     <string name="file_meta_album">Album: %1$s</string>
     <string name="file_meta_duration">Lengde: %1$s</string>
@@ -197,7 +196,6 @@
     <string name="preference_category_links">Lenker</string>
     <string name="preference_cloud_badges_summary">Vis en prikk for filer som er lagret i skyen</string>
     <string name="search_bar_placeholder">Søk</string>
-    <string name="wikipedia_url">https://no.wikipedia.org</string>
     <string name="file_meta_artist">Artist: %1$s</string>
     <string name="file_type_compressed">Komprimert fil</string>
     <string name="websearch_dialog_query_encoding">Spørrings-enkoding</string>
@@ -471,7 +469,6 @@
     <string name="preference_plugin_enable">Aktiver programtillegg</string>
     <string name="poi_category_mosque">Moské</string>
     <string name="preference_screen_tags">Etiketter</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_locations_radius">Søkeradius</string>
     <string name="preference_search_locations_summary">Søk i nærområdet etter butikker og andre steder</string>
     <string name="preference_search_bar_color">Farge</string>
@@ -575,7 +572,6 @@
     <string name="poi_category_fitness_center">Treningssenter</string>
     <string name="preference_search_websites">Nettsider</string>
     <string name="preference_search_locations">Steder</string>
-    <string name="preference_search_wikipedia_summary">Søk i den frie encyklopedi</string>
     <string name="preference_search_locations_show_map_summary">Vis et kartutsnitt for steder</string>
     <string name="missing_permission_file_search_settings_android10">Tilgang til alle filer kreves for å kunne søke i lokale filer</string>
     <string name="search_filter_tools">Verktøy</string>
@@ -596,7 +592,6 @@
     <string name="preference_search_unitconverter_summary">Bruk: 1,5 kg eller 4 cm &gt;&gt; til</string>
     <string name="preference_calendar_hide_completed">Skjul utførte oppgaver</string>
     <string name="preference_search_bar_auto_focus">Åpne tastatur</string>
-    <string name="preference_wikipedia_customurl">Wikipedia-URL</string>
     <string name="preference_edit_favorites_summary">Endre rekkefølgen til festede oppføringer</string>
     <string name="preference_category_favorites_frequently_used">Ofte brukt</string>
     <string name="open_search_swipe_right">Sveip til høyre</string>

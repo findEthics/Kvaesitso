@@ -12,7 +12,6 @@ import androidx.lifecycle.compose.collectAsStateWithLifecycle
 import androidx.lifecycle.viewmodel.compose.viewModel
 import androidx.navigation3.runtime.NavKey
 import de.mm20.launcher2.calendar.providers.CalendarList
-import de.mm20.launcher2.plugin.PluginState
 import de.mm20.launcher2.themes.colors.atTone
 import de.mm20.launcher2.ui.R
 import de.mm20.launcher2.ui.component.preferences.CheckboxPreference
@@ -36,12 +35,10 @@ fun CalendarProviderSettingsScreen(providerId: String) {
     val calendarLists by viewModel.calendarLists.collectAsStateWithLifecycle(sortedMapOf<String, List<CalendarList>>())
     val excludedCalendars by viewModel.excludedCalendars.collectAsStateWithLifecycle(emptySet())
 
-    val pluginState by viewModel.pluginState.collectAsStateWithLifecycle(null)
-
-    val providerAvailable = providerId == "local" || providerId == "tasks.org" || pluginState != null
+    val providerAvailable = providerId == "local" || providerId == "tasks.org"
 
     PreferenceScreen(
-        title = pluginState?.plugin?.label ?: stringResource(R.string.preference_search_calendar)
+        title = stringResource(R.string.preference_search_calendar)
     ) {
         if (!providerAvailable) {
             return@PreferenceScreen
@@ -52,13 +49,12 @@ fun CalendarProviderSettingsScreen(providerId: String) {
                     title =
                         if (providerId == "local") stringResource(R.string.preference_search_calendar)
                         else if (providerId == "tasks.org") stringResource(R.string.preference_search_tasks)
-                        else pluginState?.plugin?.label ?: "",
+                        else "",
                     summary =
                         if (providerId == "local") stringResource(R.string.preference_search_local_calendar_summary)
                         else if (providerId == "tasks.org") stringResource(R.string.preference_search_tasks_summary)
-                        else (pluginState?.state as? PluginState.Ready)?.text
-                            ?: pluginState?.plugin?.description,
-                    value = enabled && (pluginState == null || pluginState?.state is PluginState.Ready),
+                        else "",
+                    value = enabled,
                     onValueChanged = { viewModel.setProviderEnabled(providerId, it) }
                 )
             }

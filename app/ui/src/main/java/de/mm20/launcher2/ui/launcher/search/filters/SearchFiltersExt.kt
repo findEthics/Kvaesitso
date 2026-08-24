@@ -6,7 +6,6 @@ fun SearchFilters.withAllCategories(): SearchFilters {
     return copy(
         apps = true,
         websites = true,
-        articles = true,
         places = true,
         files = true,
         shortcuts = true,
@@ -19,7 +18,6 @@ fun SearchFilters.withAllCategories(): SearchFilters {
 fun SearchFilters.withOnlyCategory(
     apps: Boolean = false,
     websites: Boolean = false,
-    articles: Boolean = false,
     places: Boolean = false,
     files: Boolean = false,
     shortcuts: Boolean = false,
@@ -30,7 +28,6 @@ fun SearchFilters.withOnlyCategory(
     return copy(
         apps = apps,
         websites = websites,
-        articles = articles,
         places = places,
         files = files,
         shortcuts = shortcuts,
@@ -66,17 +63,6 @@ fun SearchFilters.toggleWebsites(): SearchFilters {
     }
 
     return copy(websites = !websites)
-}
-
-fun SearchFilters.toggleArticles(): SearchFilters {
-    if (allCategoriesEnabled) {
-        return withOnlyCategory(articles = true)
-    }
-    if (articles && enabledCategories == 1) {
-        return withAllCategories()
-    }
-
-    return copy(articles = !articles)
 }
 
 fun SearchFilters.togglePlaces(): SearchFilters {

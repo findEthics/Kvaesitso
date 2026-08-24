@@ -11,7 +11,7 @@ import java.util.UUID
 @Serializable
 @ConsistentCopyVisibility
 data class LauncherSettingsData internal constructor(
-    val schemaVersion: Int = 6,
+    val schemaVersion: Int = 8,
 
     val uiColorScheme: ColorScheme = ColorScheme.System,
     @Serializable(with = UUIDSerializer::class)
@@ -94,17 +94,13 @@ data class LauncherSettingsData internal constructor(
     val unitConverterEnabled: Boolean = true,
     val unitConverterCurrencies: Boolean = true,
 
-    val wikipediaSearchEnabled: Boolean = true,
-    val wikipediaSearchImages: Boolean = true,
-    val wikipediaCustomUrl: String? = null,
-
     val websiteSearchEnabled: Boolean = true,
 
     val badgesNotifications: Boolean = true,
     val badgesSuspendedApps: Boolean = true,
-    val badgesCloudFiles: Boolean = true,
+    val badgesCloudFiles: Boolean = false,
     val badgesShortcuts: Boolean = true,
-    val badgesPlugins: Boolean = true,
+    val badgesPlugins: Boolean = false,
 
     val gridColumnCount: Int = 5,
     val gridIconSize: Int = 48,
@@ -191,7 +187,6 @@ data class LauncherSettingsData internal constructor(
         KeyboardFilterBarItem.Events,
         KeyboardFilterBarItem.Contacts,
         KeyboardFilterBarItem.Files,
-        KeyboardFilterBarItem.Articles,
         KeyboardFilterBarItem.Websites,
         KeyboardFilterBarItem.Places,
         KeyboardFilterBarItem.Tools,
@@ -449,7 +444,8 @@ enum class KeyboardFilterBarItem {
     @SerialName("online") OnlineResults,
     @SerialName("apps") Apps,
     @SerialName("websites") Websites,
-    @SerialName("articles") Articles,
+    // Kept only so settings written by older versions can be migrated safely.
+    @SerialName("articles") LegacyRemoved,
     @SerialName("places") Places,
     @SerialName("files") Files,
     @SerialName("shortcuts") Shortcuts,

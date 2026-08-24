@@ -144,25 +144,6 @@ fun SearchFilters(
             )
             FilterChip(
                 modifier = Modifier.padding(end = 16.dp),
-                selected = filters.articles && (!allCategoriesEnabled || settings),
-                onClick = {
-                    if (settings) {
-                        onFiltersChange(filters.copy(articles = !filters.articles))
-                    } else {
-                        onFiltersChange(filters.toggleArticles())
-                    }
-                },
-                leadingIcon = {
-                    Icon(
-                        painter = painterResource(R.drawable.wikipedia),
-                        contentDescription = null,
-                        modifier = Modifier.size(FilterChipDefaults.IconSize)
-                    )
-                },
-                label = { Text(stringResource(R.string.preference_search_wikipedia)) }
-            )
-            FilterChip(
-                modifier = Modifier.padding(end = 16.dp),
                 selected = filters.websites && (!allCategoriesEnabled || settings),
                 onClick = {
                     if (settings) {

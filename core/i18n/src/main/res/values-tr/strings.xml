@@ -88,13 +88,6 @@
     <!-- Wind direction, used in weather widget -->
     <string name="wind_north_north_west">Kuzey kuzeybatı</string>
     <!-- No rain or snow, used in weather widget -->
-    <!-- The URL of the Wikipedia instance that is used per default. Can be overridden by user.
-     This should point to the Wikipedia in the given language. If no such Wikipedia exists,
-      a fallback that is suited best for most users of this language should be used
-      (English in most cases) -->
-    <string name="wikipedia_url">https://tr.wikipedia.org</string>
-    <!-- Shown in Wikipedia results to indicate where they come from -->
-    <string name="wikipedia_source">Vikipedi\'den</string>
     <!-- File meta data, title of audio tracks -->
     <string name="file_meta_title">Başlık: %1$s</string>
     <!-- File meta data, artist of audio tracks -->
@@ -628,8 +621,6 @@
     <string name="preference_search_currencyconverter">Para birimi dönüştürücü</string>
     <string name="preference_search_currencyconverter_summary">Para birimlerini dönüştürmek için döviz kurlarını periyodik olarak indirin</string>
     <string name="preference_search_supportedunits">Desteklenen birimler</string>
-    <string name="preference_search_wikipedia">Vikipedi</string>
-    <string name="preference_search_wikipedia_summary">Özgür ansiklopedide ara</string>
     <string name="preference_search_websites">Web siteleri</string>
     <string name="preference_search_locations">Yerler</string>
     <string name="preference_search_locations_radius">Arama yarıçapı</string>
@@ -657,7 +648,6 @@
     <string name="preference_hidden_items_reveal_button_summary">Hariç tutulan arama sonuçlarını göstermek için bir düğme göster</string>
     <string name="preference_screen_tags">Etiketler</string>
     <string name="preference_screen_tags_summary">Etiketleri ve etiketlenmiş öğeleri yönet</string>
-    <string name="preference_wikipedia_customurl">Vikipedi URL\'si</string>
     <string name="preference_edit_favorites_summary">Sabitlenmiş öğelerin sırasını değiştir</string>
     <string name="preference_category_favorites_frequently_used">Sık kullanılanlar</string>
     <string name="preference_favorites_frequently_used_summary">Sık kullanılan öğeleri favorilerde göster</string>

@@ -67,10 +67,13 @@ fun FilterBarSettingsScreen() {
     )
 
     val enabledItems by viewModel.filterBarItems.collectAsState()
+    val availableItems = remember {
+        KeyboardFilterBarItem.entries.filterNot { it == KeyboardFilterBarItem.LegacyRemoved }
+    }
 
     val disabledItems by remember {
         derivedStateOf {
-            KeyboardFilterBarItem.entries.filter { enabledItems?.contains(it) == false }
+            availableItems.filter { enabledItems?.contains(it) == false }
         }
     }
 
@@ -136,7 +139,7 @@ fun FilterBarSettingsScreen() {
                     )
                 }
             }
-            for (i in 0 until KeyboardFilterBarItem.entries.size) {
+            for (i in availableItems.indices) {
                 val item = enabledItems!!.getOrNull(i) ?: disabledItems[i - enabledItems!!.size]
                 val prevItem = enabledItems!!.getOrNull(i - 1)
                     ?: disabledItems.getOrNull(i - enabledItems!!.size - 1)

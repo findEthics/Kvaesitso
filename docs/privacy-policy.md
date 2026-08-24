@@ -33,7 +33,7 @@ apps or users.
 - **Crash Reporting:** Crash data is used to debug and improve the app. Reports are stored locally
   and shared only if you choose to do so.
 - **Search Functionality:** Search results are generated locally. For third-party services, search
-  queries may be sent to their servers (e.g., weather providers, Wikipedia).
+  queries may be sent to their servers (e.g., weather providers).
 
 ## 3. Data Protection
 
@@ -57,11 +57,6 @@ Kvaesitso integrates with several weather providers:
   or manually set) is transmitted periodically to these services to provide accurate weather
   forecasts.
 - Each provider’s privacy policy applies.
-
-### Wikipedia
-
-When enabled, search queries are sent to Wikipedia servers to display search results. Wikipedia’s
-privacy policy applies.
 
 ## 5. Plugins
 

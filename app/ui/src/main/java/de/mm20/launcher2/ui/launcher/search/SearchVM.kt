@@ -23,7 +23,6 @@ import de.mm20.launcher2.profiles.Profile
 import de.mm20.launcher2.profiles.ProfileManager
 import de.mm20.launcher2.search.AppShortcut
 import de.mm20.launcher2.search.Application
-import de.mm20.launcher2.search.Article
 import de.mm20.launcher2.search.CalendarEvent
 import de.mm20.launcher2.search.Contact
 import de.mm20.launcher2.search.File
@@ -104,7 +103,6 @@ class SearchVM : ViewModel(), KoinComponent {
     val fileResults = mutableStateListOf<File>()
     val contactResults = mutableStateListOf<Contact>()
     val calendarResults = mutableStateListOf<CalendarEvent>()
-    val articleResults = mutableStateListOf<Article>()
     val websiteResults = mutableStateListOf<Website>()
     val calculatorResults = mutableStateListOf<Calculator>()
     val unitConverterResults = mutableStateListOf<UnitConverter>()
@@ -188,7 +186,6 @@ class SearchVM : ViewModel(), KoinComponent {
                 filters.contacts -> SearchCategory.Contacts
                 filters.files -> SearchCategory.Files
                 filters.websites -> SearchCategory.Website
-                filters.articles -> SearchCategory.Articles
                 filters.places -> SearchCategory.Location
                 filters.shortcuts -> SearchCategory.Shortcuts
                 else -> null
@@ -305,9 +302,6 @@ class SearchVM : ViewModel(), KoinComponent {
                                     } ?: locations.applyRanking(query)
                                 }
                         )
-                        articleResults.updateItems(
-                            results.wikipedia?.applyRanking(query)
-                        )
                         websiteResults.updateItems(
                             results.websites?.applyRanking(query)
                         )
@@ -325,7 +319,6 @@ class SearchVM : ViewModel(), KoinComponent {
                                 calendarResults.isNotEmpty() -> calendarResults.first()
                                 locationResults.isNotEmpty() -> locationResults.first()
                                 contactResults.isNotEmpty() -> contactResults.first()
-                                articleResults.isNotEmpty() -> articleResults.first()
                                 websiteResults.isNotEmpty() -> websiteResults.first()
                                 fileResults.isNotEmpty() -> fileResults.first()
                                 searchActionResults.isNotEmpty() -> searchActionResults.first()
@@ -458,7 +451,6 @@ enum class SearchCategory {
     Contacts,
     Files,
     UnitConverter,
-    Articles,
     Website,
     Location,
     Shortcuts,

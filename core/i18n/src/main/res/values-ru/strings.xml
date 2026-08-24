@@ -27,7 +27,6 @@
     <string name="wind_west">Западный</string>
     <string name="wind_west_north_west">Запад-северо-западный</string>
     <string name="wind_north_west">Северо-западный</string>
-    <string name="wikipedia_source">Из Википедии</string>
     <string name="file_meta_title">Название: %1$s</string>
     <string name="file_meta_artist">Исполнитель: %1$s</string>
     <string name="file_meta_album">Альбом: %1$s</string>
@@ -174,7 +173,6 @@
     <string name="wind_north_north_east">Северо-северо-восточный</string>
     <string name="wind_south_south_east">Юго-юго-восточный</string>
     <string name="wind_north_north_west">Северо-северо-западный</string>
-    <string name="wikipedia_url">https://ru.wikipedia.org</string>
     <string name="file_meta_app_min_sdk">Минимальная версия SDK: %1$s</string>
     <string name="file_type_presentation">Презентация</string>
     <string name="alert_delete_directory">Каталог %1$s и всё его содержимое будут удалены навсегда. Продолжить?</string>
@@ -228,7 +226,6 @@
     <string name="preference_search_calendar_summary">Поиск предстоящих встреч и событий</string>
     <string name="preference_search_appshortcuts">Ярлыки приложений</string>
     <string name="preference_search_calculator">Калькулятор</string>
-    <string name="preference_search_wikipedia_summary">Поиск в свободной энциклопедии</string>
     <string name="preference_search_websites_summary">Показать предварительный просмотр веб-сайта, если поисковый запрос является URL-ссылкой</string>
     <string name="preference_search_localfiles">Локальные файлы</string>
     <string name="preference_search_localfiles_summary">Поиск документов, фотографий и других файлов, хранящихся на этом устройстве</string>
@@ -343,7 +340,6 @@
     <string name="preference_search_currencyconverter_summary">Периодически скачивать курсы обмена валют для конвертирования</string>
     <string name="preference_search_unitconverter">Конвертер величин</string>
     <string name="preference_search_unitconverter_summary">Использование: 1.5 kg или 4 cm &gt;&gt; in</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
     <string name="preference_search_websites">Веб-сайты</string>
     <string name="preference_screen_buildinfo">Информация о сборке</string>
     <string name="preference_screen_buildinfo_summary">Больше информации об этой сборке приложения</string>
@@ -411,7 +407,6 @@
     <string name="preference_hidden_items">Скрытые результаты поиска</string>
     <string name="preference_hidden_items_summary">Управление скрытыми приложениями и результатами поиска</string>
     <string name="preference_screen_tags">Теги</string>
-    <string name="preference_wikipedia_customurl">Адрес Wikipedia</string>
     <string name="preference_category_favorites_frequently_used">Часто используемые</string>
     <string name="preference_favorites_frequently_used_summary">Показывать часто используемые в избранном</string>
     <string name="preference_edit_button">Кнопка для редактирования</string>

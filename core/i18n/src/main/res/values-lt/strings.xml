@@ -25,7 +25,6 @@
     <string name="wind_west_north_west">Vakarų pietvakarių</string>
     <string name="wind_north_west">Šiaurės vakarų</string>
     <string name="wind_north_north_west">Šiaurės šiaurės vakarų</string>
-    <string name="wikipedia_source">Iš Vikipedijos</string>
     <string name="file_meta_title">Pavadinimas: %1$s</string>
     <string name="file_meta_album">Albumas: %1$s</string>
     <string name="file_meta_duration">Ilgumas: %1$s</string>
@@ -271,7 +270,6 @@
     <string name="owncloud_login_2fa_hint">Jei turite dviejų faktorių authentikaciją ,čia turite naudoti programėlės slaptažodį.</string>
     <string name="wind_south_south_east">Pietų pietryčių</string>
     <string name="owncloud_login_failed">Prisijungimas nepavyko: netinkamas vartotojas ar slaptažodis.</string>
-    <string name="wikipedia_url">https://lt.wikipedia.org</string>
     <string name="edit_favorites_dialog_empty_section">Tempti daiktus čia</string>
     <string name="disclaimer">Atsisakymas</string>
     <string name="file_meta_artist">Artistas: %1$s</string>
@@ -389,7 +387,6 @@
     <string name="preference_search_unitconverter_summary">Naudojamas: 1.5 kg ar 4 cm &gt;&gt; in</string>
     <string name="preference_search_currencyconverter">Valiūtų konvertuotojas</string>
     <string name="preference_search_currencyconverter_summary">Perioodiškai atsisiųsti keitimo vertę ,kad konvertuoti valiutas</string>
-    <string name="preference_search_wikipedia_summary">Ieškoti nemokama enciklopedija</string>
     <string name="preference_search_websites">Puslapiai</string>
     <string name="preference_search_websites_summary">Rodyti peržiūra puslapio jei paieškos terminas yra URL</string>
     <string name="preference_search_localfiles">Vietiniai failai</string>
@@ -473,14 +470,12 @@
     <string name="preference_search_calendar">Kalendorius</string>
     <string name="preference_search_appshortcuts">Programų nuorodos</string>
     <string name="preference_search_appshortcuts_summary">Ieškoti programų nuorodas</string>
-    <string name="preference_search_wikipedia">Vikipedija</string>
     <string name="preference_screen_buildinfo_summary">Daugiau informacijos iš šio programos Build</string>
     <string name="preference_search_bar_auto_focus">Atidaryti klaviatūra</string>
     <string name="preference_search_bar_auto_focus_summary">Automatiškai rodyti klaviatūra kai atidarant programų stalčių</string>
     <string name="preference_search_bar_launch_on_enter">Atidaryti ateinant</string>
     <string name="preference_screen_tags">Žymos</string>
     <string name="preference_screen_tags_summary">Tvarkyti žymas ir pažymėtus daiktus</string>
-    <string name="preference_wikipedia_customurl">Vikipedija URL</string>
     <string name="preference_screen_icons">Išdėstymas ir ikonos</string>
     <string name="preference_screen_icons_summary">Išdėstymas ,ikonų dydis , ikonų paketai , ženkleliai</string>
     <string name="preference_media_integration">Medijos kontrolė</string>

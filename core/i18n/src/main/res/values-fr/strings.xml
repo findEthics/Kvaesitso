@@ -72,9 +72,6 @@
     <string name="preference_imperial_units_summary">Utiliser les degrés Fahrenheit et les miles par heure</string>
     <string name="preference_imperial_units">Système impérial</string>
     <string name="preference_category_debug">Débogage</string>
-    <!-- Wikipedia url prefix -->
-    <string name="wikipedia_url">https://fr.wikipedia.org</string>
-    <string name="wikipedia_source">Depuis Wikipédia</string>
     <string name="preference_category_icons">Icônes</string>
     <string name="preference_icon_shape">Forme</string>
     <string name="preference_icon_shape_square">Carré</string>
@@ -296,8 +293,6 @@
     <string name="preference_search_calculator_summary">Effectuer des calculs mathématiques</string>
     <string name="preference_search_unitconverter">Convertisseur d\'unités</string>
     <string name="preference_search_unitconverter_summary">Utilisation : 1.5 kg ou 4 cm &gt;&gt; en</string>
-    <string name="preference_search_wikipedia">Wikipédia</string>
-    <string name="preference_search_wikipedia_summary">Rechercher dans l\'encyclopédie libre</string>
     <string name="preference_search_websites">Sites internet</string>
     <string name="preference_search_websites_summary">Afficher un aperçu du site Internet si la recherche est une URL</string>
     <string name="preference_search_localfiles">Fichiers locaux</string>
@@ -310,7 +305,6 @@
     <string name="preference_screen_buildinfo_summary">Plus d\'informations à propos de la version de cette application</string>
     <string name="preference_search_bar_style">Style</string>
     <string name="preference_search_bar_style_summary">Modifier l\'apparence de la barre de recherche</string>
-    <string name="preference_wikipedia_customurl">URL Wikipédia</string>
     <string name="music_widget_default_title">%1$s joue un média</string>
     <string name="music_widget_no_data">Aucun média n\'a encore été joué</string>
     <string name="no_account_nextcloud">Vous n\'avez pas connecté de compte Nextcloud pour le moment</string>

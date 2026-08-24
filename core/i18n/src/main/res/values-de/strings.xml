@@ -44,8 +44,6 @@
     <string name="preference_imperial_units">Imperiale Einheiten</string>
     <string name="widget_config_weather_compact">Kompakter Modus</string>
     <string name="preference_category_debug">Debug</string>
-    <string name="wikipedia_url">https://de.wikipedia.org</string>
-    <string name="wikipedia_source">Aus Wikipedia</string>
     <string name="preference_category_icons">Icons</string>
     <string name="preference_icon_shape">Form</string>
     <string name="preference_icon_shape_square">Quadrat</string>
@@ -272,8 +270,6 @@
     <string name="preference_search_calculator_summary">Mathematische Terme auswerten</string>
     <string name="preference_search_unitconverter">Einheitenrechner</string>
     <string name="preference_search_unitconverter_summary">Benutzung: „1,5 kg“ oder „4 cm &gt;&gt; in“</string>
-    <string name="preference_search_wikipedia">Wikipedia</string>
-    <string name="preference_search_wikipedia_summary">Die freie Enzyklopädie durchsuchen</string>
     <string name="preference_search_websites">Webseiten</string>
     <string name="preference_search_websites_summary">Vorschau einer Webseite anzeigen, wenn die Suchanfrage eine URL ist</string>
     <string name="preference_screen_buildinfo">Build-Information</string>
@@ -290,7 +286,6 @@
     <string name="preference_search_bar_auto_focus_summary">Bildschirmtastatur beim Öffnen der App-Übersicht automatisch einblenden</string>
     <string name="preference_search_bar_launch_on_enter">Eingabe zum Starten</string>
     <string name="preference_search_bar_launch_on_enter_summary">Hervorgehobenes Suchergebnis mit der Eingabetaste aufrufen</string>
-    <string name="preference_wikipedia_customurl">Wikipedia-URL</string>
     <string name="music_widget_default_title">%1$s spielt Medien</string>
     <string name="music_widget_no_data">Bisher wurden keine Medien abgespielt</string>
     <string name="missing_permission_calendar_widget_settings">Kalenderzugriff wird benötigt, um Termine abzurufen</string>

@@ -35,8 +35,6 @@
     <string name="wind_west_north_west">غرب الشمال الغربي</string>
     <string name="wind_north_west">شمال غربي</string>
     <string name="wind_north_north_west">شمال الشمال الغربي</string>
-    <string name="wikipedia_url">https://ar.wikipedia.org</string>
-    <string name="wikipedia_source">من ويكيبيديا</string>
     <string name="file_meta_title">العنوان: %1$s</string>
     <string name="file_meta_artist">الفنان: %1$s</string>
     <string name="file_meta_album">الألبوم: %1$s</string>
@@ -547,7 +545,6 @@
     <string name="preference_search_calculator_summary">تقييم المصطلحات الرياضية</string>
     <string name="preference_search_unitconverter">محول الوحدات</string>
     <string name="preference_search_unitconverter_summary">الاستخدام: 1.5 كجم أو 4 سم &gt;&gt; بوصة</string>
-    <string name="preference_search_wikipedia">ويكيبيديا</string>
     <string name="preference_screen_buildinfo_summary">مزيد من المعلومات حول هذا الإصدار من هذا التطبيق</string>
     <string name="preference_search_bar_style">النمط</string>
     <string name="preference_hidden_items">نتائج البحث المستبعدة</string>
@@ -602,7 +599,6 @@
     <string name="preference_search_files">الملفات</string>
     <string name="preference_search_files_summary">البحث في الملفات المحلية وملفات السحابة</string>
     <string name="preference_search_currencyconverter">محول العملات</string>
-    <string name="preference_search_wikipedia_summary">البحث في الموسوعة الحرة</string>
     <string name="preference_search_locations">الأماكن</string>
     <string name="preference_search_cloud_summary">البحث في ملفات %1$s</string>
     <string name="preference_screen_buildinfo">معلومات الإصدار</string>
@@ -613,7 +609,6 @@
     <string name="preference_search_bar_launch_on_enter">التشغيل عند الإدخال</string>
     <string name="preference_hidden_items_reveal_button_summary">أظهر زرًا لعرض نتائج البحث المستبعدة</string>
     <string name="preference_screen_tags">العلامات</string>
-    <string name="preference_wikipedia_customurl">عنوان URL في ويكيبيديا</string>
     <string name="preference_edit_favorites_summary">تغيير ترتيب العناصر المثبتة</string>
     <string name="preference_edit_button">زر التحرير</string>
     <string name="preference_widgets_edit_button_summary">إظهار زر لإضافة وإزالة وإعادة ترتيب الأدوات</string>

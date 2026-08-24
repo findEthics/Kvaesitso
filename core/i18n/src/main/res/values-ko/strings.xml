@@ -23,7 +23,6 @@
     <string name="wind_west">서풍</string>
     <string name="wind_west_north_west">서북서풍</string>
     <string name="wind_north_west">북서풍</string>
-    <string name="wikipedia_source">위키백과에서 발췌</string>
     <string name="file_meta_title">제목: %1$s</string>
     <string name="file_meta_artist">아티스트: %1$s</string>
     <string name="file_meta_duration">길이: %1$s</string>
@@ -90,7 +89,6 @@
     <string name="wind_east_south_east">동남동풍</string>
     <string name="wind_west_south_west">서남서풍</string>
     <string name="wind_north_north_west">북북서풍</string>
-    <string name="wikipedia_url">https://ko.wikipedia.org</string>
     <string name="file_meta_album">앨범: %1$s</string>
     <string name="file_meta_dimensions">해상도: %1$s</string>
     <string name="file_meta_location">위치: %1$s</string>
@@ -268,10 +266,7 @@
     <string name="search_action_timer">타이머 시작</string>
     <string name="gesture_action_power_menu">전원 메뉴 표시</string>
     <string name="widget_config_appwidget_background">배경 카드</string>
-    <string name="preference_wikipedia_customurl">위키백과 URL</string>
     <string name="preference_edit_favorites_summary">고정된 항목 순서 바꾸기</string>
-    <string name="preference_search_wikipedia">위키백과</string>
-    <string name="preference_search_wikipedia_summary">자유 백과사전에서 검색</string>
     <string name="battery_part_charging">충전 중</string>
     <string name="icon_picker_default_icon">기본값</string>
     <string name="icon_picker_suggestions">제안</string>
